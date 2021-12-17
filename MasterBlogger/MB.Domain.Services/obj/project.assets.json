@@ -1,0 +1,109 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "MB.Application.Contracts/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/MB.Application.Contracts.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MB.Application.Contracts.dll": {}
+        }
+      },
+      "MB.Domain.Models/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/MB.Domain.Models.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MB.Domain.Models.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MB.Application.Contracts/1.0.0": {
+      "type": "project",
+      "path": "../MB.Application.Constact/MB.Application.Contracts.csproj",
+      "msbuildProject": "../MB.Application.Constact/MB.Application.Contracts.csproj"
+    },
+    "MB.Domain.Models/1.0.0": {
+      "type": "project",
+      "path": "../MB.Domain.Model/MB.Domain.Models.csproj",
+      "msbuildProject": "../MB.Domain.Model/MB.Domain.Models.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "MB.Application.Contracts >= 1.0.0",
+      "MB.Domain.Models >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\azera\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "E:\\IT Studies\\Asp.Net Sample\\MasterBloggerProject\\MasterBlogger\\MB.Domain.Services\\MB.Domain.Services.csproj",
+      "projectName": "MB.Domain.Services",
+      "projectPath": "E:\\IT Studies\\Asp.Net Sample\\MasterBloggerProject\\MasterBlogger\\MB.Domain.Services\\MB.Domain.Services.csproj",
+      "packagesPath": "C:\\Users\\azera\\.nuget\\packages\\",
+      "outputPath": "E:\\IT Studies\\Asp.Net Sample\\MasterBloggerProject\\MasterBlogger\\MB.Domain.Services\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\azera\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {
+            "E:\\IT Studies\\Asp.Net Sample\\MasterBloggerProject\\MasterBlogger\\MB.Application.Constact\\MB.Application.Contracts.csproj": {
+              "projectPath": "E:\\IT Studies\\Asp.Net Sample\\MasterBloggerProject\\MasterBlogger\\MB.Application.Constact\\MB.Application.Contracts.csproj"
+            },
+            "E:\\IT Studies\\Asp.Net Sample\\MasterBloggerProject\\MasterBlogger\\MB.Domain.Model\\MB.Domain.Models.csproj": {
+              "projectPath": "E:\\IT Studies\\Asp.Net Sample\\MasterBloggerProject\\MasterBlogger\\MB.Domain.Model\\MB.Domain.Models.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "11e5d383-5af4-4612-96e0-0a36106596ff": {
+      "ProjectGuid": "11e5d383-5af4-4612-96e0-0a36106596ff",
+      "DisplayName": "MasterBlogger",
+      "ColorIndex": 0
+    },
+    "d71803ae-23c0-4277-ad61-86fbb85dddf9": {
+      "ProjectGuid": "d71803ae-23c0-4277-ad61-86fbb85dddf9",
+      "DisplayName": "MB.Domain.Models",
+      "ColorIndex": 1
+    },
+    "0731f94e-9142-43b1-9968-31d533b78d9c": {
+      "ProjectGuid": "0731f94e-9142-43b1-9968-31d533b78d9c",
+      "DisplayName": "MB.Application.Contracts",
+      "ColorIndex": 2
+    },
+    "c2ce3d38-7db0-4ac6-9887-b769233458bc": {
+      "ProjectGuid": "c2ce3d38-7db0-4ac6-9887-b769233458bc",
+      "DisplayName": "MB.Application.Services",
+      "ColorIndex": 3
+    },
+    "bb7bfa5c-0dfd-4bc9-8f8f-1d8628ac62f7": {
+      "ProjectGuid": "bb7bfa5c-0dfd-4bc9-8f8f-1d8628ac62f7",
+      "DisplayName": "MB.Infrastructure",
+      "ColorIndex": 4
+    },
+    "705a8bcc-e8e6-4fef-b157-0619a7d94a85": {
+      "ProjectGuid": "705a8bcc-e8e6-4fef-b157-0619a7d94a85",
+      "DisplayName": "MB.Domain.Services",
+      "ColorIndex": 5
+    }
+  },
+  "NextColorIndex": 6
+}

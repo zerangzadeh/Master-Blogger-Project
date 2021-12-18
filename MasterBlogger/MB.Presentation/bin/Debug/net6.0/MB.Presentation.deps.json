@@ -8,10 +8,8 @@
     ".NETCoreApp,Version=v6.0": {
       "MB.Presentation/1.0.0": {
         "dependencies": {
-          "MB.Application.Contracts": "1.0.0",
-          "MB.Application.Services": "1.0.0",
           "MB.Domain.Services": "1.0.0",
-          "MB.Infrastructure": "1.0.0"
+          "MB.Infrastructure.Config": "1.0.0"
         },
         "runtime": {
           "MB.Presentation.dll": {}
@@ -471,6 +469,16 @@
         "runtime": {
           "MB.Infrastructure.dll": {}
         }
+      },
+      "MB.Infrastructure.Config/1.0.0": {
+        "dependencies": {
+          "MB.Domain.Services": "1.0.0",
+          "MB.Infrastructure": "1.0.0",
+          "Microsoft.Extensions.DependencyInjection": "6.0.0"
+        },
+        "runtime": {
+          "MB.Infrastructure.Config.dll": {}
+        }
       }
     }
   },
@@ -802,6 +810,11 @@
       "sha512": ""
     },
     "MB.Infrastructure/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MB.Infrastructure.Config/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

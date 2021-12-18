@@ -15,7 +15,8 @@
       "applicationUrl": "https://localhost:7183;http://localhost:5183",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
-      }
+      },
+      "launchUrl": "https://localhost:7183/Administrator/ArticleCategoryManagment/ArticleCategoryIndex"
     },
     "IIS Express": {
       "commandName": "IISExpress",
@@ -23,6 +24,7 @@
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
+      
     }
   }
 }

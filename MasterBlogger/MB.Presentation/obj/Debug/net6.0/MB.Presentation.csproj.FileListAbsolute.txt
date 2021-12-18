@@ -66,3 +66,5 @@ E:\IT Studies\Asp.Net Sample\MasterBloggerProject\MasterBlogger\MB.Presentation\
 E:\IT Studies\Asp.Net Sample\MasterBloggerProject\MasterBlogger\MB.Presentation\obj\Debug\net6.0\MB.Presentation.genruntimeconfig.cache
 E:\IT Studies\Asp.Net Sample\MasterBloggerProject\MasterBlogger\MB.Presentation\bin\Debug\net6.0\Humanizer.dll
 E:\IT Studies\Asp.Net Sample\MasterBloggerProject\MasterBlogger\MB.Presentation\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+E:\IT Studies\Asp.Net Sample\MasterBloggerProject\MasterBlogger\MB.Presentation\bin\Debug\net6.0\MB.Infrastructure.Config.dll
+E:\IT Studies\Asp.Net Sample\MasterBloggerProject\MasterBlogger\MB.Presentation\bin\Debug\net6.0\MB.Infrastructure.Config.pdb

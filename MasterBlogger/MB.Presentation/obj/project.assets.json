@@ -700,6 +700,21 @@
         "runtime": {
           "bin/placeholder/MB.Infrastructure.dll": {}
         }
+      },
+      "MB.Infrastructure.Config/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "MB.Domain.Services": "1.0.0",
+          "MB.Infrastructure": "1.0.0",
+          "Microsoft.Extensions.DependencyInjection": "6.0.0"
+        },
+        "compile": {
+          "bin/placeholder/MB.Infrastructure.Config.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MB.Infrastructure.Config.dll": {}
+        }
       }
     }
   },
@@ -1944,14 +1959,17 @@
       "type": "project",
       "path": "../MB.Infrastructure/MB.Infrastructure.csproj",
       "msbuildProject": "../MB.Infrastructure/MB.Infrastructure.csproj"
+    },
+    "MB.Infrastructure.Config/1.0.0": {
+      "type": "project",
+      "path": "../MB.Infrastructure.Config/MB.Infrastructure.Config.csproj",
+      "msbuildProject": "../MB.Infrastructure.Config/MB.Infrastructure.Config.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "MB.Application.Contracts >= 1.0.0",
-      "MB.Application.Services >= 1.0.0",
       "MB.Domain.Services >= 1.0.0",
-      "MB.Infrastructure >= 1.0.0"
+      "MB.Infrastructure.Config >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -1981,17 +1999,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "E:\\IT Studies\\Asp.Net Sample\\MasterBloggerProject\\MasterBlogger\\MB.Application.Constact\\MB.Application.Contracts.csproj": {
-              "projectPath": "E:\\IT Studies\\Asp.Net Sample\\MasterBloggerProject\\MasterBlogger\\MB.Application.Constact\\MB.Application.Contracts.csproj"
-            },
-            "E:\\IT Studies\\Asp.Net Sample\\MasterBloggerProject\\MasterBlogger\\MB.Application.Services\\MB.Application.Services.csproj": {
-              "projectPath": "E:\\IT Studies\\Asp.Net Sample\\MasterBloggerProject\\MasterBlogger\\MB.Application.Services\\MB.Application.Services.csproj"
-            },
             "E:\\IT Studies\\Asp.Net Sample\\MasterBloggerProject\\MasterBlogger\\MB.Domain.Services\\MB.Domain.Services.csproj": {
               "projectPath": "E:\\IT Studies\\Asp.Net Sample\\MasterBloggerProject\\MasterBlogger\\MB.Domain.Services\\MB.Domain.Services.csproj"
             },
-            "E:\\IT Studies\\Asp.Net Sample\\MasterBloggerProject\\MasterBlogger\\MB.Infrastructure\\MB.Infrastructure.csproj": {
-              "projectPath": "E:\\IT Studies\\Asp.Net Sample\\MasterBloggerProject\\MasterBlogger\\MB.Infrastructure\\MB.Infrastructure.csproj"
+            "E:\\IT Studies\\Asp.Net Sample\\MasterBloggerProject\\MasterBlogger\\MB.Infrastructure.Config\\MB.Infrastructure.Config.csproj": {
+              "projectPath": "E:\\IT Studies\\Asp.Net Sample\\MasterBloggerProject\\MasterBlogger\\MB.Infrastructure.Config\\MB.Infrastructure.Config.csproj"
             }
           }
         }

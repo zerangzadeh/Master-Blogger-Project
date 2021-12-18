@@ -2,15 +2,14 @@ using MB.Application.Contracts.ArticleCategory;
 using MB.Application.Services.ArticleCategoryApplication;
 using MB.Domain.Services;
 using MB.Infrastructure;
+using MB.Infrastructure.Config;
 using MB.Infrastructure.Repository;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
-builder.Services.AddTransient<IArticleCategoryRepository, ArticleCategoryRepository>();
-builder.Services.AddTransient<IArticleCategoryApplication, ArticleCategoryApplication>();
-builder.Services.AddDbContext<MBContext>(x=>x.UseSqlServer(builder.Configuration.GetConnectionString("MasterBloggerDB")));
+BootStrapper.Config(builder.Services, builder.Configuration.GetConnectionString("MasterBloggerDB"));
 builder.Services.AddRazorPages();
 
 var app = builder.Build();

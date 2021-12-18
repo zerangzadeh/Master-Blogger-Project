@@ -31,7 +31,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MB.Infrastructure", "MB.Inf
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MB.Domain.Services", "MB.Domain.Services\MB.Domain.Services.csproj", "{705A8BCC-E8E6-4FEF-B157-0619A7D94A85}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MB.Presentation", "MB.Presentation\MB.Presentation.csproj", "{C56753E6-84EC-4366-88B1-0B7C2A7BAD63}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MB.Presentation", "MB.Presentation\MB.Presentation.csproj", "{C56753E6-84EC-4366-88B1-0B7C2A7BAD63}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MB.Infrastructure.Config", "MB.Infrastructure.Config\MB.Infrastructure.Config.csproj", "{FDDB9BBA-D43B-4F33-B079-C49E0AE7D11E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,6 +65,10 @@ Global
 		{C56753E6-84EC-4366-88B1-0B7C2A7BAD63}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C56753E6-84EC-4366-88B1-0B7C2A7BAD63}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C56753E6-84EC-4366-88B1-0B7C2A7BAD63}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FDDB9BBA-D43B-4F33-B079-C49E0AE7D11E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDDB9BBA-D43B-4F33-B079-C49E0AE7D11E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDDB9BBA-D43B-4F33-B079-C49E0AE7D11E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDDB9BBA-D43B-4F33-B079-C49E0AE7D11E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -80,6 +86,7 @@ Global
 		{BB7BFA5C-0DFD-4BC9-8F8F-1D8628AC62F7} = {C906CE7E-397D-43D7-98C3-A592DDCACE98}
 		{705A8BCC-E8E6-4FEF-B157-0619A7D94A85} = {A6E10017-F988-4CFD-A4F0-57FE90C098DC}
 		{C56753E6-84EC-4366-88B1-0B7C2A7BAD63} = {5F2B5C29-58FB-4A22-BBDE-D7627B734998}
+		{FDDB9BBA-D43B-4F33-B079-C49E0AE7D11E} = {C906CE7E-397D-43D7-98C3-A592DDCACE98}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {15349870-675B-4CF9-B06B-C3FE0B8F6379}

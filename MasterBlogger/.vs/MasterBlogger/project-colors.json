@@ -30,7 +30,17 @@
       "ProjectGuid": "705a8bcc-e8e6-4fef-b157-0619a7d94a85",
       "DisplayName": "MB.Domain.Services",
       "ColorIndex": 5
+    },
+    "c56753e6-84ec-4366-88b1-0b7c2a7bad63": {
+      "ProjectGuid": "c56753e6-84ec-4366-88b1-0b7c2a7bad63",
+      "DisplayName": "MB.Presentation",
+      "ColorIndex": 6
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
     }
   },
-  "NextColorIndex": 6
+  "NextColorIndex": 7
 }

@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace MB.Infrastructure.Repository
 {
-    internal class ArticleCategoryRepository : IArticleCategoryRepository
+    public class ArticleCategoryRepository : IArticleCategoryRepository
     {
         private readonly MBContext mbContext;
 

@@ -14,9 +14,9 @@ namespace MB.Infrastructure.Mapping
       
      public void Configure(EntityTypeBuilder<ArticleCategory> builder)
         {
-            builder.ToTable("ArticleCategory");
+            builder.ToTable("ArticleCategories");
             builder.HasKey(x=>x.CategoryID);
-            builder.Property(x=>x.CategoryTitle).IsRequired();
+            builder.Property(x=>x.Title).IsRequired();
             builder.Property(x=>x.CreationDate).IsRequired();
             builder.Property(x=>x.IsDeleted).IsRequired();
            

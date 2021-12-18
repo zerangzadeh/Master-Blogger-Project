@@ -17,12 +17,12 @@ namespace MB.Application.Services.ArticleCategoryApplication
         {
             this.articleCategoryRepositpry = articleCategoryRepositpry;
         }
-
+/*
         public void Create(ArticleCategoryForCreate articleCategory)
         {
             throw new NotImplementedException();
         }
-
+*/
         public void Delete(int categoryId)
         {
             throw new NotImplementedException();
@@ -44,9 +44,11 @@ namespace MB.Application.Services.ArticleCategoryApplication
             throw new NotImplementedException();
         }
 
+    /*
         public void Update(ArticleCategoryForUpdate articleCategory)
         {
             throw new NotImplementedException();
         }
+    */
     }
 }

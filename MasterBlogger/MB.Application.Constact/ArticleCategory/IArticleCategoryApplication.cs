@@ -8,8 +8,8 @@ namespace MB.Application.Contracts.ArticleCategory
 {
     public interface IArticleCategoryApplication
     {
-        public void Create(ArticleCategoryForCreate articleCategory);
-        public void Update(ArticleCategoryForUpdate articleCategory);
+        //public void Create(ArticleCategoryForCreate articleCategory);
+        //public void Update(ArticleCategoryForUpdate articleCategory);
         public void Delete(int categoryId);
         public void Restore(int categoryId);
         public List<ArticleCategoryViewModel> GetAll();

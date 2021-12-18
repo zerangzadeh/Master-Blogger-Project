@@ -1,0 +1,11 @@
+E:\IT Studies\Asp.Net Sample\MasterBloggerProject\MasterBlogger\MB.Domain.Model\bin\Debug\net6.0\MB.Domain.Models.deps.json
+E:\IT Studies\Asp.Net Sample\MasterBloggerProject\MasterBlogger\MB.Domain.Model\bin\Debug\net6.0\MB.Domain.Models.dll
+E:\IT Studies\Asp.Net Sample\MasterBloggerProject\MasterBlogger\MB.Domain.Model\bin\Debug\net6.0\ref\MB.Domain.Models.dll
+E:\IT Studies\Asp.Net Sample\MasterBloggerProject\MasterBlogger\MB.Domain.Model\bin\Debug\net6.0\MB.Domain.Models.pdb
+E:\IT Studies\Asp.Net Sample\MasterBloggerProject\MasterBlogger\MB.Domain.Model\obj\Debug\net6.0\MB.Domain.Models.GeneratedMSBuildEditorConfig.editorconfig
+E:\IT Studies\Asp.Net Sample\MasterBloggerProject\MasterBlogger\MB.Domain.Model\obj\Debug\net6.0\MB.Domain.Models.AssemblyInfoInputs.cache
+E:\IT Studies\Asp.Net Sample\MasterBloggerProject\MasterBlogger\MB.Domain.Model\obj\Debug\net6.0\MB.Domain.Models.AssemblyInfo.cs
+E:\IT Studies\Asp.Net Sample\MasterBloggerProject\MasterBlogger\MB.Domain.Model\obj\Debug\net6.0\MB.Domain.Models.csproj.CoreCompileInputs.cache
+E:\IT Studies\Asp.Net Sample\MasterBloggerProject\MasterBlogger\MB.Domain.Model\obj\Debug\net6.0\MB.Domain.Models.dll
+E:\IT Studies\Asp.Net Sample\MasterBloggerProject\MasterBlogger\MB.Domain.Model\obj\Debug\net6.0\ref\MB.Domain.Models.dll
+E:\IT Studies\Asp.Net Sample\MasterBloggerProject\MasterBlogger\MB.Domain.Model\obj\Debug\net6.0\MB.Domain.Models.pdb

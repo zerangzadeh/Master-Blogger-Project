@@ -1,0 +1,35 @@
+﻿@page 
+@model MB.Presentation.Areas.Administrator.Pages.ArticleCategoryManagment.ArticleCategoryIndexModel
+@{
+    ViewData["Title"] = "لیست دسته بندی مقالات";
+
+}
+<div class="text-center">
+    <h1 class="display-4 p-2">لیست دسته بندی مقالات </h1>
+    <p> <a asp-page="./CreateArticleCategory" class="btn btn-success pb-3">ایجاد دسته جدید</a></p>
+</div>
+<table class="table table-responsive table-bordered table-striped">
+    <thead>
+        <tr>
+            <td>Category ID</td>
+            <td>Title</td>
+            <td>Creation Date</td>
+            <td>Operation</td>
+        </tr>
+
+             
+        </thead>
+        <tbody>
+            @* @{
+            foreach (var itm in Model.articleCategories)
+            {
+            <tr>
+                <th>@itm.CategoryID </th>
+                <th>@itm.Title</th>
+                <th>@itm.CreationDate</th>
+                <th><a asp-page="./EditArticleCategory" asp-route-id=@itm.CategoryID>ویرایش</a></th>
+            </tr>
+             }
+             }*@
+        </tbody>
+    </table>

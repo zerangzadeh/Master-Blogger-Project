@@ -1,0 +1,11 @@
+E:\IT Studies\Asp.Net Sample\MasterBloggerProject\MasterBlogger\MB.Application.Constact\obj\Debug\net6.0\MB.Application.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+E:\IT Studies\Asp.Net Sample\MasterBloggerProject\MasterBlogger\MB.Application.Constact\obj\Debug\net6.0\MB.Application.Contracts.AssemblyInfoInputs.cache
+E:\IT Studies\Asp.Net Sample\MasterBloggerProject\MasterBlogger\MB.Application.Constact\obj\Debug\net6.0\MB.Application.Contracts.AssemblyInfo.cs
+E:\IT Studies\Asp.Net Sample\MasterBloggerProject\MasterBlogger\MB.Application.Constact\obj\Debug\net6.0\MB.Application.Contracts.csproj.CoreCompileInputs.cache
+E:\IT Studies\Asp.Net Sample\MasterBloggerProject\MasterBlogger\MB.Application.Constact\bin\Debug\net6.0\MB.Application.Contracts.deps.json
+E:\IT Studies\Asp.Net Sample\MasterBloggerProject\MasterBlogger\MB.Application.Constact\bin\Debug\net6.0\MB.Application.Contracts.dll
+E:\IT Studies\Asp.Net Sample\MasterBloggerProject\MasterBlogger\MB.Application.Constact\bin\Debug\net6.0\ref\MB.Application.Contracts.dll
+E:\IT Studies\Asp.Net Sample\MasterBloggerProject\MasterBlogger\MB.Application.Constact\bin\Debug\net6.0\MB.Application.Contracts.pdb
+E:\IT Studies\Asp.Net Sample\MasterBloggerProject\MasterBlogger\MB.Application.Constact\obj\Debug\net6.0\MB.Application.Contracts.dll
+E:\IT Studies\Asp.Net Sample\MasterBloggerProject\MasterBlogger\MB.Application.Constact\obj\Debug\net6.0\ref\MB.Application.Contracts.dll
+E:\IT Studies\Asp.Net Sample\MasterBloggerProject\MasterBlogger\MB.Application.Constact\obj\Debug\net6.0\MB.Application.Contracts.pdb

@@ -1,0 +1,17 @@
+E:\IT Studies\Asp.Net Sample\MasterBloggerProject\MasterBlogger\MB.Domain.Services\obj\Debug\net6.0\MB.Domain.Services.csproj.AssemblyReference.cache
+E:\IT Studies\Asp.Net Sample\MasterBloggerProject\MasterBlogger\MB.Domain.Services\obj\Debug\net6.0\MB.Domain.Services.GeneratedMSBuildEditorConfig.editorconfig
+E:\IT Studies\Asp.Net Sample\MasterBloggerProject\MasterBlogger\MB.Domain.Services\obj\Debug\net6.0\MB.Domain.Services.AssemblyInfoInputs.cache
+E:\IT Studies\Asp.Net Sample\MasterBloggerProject\MasterBlogger\MB.Domain.Services\obj\Debug\net6.0\MB.Domain.Services.AssemblyInfo.cs
+E:\IT Studies\Asp.Net Sample\MasterBloggerProject\MasterBlogger\MB.Domain.Services\obj\Debug\net6.0\MB.Domain.Services.csproj.CoreCompileInputs.cache
+E:\IT Studies\Asp.Net Sample\MasterBloggerProject\MasterBlogger\MB.Domain.Services\bin\Debug\net6.0\MB.Domain.Services.deps.json
+E:\IT Studies\Asp.Net Sample\MasterBloggerProject\MasterBlogger\MB.Domain.Services\bin\Debug\net6.0\MB.Domain.Services.dll
+E:\IT Studies\Asp.Net Sample\MasterBloggerProject\MasterBlogger\MB.Domain.Services\bin\Debug\net6.0\ref\MB.Domain.Services.dll
+E:\IT Studies\Asp.Net Sample\MasterBloggerProject\MasterBlogger\MB.Domain.Services\bin\Debug\net6.0\MB.Domain.Services.pdb
+E:\IT Studies\Asp.Net Sample\MasterBloggerProject\MasterBlogger\MB.Domain.Services\bin\Debug\net6.0\MB.Application.Contracts.dll
+E:\IT Studies\Asp.Net Sample\MasterBloggerProject\MasterBlogger\MB.Domain.Services\bin\Debug\net6.0\MB.Domain.Models.dll
+E:\IT Studies\Asp.Net Sample\MasterBloggerProject\MasterBlogger\MB.Domain.Services\bin\Debug\net6.0\MB.Application.Contracts.pdb
+E:\IT Studies\Asp.Net Sample\MasterBloggerProject\MasterBlogger\MB.Domain.Services\bin\Debug\net6.0\MB.Domain.Models.pdb
+E:\IT Studies\Asp.Net Sample\MasterBloggerProject\MasterBlogger\MB.Domain.Services\obj\Debug\net6.0\MB.Domain.Services.csproj.CopyComplete
+E:\IT Studies\Asp.Net Sample\MasterBloggerProject\MasterBlogger\MB.Domain.Services\obj\Debug\net6.0\MB.Domain.Services.dll
+E:\IT Studies\Asp.Net Sample\MasterBloggerProject\MasterBlogger\MB.Domain.Services\obj\Debug\net6.0\ref\MB.Domain.Services.dll
+E:\IT Studies\Asp.Net Sample\MasterBloggerProject\MasterBlogger\MB.Domain.Services\obj\Debug\net6.0\MB.Domain.Services.pdb

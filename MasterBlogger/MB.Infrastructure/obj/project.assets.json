@@ -642,6 +642,21 @@
           "bin/placeholder/MB.Application.Contracts.dll": {}
         }
       },
+      "MB.Application.Services/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "MB.Application.Contracts": "1.0.0",
+          "MB.Domain.Models": "1.0.0",
+          "MB.Domain.Services": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/MB.Application.Services.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MB.Application.Services.dll": {}
+        }
+      },
       "MB.Domain.Models/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
@@ -1890,6 +1905,11 @@
       "path": "../MB.Application.Constact/MB.Application.Contracts.csproj",
       "msbuildProject": "../MB.Application.Constact/MB.Application.Contracts.csproj"
     },
+    "MB.Application.Services/1.0.0": {
+      "type": "project",
+      "path": "../MB.Application.Services/MB.Application.Services.csproj",
+      "msbuildProject": "../MB.Application.Services/MB.Application.Services.csproj"
+    },
     "MB.Domain.Models/1.0.0": {
       "type": "project",
       "path": "../MB.Domain.Model/MB.Domain.Models.csproj",
@@ -1904,9 +1924,11 @@
   "projectFileDependencyGroups": {
     "net6.0": [
       "MB.Application.Contracts >= 1.0.0",
+      "MB.Application.Services >= 1.0.0",
       "MB.Domain.Models >= 1.0.0",
       "MB.Domain.Services >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 6.0.1",
+      "Microsoft.EntityFrameworkCore.Design >= 6.0.1",
       "Microsoft.EntityFrameworkCore.SqlServer >= 6.0.1",
       "Microsoft.EntityFrameworkCore.Tools >= 6.0.1"
     ]
@@ -1941,6 +1963,9 @@
             "E:\\IT Studies\\Asp.Net Sample\\MasterBloggerProject\\MasterBlogger\\MB.Application.Constact\\MB.Application.Contracts.csproj": {
               "projectPath": "E:\\IT Studies\\Asp.Net Sample\\MasterBloggerProject\\MasterBlogger\\MB.Application.Constact\\MB.Application.Contracts.csproj"
             },
+            "E:\\IT Studies\\Asp.Net Sample\\MasterBloggerProject\\MasterBlogger\\MB.Application.Services\\MB.Application.Services.csproj": {
+              "projectPath": "E:\\IT Studies\\Asp.Net Sample\\MasterBloggerProject\\MasterBlogger\\MB.Application.Services\\MB.Application.Services.csproj"
+            },
             "E:\\IT Studies\\Asp.Net Sample\\MasterBloggerProject\\MasterBlogger\\MB.Domain.Model\\MB.Domain.Models.csproj": {
               "projectPath": "E:\\IT Studies\\Asp.Net Sample\\MasterBloggerProject\\MasterBlogger\\MB.Domain.Model\\MB.Domain.Models.csproj"
             },
@@ -1964,13 +1989,17 @@
             "target": "Package",
             "version": "[6.0.1, )"
           },
+          "Microsoft.EntityFrameworkCore.Design": {
+            "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+            "target": "Package",
+            "version": "[6.0.1, )"
+          },
           "Microsoft.EntityFrameworkCore.SqlServer": {
             "target": "Package",
             "version": "[6.0.1, )"
           },
           "Microsoft.EntityFrameworkCore.Tools": {
             "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-            "suppressParent": "All",
             "target": "Package",
             "version": "[6.0.1, )"
           }

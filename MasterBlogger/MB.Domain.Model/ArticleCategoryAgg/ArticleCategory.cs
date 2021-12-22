@@ -6,7 +6,7 @@
         public string Title { get; private set; }
         public bool IsDeleted { get; private set; }    
         public DateTime CreationDate { get;private set; }
-        public int ArticleID { get;private set; }
+       // public int ArticleID { get;private set; }
         //public Article Article { get; private set; }
 
 

@@ -19,6 +19,10 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRvclxQYWdlc1xBcnRpY2xlQ2F0ZWdvcnlNYW5hZ21lbnRcQXJ0aWNsZUNhdGVnb3J5SW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[E:/IT Studies/Asp.Net Sample/MasterBloggerProject/MasterBlogger/MB.Presentation/Areas/Administrator/Pages/ArticleCategoryManagment/CreateArticleCategory.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRvclxQYWdlc1xBcnRpY2xlQ2F0ZWdvcnlNYW5hZ21lbnRcQ3JlYXRlQXJ0aWNsZUNhdGVnb3J5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [E:/IT Studies/Asp.Net Sample/MasterBloggerProject/MasterBlogger/MB.Presentation/Areas/Administrator/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRvclxQYWdlc1xFcnJvci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

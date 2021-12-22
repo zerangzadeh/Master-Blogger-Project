@@ -1,0 +1,21 @@
+﻿@page
+@model MB.Presentation.Areas.Administrator.Pages.ArticleCategoryManagment.CreateArticleCategoryModel
+@{
+}
+<form method="post">
+    <div class="row">
+        <div class="col-md-6 form-group">
+            <label asp-for="@Model.command.Title" class="pb-5"> ایجاد دسته مقالات</label>
+            <input class="form-control" asp-for="@Model.command.Title" value="" type="text" />
+        </div>
+     
+       
+        </div>
+        <div class="row">
+         <div class="col-md-3 form-group pt-3">
+            <input type="submit" value="ایجاد" class="btn btn-success form-control"/>
+           <p class="mr-auto text-center "><a class="btn btn-dark text-center mt-3 " asp-page="./ArticleCategoryIndex"> برگشت به لیست دسته ها</a></p> 
+        </div>
+        </div>
+    
+</form>

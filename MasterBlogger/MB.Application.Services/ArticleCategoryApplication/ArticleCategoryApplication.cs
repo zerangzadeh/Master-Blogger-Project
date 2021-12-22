@@ -17,12 +17,14 @@ namespace MB.Application.Services.ArticleCategoryApplication
         {
             this.articleCategoryRepositpry = articleCategoryRepositpry;
         }
-/*
-        public void Create(ArticleCategoryForCreate articleCategory)
+
+        public void Create(CreateArticleCategoryCommand articleCategoryCommand)
         {
-            throw new NotImplementedException();
+            var articleCategory = new ArticleCategory(articleCategoryCommand.Title);
+            this.articleCategoryRepositpry.Create(articleCategory);
         }
-*/
+
+      
         public void Delete(int categoryId)
         {
             throw new NotImplementedException();

@@ -36,8 +36,7 @@ namespace MB.Infrastructure.Repository
                 CategoryID = x.CategoryID,
                 Title = x.Title,
                 CreationDate = x.CreationDate.ToString(),
-                IsDeleted = x.IsDeleted,
-
+                IsDeleted = x.IsDeleted
             }).ToList();
         }
 

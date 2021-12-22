@@ -9,3 +9,4 @@ E:\IT Studies\Asp.Net Sample\MasterBloggerProject\MasterBlogger\MB.Domain.Model\
 E:\IT Studies\Asp.Net Sample\MasterBloggerProject\MasterBlogger\MB.Domain.Model\obj\Debug\net6.0\MB.Domain.Models.dll
 E:\IT Studies\Asp.Net Sample\MasterBloggerProject\MasterBlogger\MB.Domain.Model\obj\Debug\net6.0\ref\MB.Domain.Models.dll
 E:\IT Studies\Asp.Net Sample\MasterBloggerProject\MasterBlogger\MB.Domain.Model\obj\Debug\net6.0\MB.Domain.Models.pdb
+E:\IT Studies\Asp.Net Sample\MasterBloggerProject\MasterBlogger\MB.Domain.Model\obj\Debug\net6.0\MB.Domain.Models.csproj.AssemblyReference.cache

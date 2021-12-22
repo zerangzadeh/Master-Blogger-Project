@@ -19,6 +19,7 @@ namespace MB.Infrastructure.Mapping
             builder.Property(x=>x.Title).IsRequired();
             builder.Property(x=>x.CreationDate).IsRequired();
             builder.Property(x=>x.IsDeleted).IsRequired();
+            
            
         }
     }

@@ -17,8 +17,18 @@ namespace MB.Presentation.Areas.Administrator.Pages.ArticleCategoryManagment
 
         public void OnGet()
         {
-
             articleCategories = articleCategoryApplication.GetAll();
+        }
+
+        public RedirectToPageResult OnGetRestore(int id)
+        {
+            articleCategoryApplication.Restore(id);
+            return RedirectToPage("./ArticleCategoryIndex");
+        }
+        public RedirectToPageResult OnGetDelete(int id)
+        {
+            articleCategoryApplication.Delete(id);
+            return RedirectToPage("./ArticleCategoryIndex");
         }
     }
 }

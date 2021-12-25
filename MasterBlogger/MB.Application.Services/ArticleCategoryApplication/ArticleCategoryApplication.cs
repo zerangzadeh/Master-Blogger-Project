@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace MB.Application.Services.ArticleCategoryApplication
 {
-    public  class ArticleCategoryApplication : IArticleCategoryApplication
+    public class ArticleCategoryApplication : IArticleCategoryApplication
     {
         readonly private IArticleCategoryRepository articleCategoryRepositpry;
 
@@ -24,33 +24,44 @@ namespace MB.Application.Services.ArticleCategoryApplication
             this.articleCategoryRepositpry.Create(articleCategory);
         }
 
-      
-        public void Delete(int categoryId)
+
+        public void Delete(long categoryId)
         {
-            throw new NotImplementedException();
+            articleCategoryRepositpry.Delete(categoryId);
         }
 
         public List<ArticleCategoryViewModel> GetAll()
         {
-           return articleCategoryRepositpry.GetAll();
-            
+            return articleCategoryRepositpry.GetAll();
+
         }
 
-        public List<ArticleCategoryViewModel> GetBy(int categoryId)
+        public EditArticleCategoryCommand GetBy(long categoryId)
         {
-            throw new NotImplementedException();
+            var articleCategory=articleCategoryRepositpry.GetBy(categoryId);
+            return new EditArticleCategoryCommand
+            {
+                CategoryID = articleCategory.CategoryID,
+                Title = articleCategory.Title
+            };
+
         }
 
-        public void Restore(int categoryId)
-        {
-            throw new NotImplementedException();
-        }
 
-    /*
-        public void Update(ArticleCategoryForUpdate articleCategory)
-        {
-            throw new NotImplementedException();
-        }
-    */
+
+
+    public void Restore(long categoryId)
+    {
+            articleCategoryRepositpry.Restore(categoryId);
     }
+
+
+
+    public void Update(EditArticleCategoryCommand articleCategoryCommand)
+    {
+        articleCategoryRepositpry.Update(articleCategoryCommand);
+    }
+
+
+}
 }

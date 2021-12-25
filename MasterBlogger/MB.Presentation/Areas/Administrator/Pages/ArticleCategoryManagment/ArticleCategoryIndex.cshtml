@@ -5,9 +5,13 @@
 
 }
 <div class="text-center mr-auto d-flex flex-column justify-content-between align-content-center">
-    <h4 class="pt-2 pb-3">لیست دسته بندی مقالات </h4>
-    
+    <div class="d-flex justify-content-between pt-3 pb-3">
+        <h4>لیست دسته بندی مقالات </h4>
+    <p class="text-center"> <a asp-page="./CreateArticleCategory" class="btn btn-success text-center"> دسته جدید</a></p> 
+</div>
+   
 <table class="table table-responsive table-bordered table-striped text-center pb-3 pt-3">
+
     <thead>
         <tr>
             <td>Category ID</td>
@@ -15,6 +19,7 @@
             <td>Status</td>
             <td>Creation Date</td>
             <td>Operation</td>
+             
         </tr>
 
 
@@ -38,11 +43,21 @@
                     </th>
 
                     <th>@itm.CreationDate</th>
-                    <th><a asp-page="./EditArticleCategory" asp-route-id=@itm.CategoryID>ویرایش</a></th>
+                    <th><a  class="btn btn-warning"  asp-page="./EditArticleCategory" asp-route-id=@itm.CategoryID>ویرایش</a>
+                     
+                    @if (itm.IsDeleted)
+                    {
+                       <a class="btn btn-success" asp-page-handler="Restore" asp-route-id=@itm.CategoryID>بازیابی</a>
+                    }
+                    else
+                    {
+                        <a class="btn btn-danger" asp-page-handler="Delete" asp-route-id=@itm.CategoryID>حذف</a>
+                    }
+                    </th>
                 </tr>
             }
         }
     </tbody>
 </table>
-<p class="text-center pt-4"> <a asp-page="./CreateArticleCategory" class="btn btn-success text-center"> دسته جدید</a></p>
+
 </div>

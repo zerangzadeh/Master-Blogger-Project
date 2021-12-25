@@ -21,17 +21,23 @@ namespace MB.Infrastructure.Repository
         public void Create(ArticleCategory articleCaregory)
         {
             mbContext.ArticleCategories.Add(articleCaregory);
-            mbContext.SaveChanges();
+            SaveChanges();
         }
 
-        public void Delete(int categoryID)
+        public void Delete(long categoryID)
         {
-            throw new NotImplementedException();
+            GetBy(categoryID).IsDeleted = true;
+            SaveChanges();
+        }
+        public void Restore(long categoryID)
+        {
+            GetBy(categoryID).IsDeleted = false;
+            SaveChanges();
         }
 
         public List<ArticleCategoryViewModel> GetAll()
         {
-            return mbContext.ArticleCategories.OrderByDescending(x=>x.CategoryID).Select(x=>new ArticleCategoryViewModel
+            return mbContext.ArticleCategories.OrderByDescending(x => x.CategoryID).Select(x => new ArticleCategoryViewModel
             {
                 CategoryID = x.CategoryID,
                 Title = x.Title,
@@ -40,29 +46,23 @@ namespace MB.Infrastructure.Repository
             }).ToList();
         }
 
-        public ArticleCategoryViewModel GetBy(int categoryid)
+        public ArticleCategory GetBy(long categoryid)
         {
-            var articleCategoryViewModel =
-                mbContext.ArticleCategories.Select(x => new ArticleCategoryViewModel
-                {
-                    CategoryID = x.CategoryID,
-                    Title = x.Title,
-                    CreationDate = x.CreationDate.ToString(),
-                    IsDeleted = x.IsDeleted,
-                }).FirstOrDefault(x=>x.CategoryID==categoryid);
+            return mbContext.ArticleCategories.FirstOrDefault(x => x.CategoryID == categoryid);
 
-                return articleCategoryViewModel;
-             
         }
 
         public void SaveChanges()
         {
-            throw new NotImplementedException();
+            mbContext.SaveChanges();
         }
 
-        public void Update(Domain.Model.ArticleCategoryAgg.ArticleCategory articleCaregory)
+        public void Update(EditArticleCategoryCommand command)
         {
-            throw new NotImplementedException();
+            GetBy(command.CategoryID).Title = command.Title;
+            SaveChanges();
         }
+
+
     }
 }

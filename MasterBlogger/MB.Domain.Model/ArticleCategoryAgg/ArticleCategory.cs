@@ -3,9 +3,9 @@
     public class ArticleCategory
     {
         public long CategoryID { get; private set; } 
-        public string Title { get; private set; }
-        public bool IsDeleted { get; private set; }    
-        public DateTime CreationDate { get;private set; }
+        public string Title { get;  set; }
+        public bool IsDeleted { get;  set; }    
+        public DateTime CreationDate { get; set; }
        // public int ArticleID { get;private set; }
         //public Article Article { get; private set; }
 

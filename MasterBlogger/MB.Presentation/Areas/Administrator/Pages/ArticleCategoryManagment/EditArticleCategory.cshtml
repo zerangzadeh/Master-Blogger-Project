@@ -1,0 +1,21 @@
+﻿@page "{id:long}"
+@model MB.Presentation.Areas.Administrator.Pages.ArticleCategoryManagment.EditArticleCategoryModel
+@{
+}
+<form method="post">
+    <div class="row">
+        <div class="col-md-6 form-group">
+           <input type="hidden" asp-for="@Model.command.CategoryID" value="@Model.command.CategoryID" />
+            <label asp-for="@Model.command.Title" class="pb-5"> عنوان دسته</label>
+            <input class="form-control" asp-for="@Model.command.Title" type="text" />
+        </div>
+
+    </div>
+    <div class="row form-group d-felx">
+        <div class="col-md-2">
+            <input type="submit" value="ویرایش"  class="btn btn-warning form-control" />
+            <a class="btn btn-dark text-center mt-3" asp-page="./ArticleCategoryIndex"> برگشت به لیست دسته ها</a>
+        </div>
+    </div>
+
+</form>

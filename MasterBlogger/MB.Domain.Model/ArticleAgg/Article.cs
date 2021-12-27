@@ -9,17 +9,17 @@ namespace MB.Domain.Models.ArticleAgg
 {
     public class Article
     {
-        public int ArticleID { get; private set; }
-        public string Title { get; private set; }
-        public string ShortDESC { get; private set; }
-        public string Body { get; private set; }
-        public string PicTitle { get; private set; }
-        public string PicALT { get; private set; }
-        public string PicSrc { get; private set; }
-        public bool IsDeleted { get; private set; }
-        public DateTime CreationDate { get; private set; }
-        public long CategoryID { get; private set; }
-        public ArticleCategory ArticleCategory { get; private set; }
+        public int ArticleID { get;  set; }
+        public string Title { get;  set; }
+        public string ShortDESC { get;  set; }
+        public string Body { get;  set; }
+        public string PicTitle { get;  set; }
+        public string PicALT { get;  set; }
+        public string PicSrc { get;  set; }
+        public bool IsDeleted { get;  set; }
+        public DateTime CreationDate { get;  set; }
+        public long CategoryID { get;  set; }
+        public ArticleCategory ArticleCategory { get;  set; }
 
         //This Constractor is just for Making Model by EFCORE
         protected Article()

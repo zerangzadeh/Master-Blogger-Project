@@ -11,7 +11,6 @@
           "MB.Application.Contracts": "1.0.0",
           "MB.Application.Services": "1.0.0",
           "MB.Domain.Models": "1.0.0",
-          "MB.Domain.Services": "1.0.0",
           "Microsoft.EntityFrameworkCore": "6.0.1",
           "Microsoft.EntityFrameworkCore.Design": "6.0.1",
           "Microsoft.EntityFrameworkCore.SqlServer": "6.0.1",
@@ -496,25 +495,18 @@
       "MB.Application.Services/1.0.0": {
         "dependencies": {
           "MB.Application.Contracts": "1.0.0",
-          "MB.Domain.Models": "1.0.0",
-          "MB.Domain.Services": "1.0.0"
+          "MB.Domain.Models": "1.0.0"
         },
         "runtime": {
           "MB.Application.Services.dll": {}
         }
       },
       "MB.Domain.Models/1.0.0": {
-        "runtime": {
-          "MB.Domain.Models.dll": {}
-        }
-      },
-      "MB.Domain.Services/1.0.0": {
         "dependencies": {
-          "MB.Application.Contracts": "1.0.0",
-          "MB.Domain.Models": "1.0.0"
+          "MB.Application.Contracts": "1.0.0"
         },
         "runtime": {
-          "MB.Domain.Services.dll": {}
+          "MB.Domain.Models.dll": {}
         }
       }
     }
@@ -837,11 +829,6 @@
       "sha512": ""
     },
     "MB.Domain.Models/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "MB.Domain.Services/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

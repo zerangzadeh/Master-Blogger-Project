@@ -5,9 +5,7 @@ E:\IT Studies\Asp.Net Sample\MasterBloggerProject\MasterBlogger\MB.Infrastructur
 E:\IT Studies\Asp.Net Sample\MasterBloggerProject\MasterBlogger\MB.Infrastructure.Config\bin\Debug\net6.0\MB.Application.Contracts.dll
 E:\IT Studies\Asp.Net Sample\MasterBloggerProject\MasterBlogger\MB.Infrastructure.Config\bin\Debug\net6.0\MB.Application.Services.dll
 E:\IT Studies\Asp.Net Sample\MasterBloggerProject\MasterBlogger\MB.Infrastructure.Config\bin\Debug\net6.0\MB.Domain.Models.dll
-E:\IT Studies\Asp.Net Sample\MasterBloggerProject\MasterBlogger\MB.Infrastructure.Config\bin\Debug\net6.0\MB.Domain.Services.dll
 E:\IT Studies\Asp.Net Sample\MasterBloggerProject\MasterBlogger\MB.Infrastructure.Config\bin\Debug\net6.0\MB.Infrastructure.dll
-E:\IT Studies\Asp.Net Sample\MasterBloggerProject\MasterBlogger\MB.Infrastructure.Config\bin\Debug\net6.0\MB.Domain.Services.pdb
 E:\IT Studies\Asp.Net Sample\MasterBloggerProject\MasterBlogger\MB.Infrastructure.Config\bin\Debug\net6.0\MB.Infrastructure.pdb
 E:\IT Studies\Asp.Net Sample\MasterBloggerProject\MasterBlogger\MB.Infrastructure.Config\bin\Debug\net6.0\MB.Application.Contracts.pdb
 E:\IT Studies\Asp.Net Sample\MasterBloggerProject\MasterBlogger\MB.Infrastructure.Config\bin\Debug\net6.0\MB.Application.Services.pdb

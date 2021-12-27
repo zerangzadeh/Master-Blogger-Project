@@ -15,25 +15,14 @@
       "MB.Domain.Models/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
-        "compile": {
-          "bin/placeholder/MB.Domain.Models.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/MB.Domain.Models.dll": {}
-        }
-      },
-      "MB.Domain.Services/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
-          "MB.Application.Contracts": "1.0.0",
-          "MB.Domain.Models": "1.0.0"
+          "MB.Application.Contracts": "1.0.0"
         },
         "compile": {
-          "bin/placeholder/MB.Domain.Services.dll": {}
+          "bin/placeholder/MB.Domain.Models.dll": {}
         },
         "runtime": {
-          "bin/placeholder/MB.Domain.Services.dll": {}
+          "bin/placeholder/MB.Domain.Models.dll": {}
         }
       }
     }
@@ -48,18 +37,12 @@
       "type": "project",
       "path": "../MB.Domain.Model/MB.Domain.Models.csproj",
       "msbuildProject": "../MB.Domain.Model/MB.Domain.Models.csproj"
-    },
-    "MB.Domain.Services/1.0.0": {
-      "type": "project",
-      "path": "../MB.Domain.Services/MB.Domain.Services.csproj",
-      "msbuildProject": "../MB.Domain.Services/MB.Domain.Services.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
       "MB.Application.Contracts >= 1.0.0",
-      "MB.Domain.Models >= 1.0.0",
-      "MB.Domain.Services >= 1.0.0"
+      "MB.Domain.Models >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -94,9 +77,6 @@
             },
             "E:\\IT Studies\\Asp.Net Sample\\MasterBloggerProject\\MasterBlogger\\MB.Domain.Model\\MB.Domain.Models.csproj": {
               "projectPath": "E:\\IT Studies\\Asp.Net Sample\\MasterBloggerProject\\MasterBlogger\\MB.Domain.Model\\MB.Domain.Models.csproj"
-            },
-            "E:\\IT Studies\\Asp.Net Sample\\MasterBloggerProject\\MasterBlogger\\MB.Domain.Services\\MB.Domain.Services.csproj": {
-              "projectPath": "E:\\IT Studies\\Asp.Net Sample\\MasterBloggerProject\\MasterBlogger\\MB.Domain.Services\\MB.Domain.Services.csproj"
             }
           }
         }

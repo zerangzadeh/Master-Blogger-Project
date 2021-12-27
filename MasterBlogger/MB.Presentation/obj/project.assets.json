@@ -647,8 +647,7 @@
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
           "MB.Application.Contracts": "1.0.0",
-          "MB.Domain.Models": "1.0.0",
-          "MB.Domain.Services": "1.0.0"
+          "MB.Domain.Models": "1.0.0"
         },
         "compile": {
           "bin/placeholder/MB.Application.Services.dll": {}
@@ -660,25 +659,14 @@
       "MB.Domain.Models/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
-        "compile": {
-          "bin/placeholder/MB.Domain.Models.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/MB.Domain.Models.dll": {}
-        }
-      },
-      "MB.Domain.Services/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
-          "MB.Application.Contracts": "1.0.0",
-          "MB.Domain.Models": "1.0.0"
+          "MB.Application.Contracts": "1.0.0"
         },
         "compile": {
-          "bin/placeholder/MB.Domain.Services.dll": {}
+          "bin/placeholder/MB.Domain.Models.dll": {}
         },
         "runtime": {
-          "bin/placeholder/MB.Domain.Services.dll": {}
+          "bin/placeholder/MB.Domain.Models.dll": {}
         }
       },
       "MB.Infrastructure/1.0.0": {
@@ -688,7 +676,6 @@
           "MB.Application.Contracts": "1.0.0",
           "MB.Application.Services": "1.0.0",
           "MB.Domain.Models": "1.0.0",
-          "MB.Domain.Services": "1.0.0",
           "Microsoft.EntityFrameworkCore": "6.0.1",
           "Microsoft.EntityFrameworkCore.Design": "6.0.1",
           "Microsoft.EntityFrameworkCore.SqlServer": "6.0.1",
@@ -705,7 +692,6 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
-          "MB.Domain.Services": "1.0.0",
           "MB.Infrastructure": "1.0.0",
           "Microsoft.Extensions.DependencyInjection": "6.0.0"
         },
@@ -1950,11 +1936,6 @@
       "path": "../MB.Domain.Model/MB.Domain.Models.csproj",
       "msbuildProject": "../MB.Domain.Model/MB.Domain.Models.csproj"
     },
-    "MB.Domain.Services/1.0.0": {
-      "type": "project",
-      "path": "../MB.Domain.Services/MB.Domain.Services.csproj",
-      "msbuildProject": "../MB.Domain.Services/MB.Domain.Services.csproj"
-    },
     "MB.Infrastructure/1.0.0": {
       "type": "project",
       "path": "../MB.Infrastructure/MB.Infrastructure.csproj",
@@ -1968,7 +1949,6 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "MB.Domain.Services >= 1.0.0",
       "MB.Infrastructure.Config >= 1.0.0"
     ]
   },
@@ -1999,9 +1979,6 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "E:\\IT Studies\\Asp.Net Sample\\MasterBloggerProject\\MasterBlogger\\MB.Domain.Services\\MB.Domain.Services.csproj": {
-              "projectPath": "E:\\IT Studies\\Asp.Net Sample\\MasterBloggerProject\\MasterBlogger\\MB.Domain.Services\\MB.Domain.Services.csproj"
-            },
             "E:\\IT Studies\\Asp.Net Sample\\MasterBloggerProject\\MasterBlogger\\MB.Infrastructure.Config\\MB.Infrastructure.Config.csproj": {
               "projectPath": "E:\\IT Studies\\Asp.Net Sample\\MasterBloggerProject\\MasterBlogger\\MB.Infrastructure.Config\\MB.Infrastructure.Config.csproj"
             }

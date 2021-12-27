@@ -49,13 +49,11 @@ E:\IT Studies\Asp.Net Sample\MasterBloggerProject\MasterBlogger\MB.Presentation\
 E:\IT Studies\Asp.Net Sample\MasterBloggerProject\MasterBlogger\MB.Presentation\bin\Debug\net6.0\MB.Application.Contracts.dll
 E:\IT Studies\Asp.Net Sample\MasterBloggerProject\MasterBlogger\MB.Presentation\bin\Debug\net6.0\MB.Application.Services.dll
 E:\IT Studies\Asp.Net Sample\MasterBloggerProject\MasterBlogger\MB.Presentation\bin\Debug\net6.0\MB.Domain.Models.dll
-E:\IT Studies\Asp.Net Sample\MasterBloggerProject\MasterBlogger\MB.Presentation\bin\Debug\net6.0\MB.Domain.Services.dll
 E:\IT Studies\Asp.Net Sample\MasterBloggerProject\MasterBlogger\MB.Presentation\bin\Debug\net6.0\MB.Infrastructure.dll
 E:\IT Studies\Asp.Net Sample\MasterBloggerProject\MasterBlogger\MB.Presentation\bin\Debug\net6.0\MB.Application.Services.pdb
 E:\IT Studies\Asp.Net Sample\MasterBloggerProject\MasterBlogger\MB.Presentation\bin\Debug\net6.0\MB.Infrastructure.pdb
 E:\IT Studies\Asp.Net Sample\MasterBloggerProject\MasterBlogger\MB.Presentation\bin\Debug\net6.0\MB.Application.Contracts.pdb
 E:\IT Studies\Asp.Net Sample\MasterBloggerProject\MasterBlogger\MB.Presentation\bin\Debug\net6.0\MB.Domain.Models.pdb
-E:\IT Studies\Asp.Net Sample\MasterBloggerProject\MasterBlogger\MB.Presentation\bin\Debug\net6.0\MB.Domain.Services.pdb
 E:\IT Studies\Asp.Net Sample\MasterBloggerProject\MasterBlogger\MB.Presentation\obj\Debug\net6.0\staticwebassets.build.json
 E:\IT Studies\Asp.Net Sample\MasterBloggerProject\MasterBlogger\MB.Presentation\obj\Debug\net6.0\staticwebassets.development.json
 E:\IT Studies\Asp.Net Sample\MasterBloggerProject\MasterBlogger\MB.Presentation\obj\Debug\net6.0\scopedcss\bundle\MB.Presentation.styles.css

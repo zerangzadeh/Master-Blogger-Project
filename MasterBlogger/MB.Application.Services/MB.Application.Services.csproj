@@ -9,7 +9,6 @@
   <ItemGroup>
     <ProjectReference Include="..\MB.Application.Constact\MB.Application.Contracts.csproj" />
     <ProjectReference Include="..\MB.Domain.Model\MB.Domain.Models.csproj" />
-    <ProjectReference Include="..\MB.Domain.Services\MB.Domain.Services.csproj" />
   </ItemGroup>
 
 </Project>

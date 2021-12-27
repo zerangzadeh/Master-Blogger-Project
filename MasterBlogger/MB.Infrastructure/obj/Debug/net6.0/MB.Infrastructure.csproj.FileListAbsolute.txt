@@ -10,10 +10,8 @@ E:\IT Studies\Asp.Net Sample\MasterBloggerProject\MasterBlogger\MB.Infrastructur
 E:\IT Studies\Asp.Net Sample\MasterBloggerProject\MasterBlogger\MB.Infrastructure\bin\Debug\net6.0\MB.Infrastructure.pdb
 E:\IT Studies\Asp.Net Sample\MasterBloggerProject\MasterBlogger\MB.Infrastructure\bin\Debug\net6.0\MB.Application.Contracts.dll
 E:\IT Studies\Asp.Net Sample\MasterBloggerProject\MasterBlogger\MB.Infrastructure\bin\Debug\net6.0\MB.Domain.Models.dll
-E:\IT Studies\Asp.Net Sample\MasterBloggerProject\MasterBlogger\MB.Infrastructure\bin\Debug\net6.0\MB.Domain.Services.dll
 E:\IT Studies\Asp.Net Sample\MasterBloggerProject\MasterBlogger\MB.Infrastructure\bin\Debug\net6.0\MB.Application.Contracts.pdb
 E:\IT Studies\Asp.Net Sample\MasterBloggerProject\MasterBlogger\MB.Infrastructure\bin\Debug\net6.0\MB.Domain.Models.pdb
-E:\IT Studies\Asp.Net Sample\MasterBloggerProject\MasterBlogger\MB.Infrastructure\bin\Debug\net6.0\MB.Domain.Services.pdb
 E:\IT Studies\Asp.Net Sample\MasterBloggerProject\MasterBlogger\MB.Infrastructure\obj\Debug\net6.0\MB.Infrastructure.csproj.CopyComplete
 E:\IT Studies\Asp.Net Sample\MasterBloggerProject\MasterBlogger\MB.Infrastructure\obj\Debug\net6.0\MB.Infrastructure.dll
 E:\IT Studies\Asp.Net Sample\MasterBloggerProject\MasterBlogger\MB.Infrastructure\obj\Debug\net6.0\ref\MB.Infrastructure.dll

@@ -1,44 +1,45 @@
 ﻿using MB.Application.Contracts.ArticleCategory;
+using MB.Domain.Model;
 using MB.Domain.Model.ArticleCategoryAgg;
-using MB.Domain.Services;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using MB.Domain.Models.ArticleCategoryAgg;
+using MB.Domain.Models.ArticleCategoryAgg.Services;
 
 namespace MB.Application.Services.ArticleCategoryApplication
 {
     public class ArticleCategoryApplication : IArticleCategoryApplication
     {
-        readonly private IArticleCategoryRepository articleCategoryRepositpry;
+        readonly private IArticleCategoryRepository _articleCategoryRepositpry;
+        readonly private IArticleCategoryValidatorService _articleCategoryValidatorService;
 
-        public ArticleCategoryApplication(IArticleCategoryRepository articleCategoryRepositpry)
+        
+
+        public ArticleCategoryApplication(IArticleCategoryRepository articleCategoryRepositpry, IArticleCategoryValidatorService articleCategoryValidatorService)
         {
-            this.articleCategoryRepositpry = articleCategoryRepositpry;
+            _articleCategoryRepositpry = articleCategoryRepositpry;
+           _articleCategoryValidatorService = articleCategoryValidatorService;
         }
 
         public void Create(CreateArticleCategoryCommand articleCategoryCommand)
         {
-            var articleCategory = new ArticleCategory(articleCategoryCommand.Title);
-            this.articleCategoryRepositpry.Create(articleCategory);
+            var articleCategory = new ArticleCategory(articleCategoryCommand.Title, _articleCategoryValidatorService);
+            _articleCategoryRepositpry.Create(articleCategory);
         }
 
 
         public void Delete(long categoryId)
         {
-            articleCategoryRepositpry.Delete(categoryId);
+            _articleCategoryRepositpry.Delete(categoryId);
         }
 
         public List<ArticleCategoryViewModel> GetAll()
         {
-            return articleCategoryRepositpry.GetAll();
+            return _articleCategoryRepositpry.GetAll();
 
         }
 
         public EditArticleCategoryCommand GetBy(long categoryId)
         {
-            var articleCategory=articleCategoryRepositpry.GetBy(categoryId);
+            var articleCategory=_articleCategoryRepositpry.GetBy(categoryId);
             return new EditArticleCategoryCommand
             {
                 CategoryID = articleCategory.CategoryID,
@@ -52,14 +53,14 @@ namespace MB.Application.Services.ArticleCategoryApplication
 
     public void Restore(long categoryId)
     {
-            articleCategoryRepositpry.Restore(categoryId);
+            _articleCategoryRepositpry.Restore(categoryId);
     }
 
 
 
     public void Update(EditArticleCategoryCommand articleCategoryCommand)
     {
-        articleCategoryRepositpry.Update(articleCategoryCommand);
+        _articleCategoryRepositpry.Update(articleCategoryCommand);
     }
 
 

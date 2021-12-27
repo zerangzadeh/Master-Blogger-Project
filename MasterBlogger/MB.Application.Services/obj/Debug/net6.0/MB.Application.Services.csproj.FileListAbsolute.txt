@@ -9,10 +9,8 @@ E:\IT Studies\Asp.Net Sample\MasterBloggerProject\MasterBlogger\MB.Application.S
 E:\IT Studies\Asp.Net Sample\MasterBloggerProject\MasterBlogger\MB.Application.Services\bin\Debug\net6.0\MB.Application.Services.pdb
 E:\IT Studies\Asp.Net Sample\MasterBloggerProject\MasterBlogger\MB.Application.Services\bin\Debug\net6.0\MB.Application.Contracts.dll
 E:\IT Studies\Asp.Net Sample\MasterBloggerProject\MasterBlogger\MB.Application.Services\bin\Debug\net6.0\MB.Domain.Models.dll
-E:\IT Studies\Asp.Net Sample\MasterBloggerProject\MasterBlogger\MB.Application.Services\bin\Debug\net6.0\MB.Domain.Services.dll
 E:\IT Studies\Asp.Net Sample\MasterBloggerProject\MasterBlogger\MB.Application.Services\bin\Debug\net6.0\MB.Application.Contracts.pdb
 E:\IT Studies\Asp.Net Sample\MasterBloggerProject\MasterBlogger\MB.Application.Services\bin\Debug\net6.0\MB.Domain.Models.pdb
-E:\IT Studies\Asp.Net Sample\MasterBloggerProject\MasterBlogger\MB.Application.Services\bin\Debug\net6.0\MB.Domain.Services.pdb
 E:\IT Studies\Asp.Net Sample\MasterBloggerProject\MasterBlogger\MB.Application.Services\obj\Debug\net6.0\MB.Application.Services.csproj.CopyComplete
 E:\IT Studies\Asp.Net Sample\MasterBloggerProject\MasterBlogger\MB.Application.Services\obj\Debug\net6.0\MB.Application.Services.dll
 E:\IT Studies\Asp.Net Sample\MasterBloggerProject\MasterBlogger\MB.Application.Services\obj\Debug\net6.0\ref\MB.Application.Services.dll

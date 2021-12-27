@@ -1,11 +1,6 @@
 ﻿using MB.Application.Contracts.ArticleCategory;
 using MB.Domain.Model.ArticleCategoryAgg;
-using MB.Domain.Services;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using MB.Domain.Models.ArticleCategoryAgg;
 
 namespace MB.Infrastructure.Repository
 {
@@ -63,6 +58,9 @@ namespace MB.Infrastructure.Repository
             SaveChanges();
         }
 
-
+        public bool Exist(string Title)
+        {
+          return mbContext.ArticleCategories.Any(x => x.Title == Title);  
+        }
     }
 }

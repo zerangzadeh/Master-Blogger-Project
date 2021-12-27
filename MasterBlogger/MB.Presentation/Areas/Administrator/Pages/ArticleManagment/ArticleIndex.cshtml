@@ -1,0 +1,63 @@
+﻿@page
+@model MB.Presentation.Areas.Administrator.Pages.ArticleCategoryManagment.ArticleCategoryIndexModel
+@{
+    ViewData["Title"] = "لیست دسته بندی مقالات";
+
+}
+<div class="text-center mr-auto d-flex flex-column justify-content-between align-content-center">
+    <div class="d-flex justify-content-between pt-3 pb-3">
+        <h4>لیست دسته بندی مقالات </h4>
+    <p class="text-center"> <a asp-page="./CreateArticleCategory" class="btn btn-success text-center"> دسته جدید</a></p> 
+</div>
+   
+<table class="table table-responsive table-bordered table-striped text-center pb-3 pt-3">
+
+    <thead>
+        <tr>
+            <td>Category ID</td>
+            <td>Title</td>
+            <td>Status</td>
+            <td>Creation Date</td>
+            <td>Operation</td>
+             
+        </tr>
+
+
+    </thead>
+    <tbody>
+        @{
+            foreach (var itm in Model.articleCategories)
+            {
+                <tr>
+                    <th>@itm.CategoryID </th>
+                    <th>@itm.Title</th>
+                    <th>
+                    @if (itm.IsDeleted)
+                    {
+                        <i class="fa fa-close text-danger"></i>
+                    }
+                    else
+                    {
+                        <i class="fa fa-check text-success"></i>
+                    }
+                    </th>
+
+                    <th>@itm.CreationDate</th>
+                    <th><a  class="btn btn-warning"  asp-page="./EditArticleCategory" asp-route-id=@itm.CategoryID>ویرایش</a>
+                     
+                    @if (itm.IsDeleted)
+                    {
+                       <a class="btn btn-success" asp-page-handler="Restore" asp-route-id=@itm.CategoryID>بازیابی</a>
+                    }
+                    else
+                    {
+                        <a class="btn btn-danger" asp-page-handler="Delete" asp-route-id=@itm.CategoryID>حذف</a>
+                    }
+                    </th>
+                </tr>
+            }
+        }
+    </tbody>
+</table>
+
+</div>

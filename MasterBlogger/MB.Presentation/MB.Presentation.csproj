@@ -7,7 +7,13 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\MB.Domain.Services\MB.Domain.Services.csproj" />
+    <Compile Remove="Areas\Administrator\Pages\ArticleManagment\**" />
+    <Content Remove="Areas\Administrator\Pages\ArticleManagment\**" />
+    <EmbeddedResource Remove="Areas\Administrator\Pages\ArticleManagment\**" />
+    <None Remove="Areas\Administrator\Pages\ArticleManagment\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\MB.Infrastructure.Config\MB.Infrastructure.Config.csproj" />
   </ItemGroup>
 

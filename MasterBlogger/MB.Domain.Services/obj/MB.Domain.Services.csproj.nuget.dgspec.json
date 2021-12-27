@@ -81,7 +81,11 @@
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "E:\\IT Studies\\Asp.Net Sample\\MasterBloggerProject\\MasterBlogger\\MB.Application.Constact\\MB.Application.Contracts.csproj": {
+                "projectPath": "E:\\IT Studies\\Asp.Net Sample\\MasterBloggerProject\\MasterBlogger\\MB.Application.Constact\\MB.Application.Contracts.csproj"
+              }
+            }
           }
         },
         "warningProperties": {

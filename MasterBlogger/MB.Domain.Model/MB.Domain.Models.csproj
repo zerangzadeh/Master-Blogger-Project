@@ -7,10 +7,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="ArticleAgg\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\MB.Application.Constact\MB.Application.Contracts.csproj" />
   </ItemGroup>
 

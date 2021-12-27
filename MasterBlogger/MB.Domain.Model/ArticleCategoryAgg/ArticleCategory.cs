@@ -1,4 +1,5 @@
-﻿using MB.Domain.Models.ArticleCategoryAgg.Exceptions;
+﻿using MB.Domain.Models.ArticleAgg;
+using MB.Domain.Models.ArticleCategoryAgg.Exceptions;
 using MB.Domain.Models.ArticleCategoryAgg.Services;
 
 namespace MB.Domain.Model.ArticleCategoryAgg
@@ -6,14 +7,14 @@ namespace MB.Domain.Model.ArticleCategoryAgg
     public class ArticleCategory
     {
         public long CategoryID { get; private set; } 
-        public string Title { get;  set; }
-        public bool IsDeleted { get;  set; }    
-        public DateTime CreationDate { get; set; }
-
-
+        public string Title { get; private set; }
+        public bool IsDeleted { get; private set; }    
+        public DateTime CreationDate { get; private set; }
+        
         // public int ArticleID { get;private set; }
-        //public Article Article { get; private set; }
+        public List<Article> Articles { get; private set; }
 
+        //This Constractor is just for Making Model by EFCORE
         public ArticleCategory(string title)
         {
             Title = title.Trim();

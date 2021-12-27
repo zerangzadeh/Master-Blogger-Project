@@ -11,14 +11,18 @@ namespace MB.Infrastructure.Mapping
 {
     public class ArticleCategoryMapping:IEntityTypeConfiguration<ArticleCategory>
     {
-      
-     public void Configure(EntityTypeBuilder<ArticleCategory> builder)
+        public ArticleCategoryMapping()
+        {
+        }
+
+        public void Configure(EntityTypeBuilder<ArticleCategory> builder)
         {
             builder.ToTable("ArticleCategories");
             builder.HasKey(x=>x.CategoryID);
             builder.Property(x=>x.Title).IsRequired();
             builder.Property(x=>x.CreationDate).IsRequired();
             builder.Property(x=>x.IsDeleted).IsRequired();
+            builder.HasMany(x => x.Articles).WithOne(x => x.ArticleCategory);
         }
     }
 }

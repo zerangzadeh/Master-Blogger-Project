@@ -1,4 +1,5 @@
 ﻿using MB.Domain.Model.ArticleCategoryAgg;
+using MB.Domain.Models.ArticleAgg;
 using MB.Infrastructure.Mapping;
 using Microsoft.EntityFrameworkCore;
 using System;
@@ -14,6 +15,7 @@ namespace MB.Infrastructure
     public class MBContext : DbContext
     {
         public DbSet<ArticleCategory> ArticleCategories { get; set; }
+        public DbSet<Article> Articles { get; set; }
 
         public MBContext(DbContextOptions<MBContext> options) : base(options)
         {
@@ -25,8 +27,12 @@ namespace MB.Infrastructure
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             // modelBuilder.ApplyConfiguration(new ArticleCategoryMapping());
-            var assambly = typeof(ArticleCategoryMapping).Assembly;
-            modelBuilder.ApplyConfigurationsFromAssembly(assambly);
+            var assamblyArticleCategory = typeof(ArticleCategoryMapping).Assembly;
+            modelBuilder.ApplyConfigurationsFromAssembly(assamblyArticleCategory);
+            base.OnModelCreating(modelBuilder);
+
+            var assamblyArticleMapping = typeof(ArticleMapping).Assembly;
+            modelBuilder.ApplyConfigurationsFromAssembly(assamblyArticleMapping);
             base.OnModelCreating(modelBuilder);
 
 

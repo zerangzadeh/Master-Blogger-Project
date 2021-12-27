@@ -27,6 +27,18 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRvclxQYWdlc1xBcnRpY2xlQ2F0ZWdvcnlNYW5hZ21lbnRcRWRpdEFydGljbGVDYXRlZ29yeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[E:/IT Studies/Asp.Net Sample/MasterBloggerProject/MasterBlogger/MB.Presentation/Areas/Administrator/Pages/ArticleManagment/ArticleIndex.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRvclxQYWdlc1xBcnRpY2xlTWFuYWdtZW50XEFydGljbGVJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/IT Studies/Asp.Net Sample/MasterBloggerProject/MasterBlogger/MB.Presentation/Areas/Administrator/Pages/ArticleManagment/CreateArticle.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRvclxQYWdlc1xBcnRpY2xlTWFuYWdtZW50XENyZWF0ZUFydGljbGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/IT Studies/Asp.Net Sample/MasterBloggerProject/MasterBlogger/MB.Presentation/Areas/Administrator/Pages/ArticleManagment/EditArticle.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRvclxQYWdlc1xBcnRpY2xlTWFuYWdtZW50XEVkaXRBcnRpY2xlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [E:/IT Studies/Asp.Net Sample/MasterBloggerProject/MasterBlogger/MB.Presentation/Areas/Administrator/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRvclxQYWdlc1xFcnJvci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

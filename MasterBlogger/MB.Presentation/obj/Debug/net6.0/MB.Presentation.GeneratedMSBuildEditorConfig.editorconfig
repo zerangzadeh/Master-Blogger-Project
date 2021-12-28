@@ -15,28 +15,28 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = E:\IT Studies\Asp.Net Sample\MasterBloggerProject\MasterBlogger\MB.Presentation
 build_property._RazorSourceGeneratorDebug = 
 
-[E:/IT Studies/Asp.Net Sample/MasterBloggerProject/MasterBlogger/MB.Presentation/Areas/Administrator/Pages/ArticleCategoryManagment/ArticleCategoryIndex.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRvclxQYWdlc1xBcnRpY2xlQ2F0ZWdvcnlNYW5hZ21lbnRcQXJ0aWNsZUNhdGVnb3J5SW5kZXguY3NodG1s
+[E:/IT Studies/Asp.Net Sample/MasterBloggerProject/MasterBlogger/MB.Presentation/Areas/Administrator/Pages/ArticleCategoryManagement/ArticleCategoryIndex.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRvclxQYWdlc1xBcnRpY2xlQ2F0ZWdvcnlNYW5hZ2VtZW50XEFydGljbGVDYXRlZ29yeUluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/IT Studies/Asp.Net Sample/MasterBloggerProject/MasterBlogger/MB.Presentation/Areas/Administrator/Pages/ArticleCategoryManagment/CreateArticleCategory.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRvclxQYWdlc1xBcnRpY2xlQ2F0ZWdvcnlNYW5hZ21lbnRcQ3JlYXRlQXJ0aWNsZUNhdGVnb3J5LmNzaHRtbA==
+[E:/IT Studies/Asp.Net Sample/MasterBloggerProject/MasterBlogger/MB.Presentation/Areas/Administrator/Pages/ArticleCategoryManagement/CreateArticleCategory.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRvclxQYWdlc1xBcnRpY2xlQ2F0ZWdvcnlNYW5hZ2VtZW50XENyZWF0ZUFydGljbGVDYXRlZ29yeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/IT Studies/Asp.Net Sample/MasterBloggerProject/MasterBlogger/MB.Presentation/Areas/Administrator/Pages/ArticleCategoryManagment/EditArticleCategory.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRvclxQYWdlc1xBcnRpY2xlQ2F0ZWdvcnlNYW5hZ21lbnRcRWRpdEFydGljbGVDYXRlZ29yeS5jc2h0bWw=
+[E:/IT Studies/Asp.Net Sample/MasterBloggerProject/MasterBlogger/MB.Presentation/Areas/Administrator/Pages/ArticleCategoryManagement/EditArticleCategory.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRvclxQYWdlc1xBcnRpY2xlQ2F0ZWdvcnlNYW5hZ2VtZW50XEVkaXRBcnRpY2xlQ2F0ZWdvcnkuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/IT Studies/Asp.Net Sample/MasterBloggerProject/MasterBlogger/MB.Presentation/Areas/Administrator/Pages/ArticleManagment/ArticleIndex.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRvclxQYWdlc1xBcnRpY2xlTWFuYWdtZW50XEFydGljbGVJbmRleC5jc2h0bWw=
+[E:/IT Studies/Asp.Net Sample/MasterBloggerProject/MasterBlogger/MB.Presentation/Areas/Administrator/Pages/ArticleManagement/ArticleIndex.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRvclxQYWdlc1xBcnRpY2xlTWFuYWdlbWVudFxBcnRpY2xlSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/IT Studies/Asp.Net Sample/MasterBloggerProject/MasterBlogger/MB.Presentation/Areas/Administrator/Pages/ArticleManagment/CreateArticle.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRvclxQYWdlc1xBcnRpY2xlTWFuYWdtZW50XENyZWF0ZUFydGljbGUuY3NodG1s
+[E:/IT Studies/Asp.Net Sample/MasterBloggerProject/MasterBlogger/MB.Presentation/Areas/Administrator/Pages/ArticleManagement/CreateArticle.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRvclxQYWdlc1xBcnRpY2xlTWFuYWdlbWVudFxDcmVhdGVBcnRpY2xlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/IT Studies/Asp.Net Sample/MasterBloggerProject/MasterBlogger/MB.Presentation/Areas/Administrator/Pages/ArticleManagment/EditArticle.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRvclxQYWdlc1xBcnRpY2xlTWFuYWdtZW50XEVkaXRBcnRpY2xlLmNzaHRtbA==
+[E:/IT Studies/Asp.Net Sample/MasterBloggerProject/MasterBlogger/MB.Presentation/Areas/Administrator/Pages/ArticleManagement/EditArticle.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRvclxQYWdlc1xBcnRpY2xlTWFuYWdlbWVudFxFZGl0QXJ0aWNsZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [E:/IT Studies/Asp.Net Sample/MasterBloggerProject/MasterBlogger/MB.Presentation/Areas/Administrator/Pages/Error.cshtml]

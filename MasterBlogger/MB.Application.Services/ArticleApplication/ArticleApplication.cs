@@ -28,15 +28,12 @@ namespace MB.Application.Services.ArticleApplication
            _articleRepository.Delete(articleID);
         }
 
+     
+
         public List<ArticleViewModel> GetAll()
         {
-            throw new NotImplementedException();
+            return _articleRepository.GetAll();
         }
-
-        //public List<ArticleViewModel> GetAll()
-        //{
-        //  _articleRepository.GetAll();
-        //}
 
         public ArticleViewModel GetBy(long id)
         {

@@ -47,11 +47,11 @@ namespace MB.Infrastructure.Migrations
 
             modelBuilder.Entity("MB.Domain.Models.ArticleAgg.Article", b =>
                 {
-                    b.Property<string>("PicSrc")
-                        .HasColumnType("nvarchar(450)");
+                    b.Property<long>("ArticleID")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("bigint");
 
-                    b.Property<int>("ArticleID")
-                        .HasColumnType("int");
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<long>("ArticleID"), 1L, 1);
 
                     b.Property<string>("Body")
                         .IsRequired()
@@ -70,6 +70,10 @@ namespace MB.Infrastructure.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<string>("PicSrc")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<string>("PicTitle")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
@@ -82,7 +86,7 @@ namespace MB.Infrastructure.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.HasKey("PicSrc");
+                    b.HasKey("ArticleID");
 
                     b.HasIndex("CategoryID");
 

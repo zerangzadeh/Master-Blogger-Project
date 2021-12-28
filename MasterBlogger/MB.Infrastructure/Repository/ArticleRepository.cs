@@ -1,5 +1,6 @@
 ﻿using MB.Application.Contracts.Article;
 using MB.Domain.Models.ArticleAgg;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -31,11 +32,23 @@ namespace MB.Infrastructure.Repository
             SaveChanges();
         }
 
-        //public List<ArticleViewModel> GetAll()
-        //{
+        public List<ArticleViewModel> GetAll()
+        {
 
-        //    //return _mBContext.Articles.OrderByDescending(x => x.ArticleID).ToList();
-        //}
+            return _mBContext.Articles.Include(x=>x.ArticleCategory)
+                .OrderByDescending(x => x.ArticleID).Select(x=>new ArticleViewModel
+            {   ArticleID = x.ArticleID,
+                Title = x.Title,
+                ShortDESC=x.ShortDESC,
+                Body = x.Body,
+                PicTitle=x.PicTitle,
+                PicALT=x.PicALT,
+                PicSrc=x.PicSrc,
+                IsDeleted=x.IsDeleted,
+                CreationDate=x.CreationDate.ToString(),
+               ArticleCategory=x.ArticleCategory.Title
+            }).ToList();
+        }
 
         public Article GetBy(long articleID)
         {

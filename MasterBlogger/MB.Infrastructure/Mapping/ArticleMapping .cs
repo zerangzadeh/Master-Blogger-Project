@@ -22,7 +22,7 @@ namespace MB.Infrastructure.Mapping
             builder.Property(x=>x.Body).IsRequired();
             builder.Property(x => x.PicTitle);
             builder.Property(x => x.PicALT);
-            builder.HasKey(x => x.PicSrc);
+            builder.Property(x => x.PicSrc);
             builder.Property(x => x.IsDeleted).IsRequired();
             builder.Property(x => x.CreationDate).IsRequired();
             builder.HasOne(x => x.ArticleCategory).WithMany(x => x.Articles).HasForeignKey(x=>x.CategoryID);

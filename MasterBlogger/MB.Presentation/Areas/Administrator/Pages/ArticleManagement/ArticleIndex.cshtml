@@ -1,0 +1,50 @@
+﻿@page
+@model MB.Presentation.Areas.Administrator.Pages.ArticleManagment.ArticleIndexModel
+@{
+    ViewData["Title"] = "لیست مقالات";
+
+}
+<div class="text-center mr-auto d-flex flex-column justify-content-between align-content-center">
+    <div class="d-flex justify-content-between pt-3 pb-3">
+        <h4>لیست مقالات </h4>
+        <p class="text-center"> <a asp-page="./CreateCategory" class="btn btn-success text-center"> مقاله جدید</a></p>
+    </div>
+    <div class="row">
+        @foreach (var item in Model.articles)
+        {
+            <div class="card m-2 rounded" style="width: 18rem;">
+                <img class="card-img-top" src="~/Images/@item.PicSrc" alt="@item.PicALT" title="@item.PicTitle">
+                <div class="card-body">
+                    <h4 class="card-title">@item.ArticleCategory</h4>
+                    <h5>
+                        @if (item.IsDeleted)
+                        {
+                            <i class="fa fa-close text-danger"></i>
+                        }
+                        else
+                        {
+                            <i class="fa fa-check text-success"></i>
+                        }
+                    </h5>
+
+                    <h5 class="card-title">@item.Title</h5>
+                    <p class="card-text">@item.ShortDESC</p>
+                     <p class="card-text">@item.CreationDate</p>
+                    <a asp-page="./ArticleDetails" class="btn btn-primary">متن مقاله ...</a>
+                    <p class="card-title pt-3">
+                    <a  class="btn btn-warning"  asp-page="./EditArticle" asp-route-id=@item.ArticleID>ویرایش</a>
+                     @if (item.IsDeleted)
+                    {
+                       <a class="btn btn-success" asp-page-handler="Restore" asp-route-id=@item.ArticleID>بازیابی</a>
+                    }
+                    else
+                    {
+                        <a class="btn btn-danger" asp-page-handler="Delete" asp-route-id=@item.ArticleID>حذف</a>
+                    }
+                    </p>
+                </div>
+            </div>
+        }
+
+    </div>
+</div>

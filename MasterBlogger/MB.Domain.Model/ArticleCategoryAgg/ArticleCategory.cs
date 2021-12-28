@@ -15,6 +15,10 @@ namespace MB.Domain.Model.ArticleCategoryAgg
         public List<Article> Articles { get; private set; }
 
         //This Constractor is just for Making Model by EFCORE
+
+        protected ArticleCategory()
+        {
+        }
         public ArticleCategory(string title)
         {
             Title = title.Trim();

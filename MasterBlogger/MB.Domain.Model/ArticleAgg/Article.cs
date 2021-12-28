@@ -9,7 +9,7 @@ namespace MB.Domain.Models.ArticleAgg
 {
     public class Article
     {
-        public int ArticleID { get;  set; }
+        public long ArticleID { get;  set; }
         public string Title { get;  set; }
         public string ShortDESC { get;  set; }
         public string Body { get;  set; }

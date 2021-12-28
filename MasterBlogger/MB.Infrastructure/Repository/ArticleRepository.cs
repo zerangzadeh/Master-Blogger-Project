@@ -31,10 +31,11 @@ namespace MB.Infrastructure.Repository
             SaveChanges();
         }
 
-        public List<ArticleViewModel> GetAll()
-        {
-            return  _mBContext.Articles.OrderByDescending(x=>x.ArticleID).ToList();
-        }
+        //public List<ArticleViewModel> GetAll()
+        //{
+
+        //    //return _mBContext.Articles.OrderByDescending(x => x.ArticleID).ToList();
+        //}
 
         public Article GetBy(long articleID)
         {

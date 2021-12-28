@@ -9,3 +9,4 @@ E:\IT Studies\Asp.Net Sample\MasterBloggerProject\MasterBlogger\MB.Application.C
 E:\IT Studies\Asp.Net Sample\MasterBloggerProject\MasterBlogger\MB.Application.Constact\obj\Debug\net6.0\MB.Application.Contracts.dll
 E:\IT Studies\Asp.Net Sample\MasterBloggerProject\MasterBlogger\MB.Application.Constact\obj\Debug\net6.0\ref\MB.Application.Contracts.dll
 E:\IT Studies\Asp.Net Sample\MasterBloggerProject\MasterBlogger\MB.Application.Constact\obj\Debug\net6.0\MB.Application.Contracts.pdb
+E:\IT Studies\Asp.Net Sample\MasterBloggerProject\MasterBlogger\MB.Application.Constact\obj\Debug\net6.0\MB.Application.Contracts.csproj.AssemblyReference.cache

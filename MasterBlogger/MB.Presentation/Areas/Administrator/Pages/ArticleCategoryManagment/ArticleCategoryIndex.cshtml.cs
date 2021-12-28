@@ -4,13 +4,13 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 
 namespace MB.Presentation.Areas.Administrator.Pages.ArticleCategoryManagment
 {
-    public class ArticleCategoryIndexModel : PageModel
+    public class ArticleIndexModel : PageModel
     {
         public List<ArticleCategoryViewModel> articleCategories { get; set; }
         private readonly IArticleCategoryApplication articleCategoryApplication;
 
 
-        public ArticleCategoryIndexModel(IArticleCategoryApplication articleCategoryApplication)
+        public ArticleIndexModel(IArticleCategoryApplication articleCategoryApplication)
         {
             this.articleCategoryApplication = articleCategoryApplication;
         }

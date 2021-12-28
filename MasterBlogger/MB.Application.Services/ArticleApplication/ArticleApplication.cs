@@ -30,8 +30,13 @@ namespace MB.Application.Services.ArticleApplication
 
         public List<ArticleViewModel> GetAll()
         {
-          _articleRepository.GetAll();
+            throw new NotImplementedException();
         }
+
+        //public List<ArticleViewModel> GetAll()
+        //{
+        //  _articleRepository.GetAll();
+        //}
 
         public ArticleViewModel GetBy(long id)
         {

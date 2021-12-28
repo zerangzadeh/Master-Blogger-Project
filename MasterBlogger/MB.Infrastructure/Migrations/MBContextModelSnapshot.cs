@@ -44,6 +44,66 @@ namespace MB.Infrastructure.Migrations
 
                     b.ToTable("ArticleCategories", (string)null);
                 });
+
+            modelBuilder.Entity("MB.Domain.Models.ArticleAgg.Article", b =>
+                {
+                    b.Property<string>("PicSrc")
+                        .HasColumnType("nvarchar(450)");
+
+                    b.Property<int>("ArticleID")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Body")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<long>("CategoryID")
+                        .HasColumnType("bigint");
+
+                    b.Property<DateTime>("CreationDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<bool>("IsDeleted")
+                        .HasColumnType("bit");
+
+                    b.Property<string>("PicALT")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("PicTitle")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("ShortDESC")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Title")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("PicSrc");
+
+                    b.HasIndex("CategoryID");
+
+                    b.ToTable("Articles", (string)null);
+                });
+
+            modelBuilder.Entity("MB.Domain.Models.ArticleAgg.Article", b =>
+                {
+                    b.HasOne("MB.Domain.Model.ArticleCategoryAgg.ArticleCategory", "ArticleCategory")
+                        .WithMany("Articles")
+                        .HasForeignKey("CategoryID")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("ArticleCategory");
+                });
+
+            modelBuilder.Entity("MB.Domain.Model.ArticleCategoryAgg.ArticleCategory", b =>
+                {
+                    b.Navigation("Articles");
+                });
 #pragma warning restore 612, 618
         }
     }

@@ -1,0 +1,19 @@
+﻿@page 
+@model MB.Presentation.Areas.Administrator.Pages.ArticleManagment.ArticleDetailsModel
+@{
+    ViewData["Title"] = "جزیيات مقاله";
+}
+<div class="col-12 mb-3" id="title">
+    @Model.article.Title
+</div>
+<div class="col-12 mb-3" id="ArticleImage"> 
+    <img src="~/Images/@Model.article.PicSrc" alt=@Model.article.PicALT title=@Model.article.PicTitle />
+</div>
+<div class="col-12 mb-3" id="ArticleDetails"> 
+    <p>@Model.article.Body</p>
+</div>
+<div>
+    <p>
+        @Model.article.CreationDate
+    </p>
+</div>

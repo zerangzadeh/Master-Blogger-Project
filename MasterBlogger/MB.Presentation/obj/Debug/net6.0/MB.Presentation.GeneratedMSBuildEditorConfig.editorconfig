@@ -27,6 +27,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRvclxQYWdlc1xBcnRpY2xlQ2F0ZWdvcnlNYW5hZ2VtZW50XEVkaXRBcnRpY2xlQ2F0ZWdvcnkuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[E:/IT Studies/Asp.Net Sample/MasterBloggerProject/MasterBlogger/MB.Presentation/Areas/Administrator/Pages/ArticleManagement/ArticleDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRvclxQYWdlc1xBcnRpY2xlTWFuYWdlbWVudFxBcnRpY2xlRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [E:/IT Studies/Asp.Net Sample/MasterBloggerProject/MasterBlogger/MB.Presentation/Areas/Administrator/Pages/ArticleManagement/ArticleIndex.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRvclxQYWdlc1xBcnRpY2xlTWFuYWdlbWVudFxBcnRpY2xlSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 

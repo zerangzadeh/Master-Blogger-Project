@@ -35,10 +35,9 @@ namespace MB.Domain.Models.ArticleAgg
             PicTitle = picTitle;
             PicALT = picALT;
             PicSrc = picSrc;
-            CategoryID = categoryID;
             IsDeleted = false;
             CreationDate = DateTime.Now;
-           
+            CategoryID = categoryID;
         }
     }
 }

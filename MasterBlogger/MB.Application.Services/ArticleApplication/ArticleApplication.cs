@@ -19,30 +19,41 @@ namespace MB.Application.Services.ArticleApplication
 
         public void Create(CreateArticleCommand article)
         {
-            _articleRepository.Create(new Article(article.Title,article.ShortDESC,article.Body,article.PicTitle,article.PicALT,article.PicSrc,article.CategoryID));
-               
+            _articleRepository.Create(new Article(article.Title, article.ShortDESC, article.Body, article.PicTitle, article.PicALT, article.PicSrc, article.CategoryID));
+
         }
 
         public void Delete(long articleID)
         {
-           _articleRepository.Delete(articleID);
+            _articleRepository.Delete(articleID);
         }
 
-     
+        public void Restore(long articleID)
+        {
+            _articleRepository.Restore(articleID);
+        }
 
         public List<ArticleViewModel> GetAll()
         {
             return _articleRepository.GetAll();
         }
 
-        public ArticleViewModel GetBy(long id)
+       
+        public void Update(EditArticleCommand articleCommand)
         {
-            throw new NotImplementedException();
+            _articleRepository.Update(articleCommand);
         }
 
-        public void Update(EditArticleCommandcs articleCommand)
+        public ArticleViewModel GetBy(long articleID)
         {
-            throw new NotImplementedException();
+            return _articleRepository.GetBy(articleID);
+
+        }
+
+        public EditArticleCommand GetDetails(long articleID)
+        {
+            return _articleRepository.GetDetails(articleID);
         }
     }
-}
+    }
+

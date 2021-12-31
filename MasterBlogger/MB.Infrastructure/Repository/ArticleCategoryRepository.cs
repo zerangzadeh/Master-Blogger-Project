@@ -54,8 +54,8 @@ namespace MB.Infrastructure.Repository
 
         public void Update(EditArticleCategoryCommand command)
         {
-            //GetBy(command.CategoryID).Title = command.Title;
-            //SaveChanges();
+            GetBy(command.CategoryID).Title = command.Title;
+            SaveChanges();
         }
 
         public bool Exist(string Title)

@@ -10,10 +10,12 @@ namespace MB.Domain.Models.ArticleAgg
     public interface IArticleRepository
     {
         public void Create(Article article);
-        public void Update(Article article);
+        public void Update(EditArticleCommand article);
         public void Delete(long articleID);
+        public void Restore(long articleID);
+        public EditArticleCommand GetDetails(long articleID);
         public List<ArticleViewModel> GetAll();
-        public Article GetBy(long articleID);
+        public ArticleViewModel GetBy(long articleID);
         public void SaveChanges();
 
     }

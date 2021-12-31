@@ -21,15 +21,15 @@ namespace MB.Presentation.Areas.Administrator.Pages.ArticleManagment
             articles = _articleApplication.GetAll();
         }
 
-        //public RedirectToPageResult OnGetRestore(int id)
-        //{
-        //    articleCategoryApplication.Restore(id);
-        //    return RedirectToPage("./ArticleCategoryIndex");
-        //}
-        //public RedirectToPageResult OnGetDelete(int id)
-        //{
-        //    articleCategoryApplication.Delete(id);
-        //    return RedirectToPage("./ArticleCategoryIndex");
-        //}
+        public RedirectToPageResult OnGetRestore(int ID)
+        {
+            _articleApplication.Restore(ID);
+            return RedirectToPage("./ArticleIndex");
+        }
+        public RedirectToPageResult OnGetDelete(int ID)
+        {
+            _articleApplication.Delete(ID);
+            return RedirectToPage("./ArticleIndex");
+        }
     }
 }

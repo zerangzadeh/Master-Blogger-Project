@@ -31,6 +31,12 @@ namespace MB.Infrastructure.Repository
             article.IsDeleted = true;
             SaveChanges();
         }
+        public void Restore(long articleID)
+        {
+            var article = GetBy(articleID);
+            article.IsDeleted = false;
+            SaveChanges();
+        }
 
         public List<ArticleViewModel> GetAll()
         {
@@ -50,9 +56,22 @@ namespace MB.Infrastructure.Repository
             }).ToList();
         }
 
-        public Article GetBy(long articleID)
+        public ArticleViewModel GetBy(long articleID)
         {
-            return _mBContext.Articles.FirstOrDefault(x=>x.ArticleID == articleID);
+            return _mBContext.Articles.Include(x => x.ArticleCategory)
+                .OrderByDescending(x => x.ArticleID).Select(x => new ArticleViewModel
+                {
+                    ArticleID = x.ArticleID,
+                    Title = x.Title,
+                    ShortDESC = x.ShortDESC,
+                    Body = x.Body,
+                    PicTitle = x.PicTitle,
+                    PicALT = x.PicALT,
+                    PicSrc = x.PicSrc,
+                    IsDeleted = x.IsDeleted,
+                    CreationDate = x.CreationDate.ToString(),
+                    ArticleCategory = x.ArticleCategory.Title
+                }).FirstOrDefault(x => x.ArticleID == articleID);
         }
 
       
@@ -62,7 +81,7 @@ namespace MB.Infrastructure.Repository
             _mBContext.SaveChanges();
         }
 
-        public void Update(Article article)
+        public void Update(EditArticleCommand article)
         {
             var articleForEdit=_mBContext.Articles.FirstOrDefault(x=>x.ArticleID==article.ArticleID);
             articleForEdit.Title = article.Title;
@@ -71,9 +90,24 @@ namespace MB.Infrastructure.Repository
             articleForEdit.PicTitle = article.PicTitle;
             articleForEdit.PicALT = article.PicALT;
             articleForEdit.PicSrc = article.PicSrc;
-            articleForEdit.IsDeleted = article.IsDeleted;
-            articleForEdit.CreationDate = article.CreationDate;
             articleForEdit.CategoryID = article.CategoryID;
+            SaveChanges();
+        }
+
+        public EditArticleCommand GetDetails(long articleID)
+        {
+            return _mBContext.Articles.Include(x => x.ArticleCategory)
+                .OrderByDescending(x => x.ArticleID).Select(x => new EditArticleCommand
+                {
+                    ArticleID = x.ArticleID,
+                    Title = x.Title,
+                    ShortDESC = x.ShortDESC,
+                    Body = x.Body,
+                    PicTitle = x.PicTitle,
+                    PicALT = x.PicALT,
+                    PicSrc = x.PicSrc,
+                    CategoryID = x.ArticleCategory.CategoryID
+                }).FirstOrDefault(x => x.ArticleID == articleID);
         }
     }
 }

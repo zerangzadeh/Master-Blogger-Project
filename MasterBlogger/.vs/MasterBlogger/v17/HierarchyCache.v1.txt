@@ -1,0 +1,649 @@
+﻿++Solution 'MasterBlogger' ‎(6 of 6 projects)
+i:{00000000-0000-0000-0000-000000000000}:MasterBlogger.sln
+++Infrastructure
+i:{00000000-0000-0000-0000-000000000000}:Infrastructure
+++MB.Infrastructure
+i:{c906ce7e-397d-43d7-98c3-a592ddcace98}:MB.Infrastructure
+i:{fddb9bba-d43b-4f33-b079-c49e0ae7d11e}:e:\it studies\asp.net sample\masterbloggerproject\masterblogger\mb.infrastructure\mb.infrastructure.csproj
+++Dependencies
+i:{bb7bfa5c-0dfd-4bc9-8f8f-1d8628ac62f7}:>800
+i:{fddb9bba-d43b-4f33-b079-c49e0ae7d11e}:>799
+i:{d71803ae-23c0-4277-ad61-86fbb85dddf9}:>802
+i:{0731f94e-9142-43b1-9968-31d533b78d9c}:>801
+i:{c2ce3d38-7db0-4ac6-9887-b769233458bc}:>803
+i:{c56753e6-84ec-4366-88b1-0b7c2a7bad63}:>1115
+++Mapping
+i:{bb7bfa5c-0dfd-4bc9-8f8f-1d8628ac62f7}:e:\it studies\asp.net sample\masterbloggerproject\masterblogger\mb.infrastructure\mapping\
+++ArticleCategoryMapping.cs
+i:{bb7bfa5c-0dfd-4bc9-8f8f-1d8628ac62f7}:e:\it studies\asp.net sample\masterbloggerproject\masterblogger\mb.infrastructure\mapping\articlecategorymapping.cs
+++Migrations
+i:{bb7bfa5c-0dfd-4bc9-8f8f-1d8628ac62f7}:e:\it studies\asp.net sample\masterbloggerproject\masterblogger\mb.infrastructure\migrations\
+++20211218162341_init.cs
+++20211221081414_alterDB.cs
+++20211222130524_test.cs
+++20211226182905_sec.cs
+++MBContextModelSnapshot.cs
+i:{bb7bfa5c-0dfd-4bc9-8f8f-1d8628ac62f7}:e:\it studies\asp.net sample\masterbloggerproject\masterblogger\mb.infrastructure\migrations\mbcontextmodelsnapshot.cs
+++Repository
+i:{bb7bfa5c-0dfd-4bc9-8f8f-1d8628ac62f7}:e:\it studies\asp.net sample\masterbloggerproject\masterblogger\mb.infrastructure\repository\
+++ArticleCategoryRepository.cs
+i:{bb7bfa5c-0dfd-4bc9-8f8f-1d8628ac62f7}:e:\it studies\asp.net sample\masterbloggerproject\masterblogger\mb.infrastructure\repository\articlecategoryrepository.cs
+++MBContext.cs
+i:{bb7bfa5c-0dfd-4bc9-8f8f-1d8628ac62f7}:e:\it studies\asp.net sample\masterbloggerproject\masterblogger\mb.infrastructure\mbcontext.cs
+++Analyzers
+i:{bb7bfa5c-0dfd-4bc9-8f8f-1d8628ac62f7}:analyzers
+i:{fddb9bba-d43b-4f33-b079-c49e0ae7d11e}:analyzers
+i:{d71803ae-23c0-4277-ad61-86fbb85dddf9}:analyzers
+i:{0731f94e-9142-43b1-9968-31d533b78d9c}:analyzers
+i:{c2ce3d38-7db0-4ac6-9887-b769233458bc}:analyzers
+i:{c56753e6-84ec-4366-88b1-0b7c2a7bad63}:analyzers
+++Frameworks
+i:{bb7bfa5c-0dfd-4bc9-8f8f-1d8628ac62f7}:frameworks
+i:{fddb9bba-d43b-4f33-b079-c49e0ae7d11e}:frameworks
+i:{d71803ae-23c0-4277-ad61-86fbb85dddf9}:frameworks
+i:{0731f94e-9142-43b1-9968-31d533b78d9c}:frameworks
+i:{c2ce3d38-7db0-4ac6-9887-b769233458bc}:frameworks
+i:{c56753e6-84ec-4366-88b1-0b7c2a7bad63}:frameworks
+++Packages
+i:{bb7bfa5c-0dfd-4bc9-8f8f-1d8628ac62f7}:packages
+i:{fddb9bba-d43b-4f33-b079-c49e0ae7d11e}:packages
+i:{c56753e6-84ec-4366-88b1-0b7c2a7bad63}:packages
+++Projects
+i:{bb7bfa5c-0dfd-4bc9-8f8f-1d8628ac62f7}:projects
+i:{fddb9bba-d43b-4f33-b079-c49e0ae7d11e}:projects
+i:{d71803ae-23c0-4277-ad61-86fbb85dddf9}:projects
+i:{c2ce3d38-7db0-4ac6-9887-b769233458bc}:projects
+i:{c56753e6-84ec-4366-88b1-0b7c2a7bad63}:projects
+++20211218162341_init.Designer.cs
+++20211221081414_alterDB.Designer.cs
+++20211222130524_test.Designer.cs
+++20211226182905_sec.Designer.cs
+++Microsoft.CodeAnalysis.CSharp.NetAnalyzers
+i:{bb7bfa5c-0dfd-4bc9-8f8f-1d8628ac62f7}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{fddb9bba-d43b-4f33-b079-c49e0ae7d11e}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{d71803ae-23c0-4277-ad61-86fbb85dddf9}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{0731f94e-9142-43b1-9968-31d533b78d9c}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{c2ce3d38-7db0-4ac6-9887-b769233458bc}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{c56753e6-84ec-4366-88b1-0b7c2a7bad63}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+++Microsoft.CodeAnalysis.NetAnalyzers
+i:{bb7bfa5c-0dfd-4bc9-8f8f-1d8628ac62f7}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{fddb9bba-d43b-4f33-b079-c49e0ae7d11e}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{d71803ae-23c0-4277-ad61-86fbb85dddf9}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{0731f94e-9142-43b1-9968-31d533b78d9c}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{c2ce3d38-7db0-4ac6-9887-b769233458bc}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{c56753e6-84ec-4366-88b1-0b7c2a7bad63}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+++Microsoft.EntityFrameworkCore.Analyzers
+i:{bb7bfa5c-0dfd-4bc9-8f8f-1d8628ac62f7}:c:\users\azera\.nuget\packages\microsoft.entityframeworkcore.analyzers\6.0.1\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+i:{fddb9bba-d43b-4f33-b079-c49e0ae7d11e}:c:\users\azera\.nuget\packages\microsoft.entityframeworkcore.analyzers\6.0.1\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+i:{c56753e6-84ec-4366-88b1-0b7c2a7bad63}:c:\users\azera\.nuget\packages\microsoft.entityframeworkcore.analyzers\6.0.1\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+++Microsoft.Extensions.Logging.Generators
+i:{bb7bfa5c-0dfd-4bc9-8f8f-1d8628ac62f7}:c:\users\azera\.nuget\packages\microsoft.extensions.logging.abstractions\6.0.0\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
+i:{fddb9bba-d43b-4f33-b079-c49e0ae7d11e}:c:\users\azera\.nuget\packages\microsoft.extensions.logging.abstractions\6.0.0\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
+i:{c56753e6-84ec-4366-88b1-0b7c2a7bad63}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.0\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
+++System.Text.Json.SourceGeneration
+i:{bb7bfa5c-0dfd-4bc9-8f8f-1d8628ac62f7}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.1\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+i:{fddb9bba-d43b-4f33-b079-c49e0ae7d11e}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.1\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+i:{d71803ae-23c0-4277-ad61-86fbb85dddf9}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.1\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+i:{0731f94e-9142-43b1-9968-31d533b78d9c}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.1\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+i:{c2ce3d38-7db0-4ac6-9887-b769233458bc}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.1\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+i:{c56753e6-84ec-4366-88b1-0b7c2a7bad63}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.1\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+++Microsoft.NETCore.App
+i:{bb7bfa5c-0dfd-4bc9-8f8f-1d8628ac62f7}:e:\it studies\asp.net sample\masterbloggerproject\masterblogger\mb.infrastructure\microsoft.netcore.app
+i:{fddb9bba-d43b-4f33-b079-c49e0ae7d11e}:e:\it studies\asp.net sample\masterbloggerproject\masterblogger\mb.infrastructure.config\microsoft.netcore.app
+i:{d71803ae-23c0-4277-ad61-86fbb85dddf9}:e:\it studies\asp.net sample\masterbloggerproject\masterblogger\mb.domain.model\microsoft.netcore.app
+i:{0731f94e-9142-43b1-9968-31d533b78d9c}:e:\it studies\asp.net sample\masterbloggerproject\masterblogger\mb.application.constact\microsoft.netcore.app
+i:{c2ce3d38-7db0-4ac6-9887-b769233458bc}:e:\it studies\asp.net sample\masterbloggerproject\masterblogger\mb.application.services\microsoft.netcore.app
+i:{c56753e6-84ec-4366-88b1-0b7c2a7bad63}:e:\it studies\asp.net sample\masterbloggerproject\masterblogger\mb.presentation\microsoft.netcore.app
+++Microsoft.EntityFrameworkCore (6.0.1)
+i:{bb7bfa5c-0dfd-4bc9-8f8f-1d8628ac62f7}:>1164
+++Microsoft.EntityFrameworkCore.Design (6.0.1)
+i:{bb7bfa5c-0dfd-4bc9-8f8f-1d8628ac62f7}:>1166
+++Microsoft.EntityFrameworkCore.SqlServer (6.0.1)
+i:{bb7bfa5c-0dfd-4bc9-8f8f-1d8628ac62f7}:>1165
+i:{c56753e6-84ec-4366-88b1-0b7c2a7bad63}:>3083
+++Microsoft.EntityFrameworkCore.Tools (6.0.1)
+i:{bb7bfa5c-0dfd-4bc9-8f8f-1d8628ac62f7}:>1167
+i:{c56753e6-84ec-4366-88b1-0b7c2a7bad63}:>3084
+++MB.Application.Contracts
+i:{bb7bfa5c-0dfd-4bc9-8f8f-1d8628ac62f7}:e:\it studies\asp.net sample\masterbloggerproject\masterblogger\mb.application.constact\mb.application.contracts.csproj
+i:{d71803ae-23c0-4277-ad61-86fbb85dddf9}:e:\it studies\asp.net sample\masterbloggerproject\masterblogger\mb.application.constact\mb.application.contracts.csproj
+i:{6d8c53eb-b8fb-4332-a612-52d8a98a4eb6}:MB.Application.Contracts
+i:{c2ce3d38-7db0-4ac6-9887-b769233458bc}:e:\it studies\asp.net sample\masterbloggerproject\masterblogger\mb.application.constact\mb.application.contracts.csproj
+++MB.Application.Services
+i:{bb7bfa5c-0dfd-4bc9-8f8f-1d8628ac62f7}:e:\it studies\asp.net sample\masterbloggerproject\masterblogger\mb.application.services\mb.application.services.csproj
+i:{75c5c1b4-8707-4a42-a7b6-1331526daa7a}:MB.Application.Services
+++MB.Domain.Models
+i:{bb7bfa5c-0dfd-4bc9-8f8f-1d8628ac62f7}:e:\it studies\asp.net sample\masterbloggerproject\masterblogger\mb.domain.model\mb.domain.models.csproj
+i:{3cb35d72-841b-4943-a2c7-dbb5373bdadb}:MB.Domain.Models
+i:{c2ce3d38-7db0-4ac6-9887-b769233458bc}:e:\it studies\asp.net sample\masterbloggerproject\masterblogger\mb.domain.model\mb.domain.models.csproj
+++MB.Infrastructure.Config
+i:{c906ce7e-397d-43d7-98c3-a592ddcace98}:MB.Infrastructure.Config
+i:{c56753e6-84ec-4366-88b1-0b7c2a7bad63}:e:\it studies\asp.net sample\masterbloggerproject\masterblogger\mb.infrastructure.config\mb.infrastructure.config.csproj
+++BootStrapper.cs
+i:{fddb9bba-d43b-4f33-b079-c49e0ae7d11e}:e:\it studies\asp.net sample\masterbloggerproject\masterblogger\mb.infrastructure.config\bootstrapper.cs
+++Microsoft.Extensions.DependencyInjection (6.0.0)
+i:{fddb9bba-d43b-4f33-b079-c49e0ae7d11e}:>1142
+++Core
+i:{00000000-0000-0000-0000-000000000000}:Core
+++Domain
+i:{7b6360c2-0971-47fa-b976-7a8621e3447c}:Domain
+++Models
+i:{14669225-dae8-42b7-bc9e-2d91ef54710d}:Models
+++ArticleAgg
+i:{d71803ae-23c0-4277-ad61-86fbb85dddf9}:e:\it studies\asp.net sample\masterbloggerproject\masterblogger\mb.domain.model\articleagg\
+++ArticleCategoryAgg
+i:{d71803ae-23c0-4277-ad61-86fbb85dddf9}:e:\it studies\asp.net sample\masterbloggerproject\masterblogger\mb.domain.model\articlecategoryagg\
+++Exceptions
+i:{d71803ae-23c0-4277-ad61-86fbb85dddf9}:e:\it studies\asp.net sample\masterbloggerproject\masterblogger\mb.domain.model\articlecategoryagg\exceptions\
+++DuplicatedRecordException.cs
+i:{d71803ae-23c0-4277-ad61-86fbb85dddf9}:e:\it studies\asp.net sample\masterbloggerproject\masterblogger\mb.domain.model\articlecategoryagg\exceptions\duplicatedrecordexception.cs
+++Services
+i:{d71803ae-23c0-4277-ad61-86fbb85dddf9}:e:\it studies\asp.net sample\masterbloggerproject\masterblogger\mb.domain.model\articlecategoryagg\services\
+++ArticleCategoryValidatorService.cs
+i:{d71803ae-23c0-4277-ad61-86fbb85dddf9}:e:\it studies\asp.net sample\masterbloggerproject\masterblogger\mb.domain.model\articlecategoryagg\services\articlecategoryvalidatorservice.cs
+++IArticleCategoryValidatorService.cs
+i:{d71803ae-23c0-4277-ad61-86fbb85dddf9}:e:\it studies\asp.net sample\masterbloggerproject\masterblogger\mb.domain.model\articlecategoryagg\services\iarticlecategoryvalidatorservice.cs
+++ArticleCategory.cs
+i:{d71803ae-23c0-4277-ad61-86fbb85dddf9}:e:\it studies\asp.net sample\masterbloggerproject\masterblogger\mb.domain.model\articlecategoryagg\articlecategory.cs
+++IArticleCategoryRepository.cs
+i:{d71803ae-23c0-4277-ad61-86fbb85dddf9}:e:\it studies\asp.net sample\masterbloggerproject\masterblogger\mb.domain.model\articlecategoryagg\iarticlecategoryrepository.cs
+++Application
+i:{7b6360c2-0971-47fa-b976-7a8621e3447c}:Application
+++ApplicationContracts
+i:{73e48230-b238-48e4-9007-42adfabb5afc}:ApplicationContracts
+++ArticleCategory
+i:{0731f94e-9142-43b1-9968-31d533b78d9c}:e:\it studies\asp.net sample\masterbloggerproject\masterblogger\mb.application.constact\articlecategory\
+++ArticleCategoryViewModel.cs
+i:{0731f94e-9142-43b1-9968-31d533b78d9c}:e:\it studies\asp.net sample\masterbloggerproject\masterblogger\mb.application.constact\articlecategory\articlecategoryviewmodel.cs
+++CreateArticleCategoryCommand.cs
+i:{0731f94e-9142-43b1-9968-31d533b78d9c}:e:\it studies\asp.net sample\masterbloggerproject\masterblogger\mb.application.constact\articlecategory\createarticlecategorycommand.cs
+++EditArticleCategoryCommand.cs
+i:{0731f94e-9142-43b1-9968-31d533b78d9c}:e:\it studies\asp.net sample\masterbloggerproject\masterblogger\mb.application.constact\articlecategory\editarticlecategorycommand.cs
+++IArticleCategoryApplication.cs
+i:{0731f94e-9142-43b1-9968-31d533b78d9c}:e:\it studies\asp.net sample\masterbloggerproject\masterblogger\mb.application.constact\articlecategory\iarticlecategoryapplication.cs
+++ApplicationServices
+i:{73e48230-b238-48e4-9007-42adfabb5afc}:ApplicationServices
+++ArticleCategoryApplication
+i:{c2ce3d38-7db0-4ac6-9887-b769233458bc}:e:\it studies\asp.net sample\masterbloggerproject\masterblogger\mb.application.services\articlecategoryapplication\
+++ArticleCategoryApplication.cs
+i:{c2ce3d38-7db0-4ac6-9887-b769233458bc}:e:\it studies\asp.net sample\masterbloggerproject\masterblogger\mb.application.services\articlecategoryapplication\articlecategoryapplication.cs
+++Presentation
+i:{00000000-0000-0000-0000-000000000000}:Presentation
+++MB.Presentation
+i:{5f2b5c29-58fb-4a22-bbde-d7627b734998}:MB.Presentation
+++Connected Services 
+i:{c56753e6-84ec-4366-88b1-0b7c2a7bad63}:>1116
+++SQL Server Database (ConnectionStrings:MasterBloggerDB)
+i:{c56753e6-84ec-4366-88b1-0b7c2a7bad63}:>1441
+++Properties
+i:{c56753e6-84ec-4366-88b1-0b7c2a7bad63}:e:\it studies\asp.net sample\masterbloggerproject\masterblogger\mb.presentation\properties\
+++launchSettings.json
+i:{c56753e6-84ec-4366-88b1-0b7c2a7bad63}:e:\it studies\asp.net sample\masterbloggerproject\masterblogger\mb.presentation\properties\launchsettings.json
+++wwwroot
+i:{c56753e6-84ec-4366-88b1-0b7c2a7bad63}:e:\it studies\asp.net sample\masterbloggerproject\masterblogger\mb.presentation\wwwroot\
+++css
+i:{c56753e6-84ec-4366-88b1-0b7c2a7bad63}:e:\it studies\asp.net sample\masterbloggerproject\masterblogger\mb.presentation\wwwroot\css\
+i:{c56753e6-84ec-4366-88b1-0b7c2a7bad63}:e:\it studies\asp.net sample\masterbloggerproject\masterblogger\mb.presentation\wwwroot\vendor\bootstrap\css\
+i:{c56753e6-84ec-4366-88b1-0b7c2a7bad63}:e:\it studies\asp.net sample\masterbloggerproject\masterblogger\mb.presentation\wwwroot\vendor\font-awesome\css\
+i:{c56753e6-84ec-4366-88b1-0b7c2a7bad63}:e:\it studies\asp.net sample\masterbloggerproject\masterblogger\mb.presentation\wwwroot\lib\bootstrap\dist\css\
+++fonts
+i:{c56753e6-84ec-4366-88b1-0b7c2a7bad63}:e:\it studies\asp.net sample\masterbloggerproject\masterblogger\mb.presentation\wwwroot\fonts\
+i:{c56753e6-84ec-4366-88b1-0b7c2a7bad63}:e:\it studies\asp.net sample\masterbloggerproject\masterblogger\mb.presentation\wwwroot\icons-reference\fonts\
+i:{c56753e6-84ec-4366-88b1-0b7c2a7bad63}:e:\it studies\asp.net sample\masterbloggerproject\masterblogger\mb.presentation\wwwroot\vendor\font-awesome\fonts\
+++icons-reference
+i:{c56753e6-84ec-4366-88b1-0b7c2a7bad63}:e:\it studies\asp.net sample\masterbloggerproject\masterblogger\mb.presentation\wwwroot\icons-reference\
+++img
+i:{c56753e6-84ec-4366-88b1-0b7c2a7bad63}:e:\it studies\asp.net sample\masterbloggerproject\masterblogger\mb.presentation\wwwroot\img\
+++js
+i:{c56753e6-84ec-4366-88b1-0b7c2a7bad63}:e:\it studies\asp.net sample\masterbloggerproject\masterblogger\mb.presentation\wwwroot\js\
+i:{c56753e6-84ec-4366-88b1-0b7c2a7bad63}:e:\it studies\asp.net sample\masterbloggerproject\masterblogger\mb.presentation\wwwroot\vendor\bootstrap\js\
+i:{c56753e6-84ec-4366-88b1-0b7c2a7bad63}:e:\it studies\asp.net sample\masterbloggerproject\masterblogger\mb.presentation\wwwroot\lib\bootstrap\dist\js\
+++lib
+i:{c56753e6-84ec-4366-88b1-0b7c2a7bad63}:e:\it studies\asp.net sample\masterbloggerproject\masterblogger\mb.presentation\wwwroot\lib\
+++vendor
+i:{c56753e6-84ec-4366-88b1-0b7c2a7bad63}:e:\it studies\asp.net sample\masterbloggerproject\masterblogger\mb.presentation\wwwroot\vendor\
+++favicon.ico
+i:{c56753e6-84ec-4366-88b1-0b7c2a7bad63}:e:\it studies\asp.net sample\masterbloggerproject\masterblogger\mb.presentation\wwwroot\favicon.ico
+i:{c56753e6-84ec-4366-88b1-0b7c2a7bad63}:e:\it studies\asp.net sample\masterbloggerproject\masterblogger\mb.presentation\wwwroot\img\favicon.ico
+++Areas
+i:{c56753e6-84ec-4366-88b1-0b7c2a7bad63}:e:\it studies\asp.net sample\masterbloggerproject\masterblogger\mb.presentation\areas\
+++Administrator
+i:{c56753e6-84ec-4366-88b1-0b7c2a7bad63}:e:\it studies\asp.net sample\masterbloggerproject\masterblogger\mb.presentation\areas\administrator\
+++Pages
+i:{c56753e6-84ec-4366-88b1-0b7c2a7bad63}:e:\it studies\asp.net sample\masterbloggerproject\masterblogger\mb.presentation\areas\administrator\pages\
+i:{c56753e6-84ec-4366-88b1-0b7c2a7bad63}:e:\it studies\asp.net sample\masterbloggerproject\masterblogger\mb.presentation\pages\
+++ArticleCategoryManagment
+++ArticleCategoryIndex.cshtml
+i:{c56753e6-84ec-4366-88b1-0b7c2a7bad63}:e:\it studies\asp.net sample\masterbloggerproject\masterblogger\mb.presentation\areas\administrator\pages\articlecategorymanagement\articlecategoryindex.cshtml
+++ArticleCategoryIndex.cshtml.cs
+i:{c56753e6-84ec-4366-88b1-0b7c2a7bad63}:e:\it studies\asp.net sample\masterbloggerproject\masterblogger\mb.presentation\areas\administrator\pages\articlecategorymanagement\articlecategoryindex.cshtml.cs
+++CreateArticleCategory.cshtml
+i:{c56753e6-84ec-4366-88b1-0b7c2a7bad63}:e:\it studies\asp.net sample\masterbloggerproject\masterblogger\mb.presentation\areas\administrator\pages\articlecategorymanagement\createarticlecategory.cshtml
+++CreateArticleCategory.cshtml.cs
+i:{c56753e6-84ec-4366-88b1-0b7c2a7bad63}:e:\it studies\asp.net sample\masterbloggerproject\masterblogger\mb.presentation\areas\administrator\pages\articlecategorymanagement\createarticlecategory.cshtml.cs
+++EditArticleCategory.cshtml
+i:{c56753e6-84ec-4366-88b1-0b7c2a7bad63}:e:\it studies\asp.net sample\masterbloggerproject\masterblogger\mb.presentation\areas\administrator\pages\articlecategorymanagement\editarticlecategory.cshtml
+++EditArticleCategory.cshtml.cs
+i:{c56753e6-84ec-4366-88b1-0b7c2a7bad63}:e:\it studies\asp.net sample\masterbloggerproject\masterblogger\mb.presentation\areas\administrator\pages\articlecategorymanagement\editarticlecategory.cshtml.cs
+++Shared
+i:{c56753e6-84ec-4366-88b1-0b7c2a7bad63}:e:\it studies\asp.net sample\masterbloggerproject\masterblogger\mb.presentation\areas\administrator\pages\shared\
+i:{c56753e6-84ec-4366-88b1-0b7c2a7bad63}:e:\it studies\asp.net sample\masterbloggerproject\masterblogger\mb.presentation\pages\shared\
+++_Layout.cshtml
+i:{c56753e6-84ec-4366-88b1-0b7c2a7bad63}:e:\it studies\asp.net sample\masterbloggerproject\masterblogger\mb.presentation\areas\administrator\pages\shared\_layout.cshtml
+i:{c56753e6-84ec-4366-88b1-0b7c2a7bad63}:e:\it studies\asp.net sample\masterbloggerproject\masterblogger\mb.presentation\pages\shared\_layout.cshtml
+++_ValidationScriptsPartial.cshtml
+i:{c56753e6-84ec-4366-88b1-0b7c2a7bad63}:e:\it studies\asp.net sample\masterbloggerproject\masterblogger\mb.presentation\areas\administrator\pages\shared\_validationscriptspartial.cshtml
+i:{c56753e6-84ec-4366-88b1-0b7c2a7bad63}:e:\it studies\asp.net sample\masterbloggerproject\masterblogger\mb.presentation\pages\shared\_validationscriptspartial.cshtml
+++_ViewImports.cshtml
+i:{c56753e6-84ec-4366-88b1-0b7c2a7bad63}:e:\it studies\asp.net sample\masterbloggerproject\masterblogger\mb.presentation\areas\administrator\pages\_viewimports.cshtml
+i:{c56753e6-84ec-4366-88b1-0b7c2a7bad63}:e:\it studies\asp.net sample\masterbloggerproject\masterblogger\mb.presentation\pages\_viewimports.cshtml
+++_ViewStart.cshtml
+i:{c56753e6-84ec-4366-88b1-0b7c2a7bad63}:e:\it studies\asp.net sample\masterbloggerproject\masterblogger\mb.presentation\areas\administrator\pages\_viewstart.cshtml
+i:{c56753e6-84ec-4366-88b1-0b7c2a7bad63}:e:\it studies\asp.net sample\masterbloggerproject\masterblogger\mb.presentation\pages\_viewstart.cshtml
+++Error.cshtml
+i:{c56753e6-84ec-4366-88b1-0b7c2a7bad63}:e:\it studies\asp.net sample\masterbloggerproject\masterblogger\mb.presentation\areas\administrator\pages\error.cshtml
+++Index.cshtml
+i:{c56753e6-84ec-4366-88b1-0b7c2a7bad63}:e:\it studies\asp.net sample\masterbloggerproject\masterblogger\mb.presentation\areas\administrator\pages\index.cshtml
+i:{c56753e6-84ec-4366-88b1-0b7c2a7bad63}:e:\it studies\asp.net sample\masterbloggerproject\masterblogger\mb.presentation\pages\index.cshtml
+++Privacy.cshtml
+i:{c56753e6-84ec-4366-88b1-0b7c2a7bad63}:e:\it studies\asp.net sample\masterbloggerproject\masterblogger\mb.presentation\areas\administrator\pages\privacy.cshtml
+++appsettings.json
+i:{c56753e6-84ec-4366-88b1-0b7c2a7bad63}:e:\it studies\asp.net sample\masterbloggerproject\masterblogger\mb.presentation\appsettings.json
+++appsettings.Development.json
+i:{c56753e6-84ec-4366-88b1-0b7c2a7bad63}:e:\it studies\asp.net sample\masterbloggerproject\masterblogger\mb.presentation\appsettings.development.json
+++Program.cs
+i:{c56753e6-84ec-4366-88b1-0b7c2a7bad63}:e:\it studies\asp.net sample\masterbloggerproject\masterblogger\mb.presentation\program.cs
+++SQL Server Database dependency with connectionId 'ConnectionStrings:MasterBloggerDB' is detected
+i:{c56753e6-84ec-4366-88b1-0b7c2a7bad63}:>1442
+++custom.css
+i:{c56753e6-84ec-4366-88b1-0b7c2a7bad63}:e:\it studies\asp.net sample\masterbloggerproject\masterblogger\mb.presentation\wwwroot\css\custom.css
+++fontastic.css
+i:{c56753e6-84ec-4366-88b1-0b7c2a7bad63}:e:\it studies\asp.net sample\masterbloggerproject\masterblogger\mb.presentation\wwwroot\css\fontastic.css
+++site.css
+i:{c56753e6-84ec-4366-88b1-0b7c2a7bad63}:e:\it studies\asp.net sample\masterbloggerproject\masterblogger\mb.presentation\wwwroot\css\site.css
+++style.blue.css
+i:{c56753e6-84ec-4366-88b1-0b7c2a7bad63}:e:\it studies\asp.net sample\masterbloggerproject\masterblogger\mb.presentation\wwwroot\css\style.blue.css
+++style.default.css
+i:{c56753e6-84ec-4366-88b1-0b7c2a7bad63}:e:\it studies\asp.net sample\masterbloggerproject\masterblogger\mb.presentation\wwwroot\css\style.default.css
+++style.green.css
+i:{c56753e6-84ec-4366-88b1-0b7c2a7bad63}:e:\it studies\asp.net sample\masterbloggerproject\masterblogger\mb.presentation\wwwroot\css\style.green.css
+++style.pink.css
+i:{c56753e6-84ec-4366-88b1-0b7c2a7bad63}:e:\it studies\asp.net sample\masterbloggerproject\masterblogger\mb.presentation\wwwroot\css\style.pink.css
+++style.red.css
+i:{c56753e6-84ec-4366-88b1-0b7c2a7bad63}:e:\it studies\asp.net sample\masterbloggerproject\masterblogger\mb.presentation\wwwroot\css\style.red.css
+++style.sea.css
+i:{c56753e6-84ec-4366-88b1-0b7c2a7bad63}:e:\it studies\asp.net sample\masterbloggerproject\masterblogger\mb.presentation\wwwroot\css\style.sea.css
+++style.violet.css
+i:{c56753e6-84ec-4366-88b1-0b7c2a7bad63}:e:\it studies\asp.net sample\masterbloggerproject\masterblogger\mb.presentation\wwwroot\css\style.violet.css
+++blog.eot
+i:{c56753e6-84ec-4366-88b1-0b7c2a7bad63}:e:\it studies\asp.net sample\masterbloggerproject\masterblogger\mb.presentation\wwwroot\fonts\blog.eot
+i:{c56753e6-84ec-4366-88b1-0b7c2a7bad63}:e:\it studies\asp.net sample\masterbloggerproject\masterblogger\mb.presentation\wwwroot\icons-reference\fonts\blog.eot
+++blog.svg
+i:{c56753e6-84ec-4366-88b1-0b7c2a7bad63}:e:\it studies\asp.net sample\masterbloggerproject\masterblogger\mb.presentation\wwwroot\fonts\blog.svg
+i:{c56753e6-84ec-4366-88b1-0b7c2a7bad63}:e:\it studies\asp.net sample\masterbloggerproject\masterblogger\mb.presentation\wwwroot\icons-reference\fonts\blog.svg
+++blog.ttf
+i:{c56753e6-84ec-4366-88b1-0b7c2a7bad63}:e:\it studies\asp.net sample\masterbloggerproject\masterblogger\mb.presentation\wwwroot\fonts\blog.ttf
+i:{c56753e6-84ec-4366-88b1-0b7c2a7bad63}:e:\it studies\asp.net sample\masterbloggerproject\masterblogger\mb.presentation\wwwroot\icons-reference\fonts\blog.ttf
+++blog.woff
+i:{c56753e6-84ec-4366-88b1-0b7c2a7bad63}:e:\it studies\asp.net sample\masterbloggerproject\masterblogger\mb.presentation\wwwroot\fonts\blog.woff
+i:{c56753e6-84ec-4366-88b1-0b7c2a7bad63}:e:\it studies\asp.net sample\masterbloggerproject\masterblogger\mb.presentation\wwwroot\icons-reference\fonts\blog.woff
+++icons-reference.html
+i:{c56753e6-84ec-4366-88b1-0b7c2a7bad63}:e:\it studies\asp.net sample\masterbloggerproject\masterblogger\mb.presentation\wwwroot\icons-reference\icons-reference.html
+++styles.css
+i:{c56753e6-84ec-4366-88b1-0b7c2a7bad63}:e:\it studies\asp.net sample\masterbloggerproject\masterblogger\mb.presentation\wwwroot\icons-reference\styles.css
+++avatar-1.jpg
+i:{c56753e6-84ec-4366-88b1-0b7c2a7bad63}:e:\it studies\asp.net sample\masterbloggerproject\masterblogger\mb.presentation\wwwroot\img\avatar-1.jpg
+++avatar-2.jpg
+i:{c56753e6-84ec-4366-88b1-0b7c2a7bad63}:e:\it studies\asp.net sample\masterbloggerproject\masterblogger\mb.presentation\wwwroot\img\avatar-2.jpg
+++avatar-3.jpg
+i:{c56753e6-84ec-4366-88b1-0b7c2a7bad63}:e:\it studies\asp.net sample\masterbloggerproject\masterblogger\mb.presentation\wwwroot\img\avatar-3.jpg
+++blog-1.jpg
+i:{c56753e6-84ec-4366-88b1-0b7c2a7bad63}:e:\it studies\asp.net sample\masterbloggerproject\masterblogger\mb.presentation\wwwroot\img\blog-1.jpg
+++blog-2.jpg
+i:{c56753e6-84ec-4366-88b1-0b7c2a7bad63}:e:\it studies\asp.net sample\masterbloggerproject\masterblogger\mb.presentation\wwwroot\img\blog-2.jpg
+++blog-3.jpg
+i:{c56753e6-84ec-4366-88b1-0b7c2a7bad63}:e:\it studies\asp.net sample\masterbloggerproject\masterblogger\mb.presentation\wwwroot\img\blog-3.jpg
+++blog-post-1.jpeg
+i:{c56753e6-84ec-4366-88b1-0b7c2a7bad63}:e:\it studies\asp.net sample\masterbloggerproject\masterblogger\mb.presentation\wwwroot\img\blog-post-1.jpeg
+++blog-post-2.jpg
+i:{c56753e6-84ec-4366-88b1-0b7c2a7bad63}:e:\it studies\asp.net sample\masterbloggerproject\masterblogger\mb.presentation\wwwroot\img\blog-post-2.jpg
+++blog-post-3.jpeg
+i:{c56753e6-84ec-4366-88b1-0b7c2a7bad63}:e:\it studies\asp.net sample\masterbloggerproject\masterblogger\mb.presentation\wwwroot\img\blog-post-3.jpeg
+++blog-post-4.jpeg
+i:{c56753e6-84ec-4366-88b1-0b7c2a7bad63}:e:\it studies\asp.net sample\masterbloggerproject\masterblogger\mb.presentation\wwwroot\img\blog-post-4.jpeg
+++divider-bg.jpg
+i:{c56753e6-84ec-4366-88b1-0b7c2a7bad63}:e:\it studies\asp.net sample\masterbloggerproject\masterblogger\mb.presentation\wwwroot\img\divider-bg.jpg
+++featured-pic-1.jpeg
+i:{c56753e6-84ec-4366-88b1-0b7c2a7bad63}:e:\it studies\asp.net sample\masterbloggerproject\masterblogger\mb.presentation\wwwroot\img\featured-pic-1.jpeg
+++featured-pic-2.jpeg
+i:{c56753e6-84ec-4366-88b1-0b7c2a7bad63}:e:\it studies\asp.net sample\masterbloggerproject\masterblogger\mb.presentation\wwwroot\img\featured-pic-2.jpeg
+++featured-pic-3.jpeg
+i:{c56753e6-84ec-4366-88b1-0b7c2a7bad63}:e:\it studies\asp.net sample\masterbloggerproject\masterblogger\mb.presentation\wwwroot\img\featured-pic-3.jpeg
+++gallery-1.jpg
+i:{c56753e6-84ec-4366-88b1-0b7c2a7bad63}:e:\it studies\asp.net sample\masterbloggerproject\masterblogger\mb.presentation\wwwroot\img\gallery-1.jpg
+++gallery-2.jpeg
+i:{c56753e6-84ec-4366-88b1-0b7c2a7bad63}:e:\it studies\asp.net sample\masterbloggerproject\masterblogger\mb.presentation\wwwroot\img\gallery-2.jpeg
+++gallery-2.jpg
+i:{c56753e6-84ec-4366-88b1-0b7c2a7bad63}:e:\it studies\asp.net sample\masterbloggerproject\masterblogger\mb.presentation\wwwroot\img\gallery-2.jpg
+++gallery-3.jpg
+i:{c56753e6-84ec-4366-88b1-0b7c2a7bad63}:e:\it studies\asp.net sample\masterbloggerproject\masterblogger\mb.presentation\wwwroot\img\gallery-3.jpg
+++gallery-4.jpg
+i:{c56753e6-84ec-4366-88b1-0b7c2a7bad63}:e:\it studies\asp.net sample\masterbloggerproject\masterblogger\mb.presentation\wwwroot\img\gallery-4.jpg
+++hero.jpg
+i:{c56753e6-84ec-4366-88b1-0b7c2a7bad63}:e:\it studies\asp.net sample\masterbloggerproject\masterblogger\mb.presentation\wwwroot\img\hero.jpg
+++hero-bg.jpg
+i:{c56753e6-84ec-4366-88b1-0b7c2a7bad63}:e:\it studies\asp.net sample\masterbloggerproject\masterblogger\mb.presentation\wwwroot\img\hero-bg.jpg
+++logo.png
+i:{c56753e6-84ec-4366-88b1-0b7c2a7bad63}:e:\it studies\asp.net sample\masterbloggerproject\masterblogger\mb.presentation\wwwroot\img\logo.png
+++logo-white.png
+i:{c56753e6-84ec-4366-88b1-0b7c2a7bad63}:e:\it studies\asp.net sample\masterbloggerproject\masterblogger\mb.presentation\wwwroot\img\logo-white.png
+++small-thumbnail-1.jpg
+i:{c56753e6-84ec-4366-88b1-0b7c2a7bad63}:e:\it studies\asp.net sample\masterbloggerproject\masterblogger\mb.presentation\wwwroot\img\small-thumbnail-1.jpg
+++small-thumbnail-2.jpg
+i:{c56753e6-84ec-4366-88b1-0b7c2a7bad63}:e:\it studies\asp.net sample\masterbloggerproject\masterblogger\mb.presentation\wwwroot\img\small-thumbnail-2.jpg
+++small-thumbnail-3.jpg
+i:{c56753e6-84ec-4366-88b1-0b7c2a7bad63}:e:\it studies\asp.net sample\masterbloggerproject\masterblogger\mb.presentation\wwwroot\img\small-thumbnail-3.jpg
+++template-mac.png
+i:{c56753e6-84ec-4366-88b1-0b7c2a7bad63}:e:\it studies\asp.net sample\masterbloggerproject\masterblogger\mb.presentation\wwwroot\img\template-mac.png
+++user.svg
+i:{c56753e6-84ec-4366-88b1-0b7c2a7bad63}:e:\it studies\asp.net sample\masterbloggerproject\masterblogger\mb.presentation\wwwroot\img\user.svg
+++front.js
+i:{c56753e6-84ec-4366-88b1-0b7c2a7bad63}:e:\it studies\asp.net sample\masterbloggerproject\masterblogger\mb.presentation\wwwroot\js\front.js
+++site.js
+i:{c56753e6-84ec-4366-88b1-0b7c2a7bad63}:e:\it studies\asp.net sample\masterbloggerproject\masterblogger\mb.presentation\wwwroot\js\site.js
+++bootstrap
+i:{c56753e6-84ec-4366-88b1-0b7c2a7bad63}:e:\it studies\asp.net sample\masterbloggerproject\masterblogger\mb.presentation\wwwroot\lib\bootstrap\
+i:{c56753e6-84ec-4366-88b1-0b7c2a7bad63}:e:\it studies\asp.net sample\masterbloggerproject\masterblogger\mb.presentation\wwwroot\vendor\bootstrap\
+++jquery
+i:{c56753e6-84ec-4366-88b1-0b7c2a7bad63}:e:\it studies\asp.net sample\masterbloggerproject\masterblogger\mb.presentation\wwwroot\lib\jquery\
+i:{c56753e6-84ec-4366-88b1-0b7c2a7bad63}:e:\it studies\asp.net sample\masterbloggerproject\masterblogger\mb.presentation\wwwroot\vendor\jquery\
+++jquery-validation
+i:{c56753e6-84ec-4366-88b1-0b7c2a7bad63}:e:\it studies\asp.net sample\masterbloggerproject\masterblogger\mb.presentation\wwwroot\lib\jquery-validation\
+++jquery-validation-unobtrusive
+i:{c56753e6-84ec-4366-88b1-0b7c2a7bad63}:e:\it studies\asp.net sample\masterbloggerproject\masterblogger\mb.presentation\wwwroot\lib\jquery-validation-unobtrusive\
+++fancyapps
+i:{c56753e6-84ec-4366-88b1-0b7c2a7bad63}:e:\it studies\asp.net sample\masterbloggerproject\masterblogger\mb.presentation\wwwroot\vendor\fancyapps\
+++font-awesome
+i:{c56753e6-84ec-4366-88b1-0b7c2a7bad63}:e:\it studies\asp.net sample\masterbloggerproject\masterblogger\mb.presentation\wwwroot\vendor\font-awesome\
+++jquery.cookie
+i:{c56753e6-84ec-4366-88b1-0b7c2a7bad63}:e:\it studies\asp.net sample\masterbloggerproject\masterblogger\mb.presentation\wwwroot\vendor\jquery.cookie\
+++popper.js
+i:{c56753e6-84ec-4366-88b1-0b7c2a7bad63}:e:\it studies\asp.net sample\masterbloggerproject\masterblogger\mb.presentation\wwwroot\vendor\popper.js\
+i:{c56753e6-84ec-4366-88b1-0b7c2a7bad63}:e:\it studies\asp.net sample\masterbloggerproject\masterblogger\mb.presentation\wwwroot\vendor\popper.js\popper.js
+i:{c56753e6-84ec-4366-88b1-0b7c2a7bad63}:e:\it studies\asp.net sample\masterbloggerproject\masterblogger\mb.presentation\wwwroot\vendor\popper.js\esm\popper.js
+i:{c56753e6-84ec-4366-88b1-0b7c2a7bad63}:e:\it studies\asp.net sample\masterbloggerproject\masterblogger\mb.presentation\wwwroot\vendor\popper.js\umd\popper.js
+++Error.cshtml.cs
+i:{c56753e6-84ec-4366-88b1-0b7c2a7bad63}:e:\it studies\asp.net sample\masterbloggerproject\masterblogger\mb.presentation\areas\administrator\pages\error.cshtml.cs
+++Index.cshtml.cs
+i:{c56753e6-84ec-4366-88b1-0b7c2a7bad63}:e:\it studies\asp.net sample\masterbloggerproject\masterblogger\mb.presentation\areas\administrator\pages\index.cshtml.cs
+i:{c56753e6-84ec-4366-88b1-0b7c2a7bad63}:e:\it studies\asp.net sample\masterbloggerproject\masterblogger\mb.presentation\pages\index.cshtml.cs
+++Privacy.cshtml.cs
+i:{c56753e6-84ec-4366-88b1-0b7c2a7bad63}:e:\it studies\asp.net sample\masterbloggerproject\masterblogger\mb.presentation\areas\administrator\pages\privacy.cshtml.cs
+++Microsoft.AspNetCore.Analyzers
+i:{c56753e6-84ec-4366-88b1-0b7c2a7bad63}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.analyzers.dll
+++Microsoft.AspNetCore.App.Analyzers
+i:{c56753e6-84ec-4366-88b1-0b7c2a7bad63}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.0\analyzers\dotnet\cs\microsoft.aspnetcore.app.analyzers.dll
+++Microsoft.AspNetCore.App.CodeFixes
+i:{c56753e6-84ec-4366-88b1-0b7c2a7bad63}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.0\analyzers\dotnet\cs\microsoft.aspnetcore.app.codefixes.dll
+++Microsoft.AspNetCore.Components.Analyzers
+i:{c56753e6-84ec-4366-88b1-0b7c2a7bad63}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.components.analyzers.dll
+++Microsoft.AspNetCore.Mvc.Analyzers
+i:{c56753e6-84ec-4366-88b1-0b7c2a7bad63}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.mvc.analyzers.dll
+++Microsoft.AspNetCore.Razor.Internal.SourceGenerator.Transport
+i:{c56753e6-84ec-4366-88b1-0b7c2a7bad63}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk.razor\source-generators\microsoft.aspnetcore.razor.internal.sourcegenerator.transport.dll
+++Microsoft.NET.Sdk.Razor.SourceGenerators
+i:{c56753e6-84ec-4366-88b1-0b7c2a7bad63}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk.razor\source-generators\microsoft.net.sdk.razor.sourcegenerators.dll
+++Microsoft.AspNetCore.App
+i:{c56753e6-84ec-4366-88b1-0b7c2a7bad63}:e:\it studies\asp.net sample\masterbloggerproject\masterblogger\mb.presentation\microsoft.aspnetcore.app
+++dist
+i:{c56753e6-84ec-4366-88b1-0b7c2a7bad63}:e:\it studies\asp.net sample\masterbloggerproject\masterblogger\mb.presentation\wwwroot\lib\bootstrap\dist\
+i:{c56753e6-84ec-4366-88b1-0b7c2a7bad63}:e:\it studies\asp.net sample\masterbloggerproject\masterblogger\mb.presentation\wwwroot\lib\jquery\dist\
+i:{c56753e6-84ec-4366-88b1-0b7c2a7bad63}:e:\it studies\asp.net sample\masterbloggerproject\masterblogger\mb.presentation\wwwroot\lib\jquery-validation\dist\
+++LICENSE
+i:{c56753e6-84ec-4366-88b1-0b7c2a7bad63}:e:\it studies\asp.net sample\masterbloggerproject\masterblogger\mb.presentation\wwwroot\lib\bootstrap\license
+++LICENSE.txt
+i:{c56753e6-84ec-4366-88b1-0b7c2a7bad63}:e:\it studies\asp.net sample\masterbloggerproject\masterblogger\mb.presentation\wwwroot\lib\jquery\license.txt
+i:{c56753e6-84ec-4366-88b1-0b7c2a7bad63}:e:\it studies\asp.net sample\masterbloggerproject\masterblogger\mb.presentation\wwwroot\lib\jquery-validation-unobtrusive\license.txt
+++LICENSE.md
+i:{c56753e6-84ec-4366-88b1-0b7c2a7bad63}:e:\it studies\asp.net sample\masterbloggerproject\masterblogger\mb.presentation\wwwroot\lib\jquery-validation\license.md
+++jquery.validate.unobtrusive.js
+i:{c56753e6-84ec-4366-88b1-0b7c2a7bad63}:e:\it studies\asp.net sample\masterbloggerproject\masterblogger\mb.presentation\wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.js
+++fancybox
+i:{c56753e6-84ec-4366-88b1-0b7c2a7bad63}:e:\it studies\asp.net sample\masterbloggerproject\masterblogger\mb.presentation\wwwroot\vendor\fancyapps\fancybox\
+++less
+i:{c56753e6-84ec-4366-88b1-0b7c2a7bad63}:e:\it studies\asp.net sample\masterbloggerproject\masterblogger\mb.presentation\wwwroot\vendor\font-awesome\less\
+++scss
+i:{c56753e6-84ec-4366-88b1-0b7c2a7bad63}:e:\it studies\asp.net sample\masterbloggerproject\masterblogger\mb.presentation\wwwroot\vendor\font-awesome\scss\
+++HELP-US-OUT.txt
+i:{c56753e6-84ec-4366-88b1-0b7c2a7bad63}:e:\it studies\asp.net sample\masterbloggerproject\masterblogger\mb.presentation\wwwroot\vendor\font-awesome\help-us-out.txt
+++core.js
+i:{c56753e6-84ec-4366-88b1-0b7c2a7bad63}:e:\it studies\asp.net sample\masterbloggerproject\masterblogger\mb.presentation\wwwroot\vendor\jquery\core.js
+++jquery.js
+i:{c56753e6-84ec-4366-88b1-0b7c2a7bad63}:e:\it studies\asp.net sample\masterbloggerproject\masterblogger\mb.presentation\wwwroot\vendor\jquery\jquery.js
+i:{c56753e6-84ec-4366-88b1-0b7c2a7bad63}:e:\it studies\asp.net sample\masterbloggerproject\masterblogger\mb.presentation\wwwroot\lib\jquery\dist\jquery.js
+++component.json
+i:{c56753e6-84ec-4366-88b1-0b7c2a7bad63}:e:\it studies\asp.net sample\masterbloggerproject\masterblogger\mb.presentation\wwwroot\vendor\jquery.cookie\component.json
+++cookie.jquery.json
+i:{c56753e6-84ec-4366-88b1-0b7c2a7bad63}:e:\it studies\asp.net sample\masterbloggerproject\masterblogger\mb.presentation\wwwroot\vendor\jquery.cookie\cookie.jquery.json
+++jquery.cookie.js
+i:{c56753e6-84ec-4366-88b1-0b7c2a7bad63}:e:\it studies\asp.net sample\masterbloggerproject\masterblogger\mb.presentation\wwwroot\vendor\jquery.cookie\jquery.cookie.js
+++MIT-LICENSE.txt
+i:{c56753e6-84ec-4366-88b1-0b7c2a7bad63}:e:\it studies\asp.net sample\masterbloggerproject\masterblogger\mb.presentation\wwwroot\vendor\jquery.cookie\mit-license.txt
+++esm
+i:{c56753e6-84ec-4366-88b1-0b7c2a7bad63}:e:\it studies\asp.net sample\masterbloggerproject\masterblogger\mb.presentation\wwwroot\vendor\popper.js\esm\
+++umd
+i:{c56753e6-84ec-4366-88b1-0b7c2a7bad63}:e:\it studies\asp.net sample\masterbloggerproject\masterblogger\mb.presentation\wwwroot\vendor\popper.js\umd\
+++popper-utils.js
+i:{c56753e6-84ec-4366-88b1-0b7c2a7bad63}:e:\it studies\asp.net sample\masterbloggerproject\masterblogger\mb.presentation\wwwroot\vendor\popper.js\popper-utils.js
+i:{c56753e6-84ec-4366-88b1-0b7c2a7bad63}:e:\it studies\asp.net sample\masterbloggerproject\masterblogger\mb.presentation\wwwroot\vendor\popper.js\esm\popper-utils.js
+i:{c56753e6-84ec-4366-88b1-0b7c2a7bad63}:e:\it studies\asp.net sample\masterbloggerproject\masterblogger\mb.presentation\wwwroot\vendor\popper.js\umd\popper-utils.js
+++additional-methods.js
+i:{c56753e6-84ec-4366-88b1-0b7c2a7bad63}:e:\it studies\asp.net sample\masterbloggerproject\masterblogger\mb.presentation\wwwroot\lib\jquery-validation\dist\additional-methods.js
+++jquery.validate.js
+i:{c56753e6-84ec-4366-88b1-0b7c2a7bad63}:e:\it studies\asp.net sample\masterbloggerproject\masterblogger\mb.presentation\wwwroot\lib\jquery-validation\dist\jquery.validate.js
+++jquery.validate.unobtrusive.min.js
+i:{c56753e6-84ec-4366-88b1-0b7c2a7bad63}:e:\it studies\asp.net sample\masterbloggerproject\masterblogger\mb.presentation\wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.min.js
+++bootstrap.css
+i:{c56753e6-84ec-4366-88b1-0b7c2a7bad63}:e:\it studies\asp.net sample\masterbloggerproject\masterblogger\mb.presentation\wwwroot\vendor\bootstrap\css\bootstrap.css
+i:{c56753e6-84ec-4366-88b1-0b7c2a7bad63}:e:\it studies\asp.net sample\masterbloggerproject\masterblogger\mb.presentation\wwwroot\lib\bootstrap\dist\css\bootstrap.css
+++bootstrap-grid.css
+i:{c56753e6-84ec-4366-88b1-0b7c2a7bad63}:e:\it studies\asp.net sample\masterbloggerproject\masterblogger\mb.presentation\wwwroot\vendor\bootstrap\css\bootstrap-grid.css
+i:{c56753e6-84ec-4366-88b1-0b7c2a7bad63}:e:\it studies\asp.net sample\masterbloggerproject\masterblogger\mb.presentation\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
+++bootstrap-reboot.css
+i:{c56753e6-84ec-4366-88b1-0b7c2a7bad63}:e:\it studies\asp.net sample\masterbloggerproject\masterblogger\mb.presentation\wwwroot\vendor\bootstrap\css\bootstrap-reboot.css
+i:{c56753e6-84ec-4366-88b1-0b7c2a7bad63}:e:\it studies\asp.net sample\masterbloggerproject\masterblogger\mb.presentation\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css
+++bootstrap.js
+i:{c56753e6-84ec-4366-88b1-0b7c2a7bad63}:e:\it studies\asp.net sample\masterbloggerproject\masterblogger\mb.presentation\wwwroot\vendor\bootstrap\js\bootstrap.js
+i:{c56753e6-84ec-4366-88b1-0b7c2a7bad63}:e:\it studies\asp.net sample\masterbloggerproject\masterblogger\mb.presentation\wwwroot\lib\bootstrap\dist\js\bootstrap.js
+++jquery.fancybox.css
+i:{c56753e6-84ec-4366-88b1-0b7c2a7bad63}:e:\it studies\asp.net sample\masterbloggerproject\masterblogger\mb.presentation\wwwroot\vendor\fancyapps\fancybox\jquery.fancybox.css
+++jquery.fancybox.js
+i:{c56753e6-84ec-4366-88b1-0b7c2a7bad63}:e:\it studies\asp.net sample\masterbloggerproject\masterblogger\mb.presentation\wwwroot\vendor\fancyapps\fancybox\jquery.fancybox.js
+++font-awesome.css
+i:{c56753e6-84ec-4366-88b1-0b7c2a7bad63}:e:\it studies\asp.net sample\masterbloggerproject\masterblogger\mb.presentation\wwwroot\vendor\font-awesome\css\font-awesome.css
+++FontAwesome.otf
+i:{c56753e6-84ec-4366-88b1-0b7c2a7bad63}:e:\it studies\asp.net sample\masterbloggerproject\masterblogger\mb.presentation\wwwroot\vendor\font-awesome\fonts\fontawesome.otf
+++fontawesome-webfont.eot
+i:{c56753e6-84ec-4366-88b1-0b7c2a7bad63}:e:\it studies\asp.net sample\masterbloggerproject\masterblogger\mb.presentation\wwwroot\vendor\font-awesome\fonts\fontawesome-webfont.eot
+++fontawesome-webfont.svg
+i:{c56753e6-84ec-4366-88b1-0b7c2a7bad63}:e:\it studies\asp.net sample\masterbloggerproject\masterblogger\mb.presentation\wwwroot\vendor\font-awesome\fonts\fontawesome-webfont.svg
+++fontawesome-webfont.ttf
+i:{c56753e6-84ec-4366-88b1-0b7c2a7bad63}:e:\it studies\asp.net sample\masterbloggerproject\masterblogger\mb.presentation\wwwroot\vendor\font-awesome\fonts\fontawesome-webfont.ttf
+++fontawesome-webfont.woff
+i:{c56753e6-84ec-4366-88b1-0b7c2a7bad63}:e:\it studies\asp.net sample\masterbloggerproject\masterblogger\mb.presentation\wwwroot\vendor\font-awesome\fonts\fontawesome-webfont.woff
+++fontawesome-webfont.woff2
+i:{c56753e6-84ec-4366-88b1-0b7c2a7bad63}:e:\it studies\asp.net sample\masterbloggerproject\masterblogger\mb.presentation\wwwroot\vendor\font-awesome\fonts\fontawesome-webfont.woff2
+++jquery.min.js
+i:{c56753e6-84ec-4366-88b1-0b7c2a7bad63}:e:\it studies\asp.net sample\masterbloggerproject\masterblogger\mb.presentation\wwwroot\vendor\jquery\jquery.min.js
+i:{c56753e6-84ec-4366-88b1-0b7c2a7bad63}:e:\it studies\asp.net sample\masterbloggerproject\masterblogger\mb.presentation\wwwroot\lib\jquery\dist\jquery.min.js
+++jquery.slim.js
+i:{c56753e6-84ec-4366-88b1-0b7c2a7bad63}:e:\it studies\asp.net sample\masterbloggerproject\masterblogger\mb.presentation\wwwroot\vendor\jquery\jquery.slim.js
+++poppper.js.flow
+i:{c56753e6-84ec-4366-88b1-0b7c2a7bad63}:e:\it studies\asp.net sample\masterbloggerproject\masterblogger\mb.presentation\wwwroot\vendor\popper.js\umd\poppper.js.flow
+++popper.min.js
+i:{c56753e6-84ec-4366-88b1-0b7c2a7bad63}:e:\it studies\asp.net sample\masterbloggerproject\masterblogger\mb.presentation\wwwroot\vendor\popper.js\esm\popper.min.js
+i:{c56753e6-84ec-4366-88b1-0b7c2a7bad63}:e:\it studies\asp.net sample\masterbloggerproject\masterblogger\mb.presentation\wwwroot\vendor\popper.js\umd\popper.min.js
+i:{c56753e6-84ec-4366-88b1-0b7c2a7bad63}:e:\it studies\asp.net sample\masterbloggerproject\masterblogger\mb.presentation\wwwroot\vendor\popper.js\popper.min.js
+++popper-utils.min.js
+i:{c56753e6-84ec-4366-88b1-0b7c2a7bad63}:e:\it studies\asp.net sample\masterbloggerproject\masterblogger\mb.presentation\wwwroot\vendor\popper.js\esm\popper-utils.min.js
+i:{c56753e6-84ec-4366-88b1-0b7c2a7bad63}:e:\it studies\asp.net sample\masterbloggerproject\masterblogger\mb.presentation\wwwroot\vendor\popper.js\umd\popper-utils.min.js
+i:{c56753e6-84ec-4366-88b1-0b7c2a7bad63}:e:\it studies\asp.net sample\masterbloggerproject\masterblogger\mb.presentation\wwwroot\vendor\popper.js\popper-utils.min.js
+++additional-methods.min.js
+i:{c56753e6-84ec-4366-88b1-0b7c2a7bad63}:e:\it studies\asp.net sample\masterbloggerproject\masterblogger\mb.presentation\wwwroot\lib\jquery-validation\dist\additional-methods.min.js
+++jquery.validate.min.js
+i:{c56753e6-84ec-4366-88b1-0b7c2a7bad63}:e:\it studies\asp.net sample\masterbloggerproject\masterblogger\mb.presentation\wwwroot\lib\jquery-validation\dist\jquery.validate.min.js
+++bootstrap.min.css
+i:{c56753e6-84ec-4366-88b1-0b7c2a7bad63}:e:\it studies\asp.net sample\masterbloggerproject\masterblogger\mb.presentation\wwwroot\vendor\bootstrap\css\bootstrap.min.css
+i:{c56753e6-84ec-4366-88b1-0b7c2a7bad63}:e:\it studies\asp.net sample\masterbloggerproject\masterblogger\mb.presentation\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css
+++bootstrap-grid.min.css
+i:{c56753e6-84ec-4366-88b1-0b7c2a7bad63}:e:\it studies\asp.net sample\masterbloggerproject\masterblogger\mb.presentation\wwwroot\vendor\bootstrap\css\bootstrap-grid.min.css
+i:{c56753e6-84ec-4366-88b1-0b7c2a7bad63}:e:\it studies\asp.net sample\masterbloggerproject\masterblogger\mb.presentation\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css
+++bootstrap-reboot.min.css
+i:{c56753e6-84ec-4366-88b1-0b7c2a7bad63}:e:\it studies\asp.net sample\masterbloggerproject\masterblogger\mb.presentation\wwwroot\vendor\bootstrap\css\bootstrap-reboot.min.css
+i:{c56753e6-84ec-4366-88b1-0b7c2a7bad63}:e:\it studies\asp.net sample\masterbloggerproject\masterblogger\mb.presentation\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css
+++bootstrap.bundle.js
+i:{c56753e6-84ec-4366-88b1-0b7c2a7bad63}:e:\it studies\asp.net sample\masterbloggerproject\masterblogger\mb.presentation\wwwroot\vendor\bootstrap\js\bootstrap.bundle.js
+i:{c56753e6-84ec-4366-88b1-0b7c2a7bad63}:e:\it studies\asp.net sample\masterbloggerproject\masterblogger\mb.presentation\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js
+++bootstrap.min.js
+i:{c56753e6-84ec-4366-88b1-0b7c2a7bad63}:e:\it studies\asp.net sample\masterbloggerproject\masterblogger\mb.presentation\wwwroot\vendor\bootstrap\js\bootstrap.min.js
+i:{c56753e6-84ec-4366-88b1-0b7c2a7bad63}:e:\it studies\asp.net sample\masterbloggerproject\masterblogger\mb.presentation\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js
+++jquery.fancybox.min.css
+i:{c56753e6-84ec-4366-88b1-0b7c2a7bad63}:e:\it studies\asp.net sample\masterbloggerproject\masterblogger\mb.presentation\wwwroot\vendor\fancyapps\fancybox\jquery.fancybox.min.css
+++jquery.fancybox.min.js
+i:{c56753e6-84ec-4366-88b1-0b7c2a7bad63}:e:\it studies\asp.net sample\masterbloggerproject\masterblogger\mb.presentation\wwwroot\vendor\fancyapps\fancybox\jquery.fancybox.min.js
+++font-awesome.min.css
+i:{c56753e6-84ec-4366-88b1-0b7c2a7bad63}:e:\it studies\asp.net sample\masterbloggerproject\masterblogger\mb.presentation\wwwroot\vendor\font-awesome\css\font-awesome.min.css
+++jquery.slim.min.js
+i:{c56753e6-84ec-4366-88b1-0b7c2a7bad63}:e:\it studies\asp.net sample\masterbloggerproject\masterblogger\mb.presentation\wwwroot\vendor\jquery\jquery.slim.min.js
+++bootstrap.css.map
+i:{c56753e6-84ec-4366-88b1-0b7c2a7bad63}:e:\it studies\asp.net sample\masterbloggerproject\masterblogger\mb.presentation\wwwroot\lib\bootstrap\dist\css\bootstrap.css.map
+++bootstrap-grid.css.map
+i:{c56753e6-84ec-4366-88b1-0b7c2a7bad63}:e:\it studies\asp.net sample\masterbloggerproject\masterblogger\mb.presentation\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map
+++bootstrap-reboot.css.map
+i:{c56753e6-84ec-4366-88b1-0b7c2a7bad63}:e:\it studies\asp.net sample\masterbloggerproject\masterblogger\mb.presentation\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css.map
+++bootstrap.js.map
+i:{c56753e6-84ec-4366-88b1-0b7c2a7bad63}:e:\it studies\asp.net sample\masterbloggerproject\masterblogger\mb.presentation\wwwroot\lib\bootstrap\dist\js\bootstrap.js.map
+++jquery.min.map
+i:{c56753e6-84ec-4366-88b1-0b7c2a7bad63}:e:\it studies\asp.net sample\masterbloggerproject\masterblogger\mb.presentation\wwwroot\lib\jquery\dist\jquery.min.map
+++bootstrap.bundle.min.js
+i:{c56753e6-84ec-4366-88b1-0b7c2a7bad63}:e:\it studies\asp.net sample\masterbloggerproject\masterblogger\mb.presentation\wwwroot\vendor\bootstrap\js\bootstrap.bundle.min.js
+i:{c56753e6-84ec-4366-88b1-0b7c2a7bad63}:e:\it studies\asp.net sample\masterbloggerproject\masterblogger\mb.presentation\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js
+++bootstrap.min.css.map
+i:{c56753e6-84ec-4366-88b1-0b7c2a7bad63}:e:\it studies\asp.net sample\masterbloggerproject\masterblogger\mb.presentation\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css.map
+++bootstrap-grid.min.css.map
+i:{c56753e6-84ec-4366-88b1-0b7c2a7bad63}:e:\it studies\asp.net sample\masterbloggerproject\masterblogger\mb.presentation\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css.map
+++bootstrap-reboot.min.css.map
+i:{c56753e6-84ec-4366-88b1-0b7c2a7bad63}:e:\it studies\asp.net sample\masterbloggerproject\masterblogger\mb.presentation\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css.map
+++bootstrap.bundle.js.map
+i:{c56753e6-84ec-4366-88b1-0b7c2a7bad63}:e:\it studies\asp.net sample\masterbloggerproject\masterblogger\mb.presentation\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js.map
+++bootstrap.min.js.map
+i:{c56753e6-84ec-4366-88b1-0b7c2a7bad63}:e:\it studies\asp.net sample\masterbloggerproject\masterblogger\mb.presentation\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js.map
+++bootstrap.bundle.min.js.map
+i:{c56753e6-84ec-4366-88b1-0b7c2a7bad63}:e:\it studies\asp.net sample\masterbloggerproject\masterblogger\mb.presentation\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map
+++ArticleManagment - Copy
+++ArticleIndex.cshtml
+i:{c56753e6-84ec-4366-88b1-0b7c2a7bad63}:e:\it studies\asp.net sample\masterbloggerproject\masterblogger\mb.presentation\areas\administrator\pages\articlemanagement\articleindex.cshtml
+++CreateArticle.cshtml
+i:{c56753e6-84ec-4366-88b1-0b7c2a7bad63}:e:\it studies\asp.net sample\masterbloggerproject\masterblogger\mb.presentation\areas\administrator\pages\articlemanagement\createarticle.cshtml
+++EditArticle.cshtml
+i:{c56753e6-84ec-4366-88b1-0b7c2a7bad63}:e:\it studies\asp.net sample\masterbloggerproject\masterblogger\mb.presentation\areas\administrator\pages\articlemanagement\editarticle.cshtml
+++ArticleIndex.cshtml.cs
+i:{c56753e6-84ec-4366-88b1-0b7c2a7bad63}:e:\it studies\asp.net sample\masterbloggerproject\masterblogger\mb.presentation\areas\administrator\pages\articlemanagement\articleindex.cshtml.cs
+++CreateArticle.cshtml.cs
+i:{c56753e6-84ec-4366-88b1-0b7c2a7bad63}:e:\it studies\asp.net sample\masterbloggerproject\masterblogger\mb.presentation\areas\administrator\pages\articlemanagement\createarticle.cshtml.cs
+++EditArticle.cshtml.cs
+i:{c56753e6-84ec-4366-88b1-0b7c2a7bad63}:e:\it studies\asp.net sample\masterbloggerproject\masterblogger\mb.presentation\areas\administrator\pages\articlemanagement\editarticle.cshtml.cs
+++ArticleManagment
+++Article.cs
+i:{d71803ae-23c0-4277-ad61-86fbb85dddf9}:e:\it studies\asp.net sample\masterbloggerproject\masterblogger\mb.domain.model\articleagg\article.cs
+++IArticleRepository.cs
+i:{d71803ae-23c0-4277-ad61-86fbb85dddf9}:e:\it studies\asp.net sample\masterbloggerproject\masterblogger\mb.domain.model\articleagg\iarticlerepository.cs
+++Mapping - Copy
+++ArticleCategoryMapping - Copy.cs
+++ArticleMapping .cs
+i:{bb7bfa5c-0dfd-4bc9-8f8f-1d8628ac62f7}:e:\it studies\asp.net sample\masterbloggerproject\masterblogger\mb.infrastructure\mapping\articlemapping .cs
+++NewFolder
+++Article
+i:{0731f94e-9142-43b1-9968-31d533b78d9c}:e:\it studies\asp.net sample\masterbloggerproject\masterblogger\mb.application.constact\article\
+++IArticleApplication.cs
+i:{0731f94e-9142-43b1-9968-31d533b78d9c}:e:\it studies\asp.net sample\masterbloggerproject\masterblogger\mb.application.constact\article\iarticleapplication.cs
+++CreateArticleCommand.cs
+i:{0731f94e-9142-43b1-9968-31d533b78d9c}:e:\it studies\asp.net sample\masterbloggerproject\masterblogger\mb.application.constact\article\createarticlecommand.cs
+++EditArticleCommandcs.cs
+i:{0731f94e-9142-43b1-9968-31d533b78d9c}:e:\it studies\asp.net sample\masterbloggerproject\masterblogger\mb.application.constact\article\editarticlecommandcs.cs
+++ArticleViewModel.cs
+i:{0731f94e-9142-43b1-9968-31d533b78d9c}:e:\it studies\asp.net sample\masterbloggerproject\masterblogger\mb.application.constact\article\articleviewmodel.cs
+++ArticleApplication
+i:{c2ce3d38-7db0-4ac6-9887-b769233458bc}:e:\it studies\asp.net sample\masterbloggerproject\masterblogger\mb.application.services\articleapplication\
+++ArticleApplication.cs
+i:{c2ce3d38-7db0-4ac6-9887-b769233458bc}:e:\it studies\asp.net sample\masterbloggerproject\masterblogger\mb.application.services\articleapplication\articleapplication.cs
+++ArticleRepository.cs
+i:{bb7bfa5c-0dfd-4bc9-8f8f-1d8628ac62f7}:e:\it studies\asp.net sample\masterbloggerproject\masterblogger\mb.infrastructure\repository\articlerepository.cs
+++20211228134904_article-added.cs
+++20211228134904_article-added.Designer.cs
+++20211228153250_edit articl odel.cs
+++20211228153250_edit articl odel.Designer.cs
+++20211228153533_edit.cs
+++20211228153533_edit.Designer.cs
+++20211228153844_editArticle.cs
+++20211228153844_editArticle.Designer.cs
+++20211228154001_init.cs
+i:{bb7bfa5c-0dfd-4bc9-8f8f-1d8628ac62f7}:e:\it studies\asp.net sample\masterbloggerproject\masterblogger\mb.infrastructure\migrations\20211228154001_init.cs
+++20211228154001_init.Designer.cs
+i:{bb7bfa5c-0dfd-4bc9-8f8f-1d8628ac62f7}:e:\it studies\asp.net sample\masterbloggerproject\masterblogger\mb.infrastructure\migrations\20211228154001_init.designer.cs
+++Images
+i:{c56753e6-84ec-4366-88b1-0b7c2a7bad63}:e:\it studies\asp.net sample\masterbloggerproject\masterblogger\mb.presentation\wwwroot\images\
+++style.css
+++IranianSans.eot
+++IranianSans.svg
+++IranianSans.ttf
+++IranianSans.woff
+++IranianSans.woff2
+++camp.jpg
+i:{c56753e6-84ec-4366-88b1-0b7c2a7bad63}:e:\it studies\asp.net sample\masterbloggerproject\masterblogger\mb.presentation\wwwroot\images\camp.jpg
+++girl.jpg
+i:{c56753e6-84ec-4366-88b1-0b7c2a7bad63}:e:\it studies\asp.net sample\masterbloggerproject\masterblogger\mb.presentation\wwwroot\images\girl.jpg
+++lake.jpg
+i:{c56753e6-84ec-4366-88b1-0b7c2a7bad63}:e:\it studies\asp.net sample\masterbloggerproject\masterblogger\mb.presentation\wwwroot\images\lake.jpg
+++lenz.jpg
+i:{c56753e6-84ec-4366-88b1-0b7c2a7bad63}:e:\it studies\asp.net sample\masterbloggerproject\masterblogger\mb.presentation\wwwroot\images\lenz.jpg
+++phanoos.jpg
+i:{c56753e6-84ec-4366-88b1-0b7c2a7bad63}:e:\it studies\asp.net sample\masterbloggerproject\masterblogger\mb.presentation\wwwroot\images\phanoos.jpg
+++photography.jpg
+i:{c56753e6-84ec-4366-88b1-0b7c2a7bad63}:e:\it studies\asp.net sample\masterbloggerproject\masterblogger\mb.presentation\wwwroot\images\photography.jpg
+++bootstrap.rtl.css
+++bootstrap.rtl.css.map
+++bootstrap.rtl.min.css
+++bootstrap.rtl.min.css.map
+++bootstrap-grid.rtl.css
+++bootstrap-grid.rtl.css.map
+++bootstrap-grid.rtl.min.css
+++bootstrap-grid.rtl.min.css.map
+++bootstrap-reboot.rtl.css
+++bootstrap-reboot.rtl.css.map
+++bootstrap-reboot.rtl.min.css
+++bootstrap-reboot.rtl.min.css.map
+++bootstrap-utilities.css
+++bootstrap-utilities.css.map
+++bootstrap-utilities.min.css
+++bootstrap-utilities.min.css.map
+++bootstrap-utilities.rtl.css
+++bootstrap-utilities.rtl.css.map
+++bootstrap-utilities.rtl.min.css
+++bootstrap-utilities.rtl.min.css.map
+++bootstrap.esm.js
+++bootstrap.esm.js.map
+++bootstrap.esm.min.js
+++bootstrap.esm.min.js.map
+++ArticleCategoryManagement
+i:{c56753e6-84ec-4366-88b1-0b7c2a7bad63}:e:\it studies\asp.net sample\masterbloggerproject\masterblogger\mb.presentation\areas\administrator\pages\articlecategorymanagement\
+++ArticleManagement
+i:{c56753e6-84ec-4366-88b1-0b7c2a7bad63}:e:\it studies\asp.net sample\masterbloggerproject\masterblogger\mb.presentation\areas\administrator\pages\articlemanagement\
+++Microsoft.VisualStudio.Web.CodeGeneration.Design (6.0.1)
+i:{c56753e6-84ec-4366-88b1-0b7c2a7bad63}:>3085
+++Microsoft.CodeAnalysis.Analyzers
+i:{c56753e6-84ec-4366-88b1-0b7c2a7bad63}:c:\users\azera\.nuget\packages\microsoft.codeanalysis.analyzers\3.3.2\analyzers\dotnet\cs\microsoft.codeanalysis.analyzers.dll
+++MessagePackAnalyzer
+i:{c56753e6-84ec-4366-88b1-0b7c2a7bad63}:c:\users\azera\.nuget\packages\messagepackanalyzer\2.1.152\analyzers\dotnet\messagepackanalyzer.dll
+++Microsoft.CodeAnalysis.CSharp.Analyzers
+i:{c56753e6-84ec-4366-88b1-0b7c2a7bad63}:c:\users\azera\.nuget\packages\microsoft.codeanalysis.analyzers\3.3.2\analyzers\dotnet\cs\microsoft.codeanalysis.csharp.analyzers.dll

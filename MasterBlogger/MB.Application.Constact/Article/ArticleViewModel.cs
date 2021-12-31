@@ -17,7 +17,7 @@ namespace MB.Application.Contracts.Article
         public string PicSrc { get; set; }
         public bool IsDeleted { get; set; }
         public string CreationDate { get; set; }
-        public string ArticleCategory { get; set; }
+        public string CategoryTitle { get; set; }
         
     }
 }

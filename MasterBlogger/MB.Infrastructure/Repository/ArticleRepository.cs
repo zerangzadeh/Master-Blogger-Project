@@ -1,4 +1,5 @@
-﻿using MB.Application.Contracts.Article;
+﻿using AutoMapper;
+using MB.Application.Contracts.Article;
 using MB.Domain.Models.ArticleAgg;
 using Microsoft.EntityFrameworkCore;
 using System;
@@ -12,10 +13,13 @@ namespace MB.Infrastructure.Repository
     public class ArticleRepository : IArticleRepository
     {
         private readonly MBContext _mBContext;
+      
 
         public ArticleRepository(MBContext mBContext)
         {
             _mBContext = mBContext;
+           
+
         }
 
         public void Create(Article article)
@@ -27,19 +31,17 @@ namespace MB.Infrastructure.Repository
 
         public void Delete(long articleID)
         {
-            var article = GetBy(articleID);
-            article.IsDeleted = true;
+            _mBContext.Articles.FirstOrDefault(x => x.ArticleID == articleID).IsDeleted=true;
             SaveChanges();
         }
         public void Restore(long articleID)
         {
-            var article = GetBy(articleID);
-            article.IsDeleted = false;
+            _mBContext.Articles.FirstOrDefault(x => x.ArticleID == articleID).IsDeleted = false;
             SaveChanges();
         }
 
         public List<ArticleViewModel> GetAll()
-        {
+        {      
 
             return _mBContext.Articles.Include(x=>x.ArticleCategory)
                 .OrderByDescending(x => x.ArticleID).Select(x=>new ArticleViewModel
@@ -52,7 +54,7 @@ namespace MB.Infrastructure.Repository
                 PicSrc=x.PicSrc,
                 IsDeleted=x.IsDeleted,
                 CreationDate=x.CreationDate.ToString(),
-               ArticleCategory=x.ArticleCategory.Title
+               CategoryTitle=x.ArticleCategory.Title
             }).ToList();
         }
 
@@ -61,7 +63,7 @@ namespace MB.Infrastructure.Repository
             return _mBContext.Articles.Include(x => x.ArticleCategory)
                 .OrderByDescending(x => x.ArticleID).Select(x => new ArticleViewModel
                 {
-                    ArticleID = x.ArticleID,
+                   ArticleID = x.ArticleID, 
                     Title = x.Title,
                     ShortDESC = x.ShortDESC,
                     Body = x.Body,
@@ -70,7 +72,7 @@ namespace MB.Infrastructure.Repository
                     PicSrc = x.PicSrc,
                     IsDeleted = x.IsDeleted,
                     CreationDate = x.CreationDate.ToString(),
-                    ArticleCategory = x.ArticleCategory.Title
+                    CategoryTitle = x.ArticleCategory.Title
                 }).FirstOrDefault(x => x.ArticleID == articleID);
         }
 
@@ -81,16 +83,16 @@ namespace MB.Infrastructure.Repository
             _mBContext.SaveChanges();
         }
 
-        public void Update(EditArticleCommand article)
+        public void Update(EditArticleCommand editedArticle)
         {
-            var articleForEdit=_mBContext.Articles.FirstOrDefault(x=>x.ArticleID==article.ArticleID);
-            articleForEdit.Title = article.Title;
-            articleForEdit.ShortDESC = article.ShortDESC;
-            articleForEdit.Body = article.Body;
-            articleForEdit.PicTitle = article.PicTitle;
-            articleForEdit.PicALT = article.PicALT;
-            articleForEdit.PicSrc = article.PicSrc;
-            articleForEdit.CategoryID = article.CategoryID;
+            var article=_mBContext.Articles.FirstOrDefault(x=>x.ArticleID==editedArticle.ArticleID);
+            article.Title = editedArticle.Title;
+            article.ShortDESC = editedArticle.ShortDESC;
+            article.Body = editedArticle.Body;
+            article.PicTitle = editedArticle.PicTitle;
+            article.PicALT = editedArticle.PicALT;
+            article.PicSrc = editedArticle.PicSrc;
+            article.CategoryID = editedArticle.CategoryID;
             SaveChanges();
         }
 
@@ -98,7 +100,7 @@ namespace MB.Infrastructure.Repository
         {
             return _mBContext.Articles.Include(x => x.ArticleCategory)
                 .OrderByDescending(x => x.ArticleID).Select(x => new EditArticleCommand
-                {
+                { 
                     ArticleID = x.ArticleID,
                     Title = x.Title,
                     ShortDESC = x.ShortDESC,

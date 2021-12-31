@@ -1,4 +1,5 @@
-﻿using MB.Application.Contracts.ArticleCategory;
+﻿using AutoMapper;
+using MB.Application.Contracts.ArticleCategory;
 using MB.Domain.Model.ArticleCategoryAgg;
 using MB.Domain.Models.ArticleCategoryAgg;
 
@@ -7,10 +8,12 @@ namespace MB.Infrastructure.Repository
     public class ArticleCategoryRepository : IArticleCategoryRepository
     {
         private readonly MBContext mbContext;
+        private readonly IMapper _mapper;
 
-        public ArticleCategoryRepository(MBContext mbContext)
+        public ArticleCategoryRepository(MBContext mbContext,IMapper mapper)
         {
             this.mbContext = mbContext;
+             _mapper = mapper;
         }
 
         public void Create(ArticleCategory articleCaregory)
@@ -32,6 +35,7 @@ namespace MB.Infrastructure.Repository
 
         public List<ArticleCategoryViewModel> GetAll()
         {
+         
             return mbContext.ArticleCategories.OrderByDescending(x => x.CategoryID).Select(x => new ArticleCategoryViewModel
             {
                 CategoryID = x.CategoryID,
@@ -54,6 +58,9 @@ namespace MB.Infrastructure.Repository
 
         public void Update(EditArticleCategoryCommand command)
         {
+            //var aticleCategory = GetBy(command.CategoryID).Title;
+            //var mapModel = _mapper.Map<AticleCategory>(command);
+            //SaveChanges();
             GetBy(command.CategoryID).Title = command.Title;
             SaveChanges();
         }

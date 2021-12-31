@@ -10,7 +10,9 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 BootStrapper.Config(builder.Services, builder.Configuration.GetConnectionString("MasterBloggerDB"));
+
 builder.Services.AddRazorPages();
+builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 
 var app = builder.Build();
 

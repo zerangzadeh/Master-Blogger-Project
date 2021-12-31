@@ -8,8 +8,7 @@ namespace MB.Presentation.Areas.Administrator.Pages.ArticleManagement
 {
     public class EditArticleModel : PageModel
     {
-        public EditArticleCommand command { get; set; }
-       
+        [BindProperty] public EditArticleCommand command { get; set; }
         [TempData]
         public string ErrorMessage { get; set; }
         public SelectList articleCategory;

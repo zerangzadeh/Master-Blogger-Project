@@ -9,19 +9,18 @@ namespace MB.Application.Services.ArticleCategoryApplication
     public class ArticleCategoryApplication : IArticleCategoryApplication
     {
         readonly private IArticleCategoryRepository _articleCategoryRepositpry;
-        readonly private IArticleCategoryValidatorService _articleCategoryValidatorService;
-
+       
         
 
-        public ArticleCategoryApplication(IArticleCategoryRepository articleCategoryRepositpry, IArticleCategoryValidatorService articleCategoryValidatorService)
+        public ArticleCategoryApplication(IArticleCategoryRepository articleCategoryRepositpry)
         {
             _articleCategoryRepositpry = articleCategoryRepositpry;
-           _articleCategoryValidatorService = articleCategoryValidatorService;
+          
         }
 
         public void Create(CreateArticleCategoryCommand articleCategoryCommand)
         {
-            var articleCategory = new ArticleCategory(articleCategoryCommand.Title, _articleCategoryValidatorService);
+            var articleCategory = new ArticleCategory(articleCategoryCommand.Title);
             _articleCategoryRepositpry.Create(articleCategory);
         }
 

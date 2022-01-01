@@ -13,6 +13,7 @@ namespace MB.Domain.Models.ArticleAgg
         public void Update(EditArticleCommand article);
         public void Delete(long articleID);
         public void Restore(long articleID);
+        public bool Exist(string Title);
         public EditArticleCommand GetDetails(long articleID);
         public List<ArticleViewModel> GetAll();
         public ArticleViewModel GetBy(long articleID);

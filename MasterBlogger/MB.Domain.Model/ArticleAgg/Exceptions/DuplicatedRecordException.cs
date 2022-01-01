@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MB.Domain.Models.ArticleCategoryAgg.Exceptions
+namespace MB.Domain.Models.ArticleAgg.Exceptions
 {
     public class DuplicatedRecordException : Exception
     {
@@ -13,5 +13,5 @@ namespace MB.Domain.Models.ArticleCategoryAgg.Exceptions
         }
         
     }
-   
+
 }

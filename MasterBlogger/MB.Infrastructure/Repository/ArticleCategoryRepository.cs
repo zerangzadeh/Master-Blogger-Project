@@ -2,6 +2,7 @@
 using MB.Application.Contracts.ArticleCategory;
 using MB.Domain.Model.ArticleCategoryAgg;
 using MB.Domain.Models.ArticleCategoryAgg;
+using MB.Domain.Models.ArticleCategoryAgg.Exceptions;
 
 namespace MB.Infrastructure.Repository
 {
@@ -18,8 +19,17 @@ namespace MB.Infrastructure.Repository
 
         public void Create(ArticleCategory articleCaregory)
         {
+            Validation(articleCaregory.Title);
             mbContext.ArticleCategories.Add(articleCaregory);
             SaveChanges();
+        }
+
+        public void Validation(string title)
+        {
+            if (string.IsNullOrEmpty(title))
+                throw new EmptyStringException("خطای رشته خالی");
+            if (Exist(title))
+                throw new DuplicatedRecordException("این دسته قبلاْ ایجاد شده است.");
         }
 
         public void Delete(long categoryID)

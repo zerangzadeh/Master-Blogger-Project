@@ -1,6 +1,7 @@
 ﻿using AutoMapper;
 using MB.Application.Contracts.Article;
 using MB.Domain.Models.ArticleAgg;
+using MB.Domain.Models.ArticleAgg.Exceptions;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -24,9 +25,19 @@ namespace MB.Infrastructure.Repository
 
         public void Create(Article article)
         {
-            _mBContext.Articles.Add(article);
-            SaveChanges();
-
+            Validation(article.Title, article.CategoryID);
+              _mBContext.Articles.Add(article);
+                SaveChanges();
+           
+        }
+        public void Validation(string title, long categoryID)
+        {
+            if (string.IsNullOrEmpty(title))
+                throw new EmptyStringException("خطای رشته خالی");
+            if (categoryID == 0)
+                throw new CategoryIDEqualtoZero("شناسه دسته نباید صفر باشد");
+            if (Exist(title))
+                throw new DuplicatedRecordException("این دسته قبلاْ ایجاد شده است.");
         }
 
         public void Delete(long articleID)
@@ -111,5 +122,10 @@ namespace MB.Infrastructure.Repository
                     CategoryID = x.ArticleCategory.CategoryID
                 }).FirstOrDefault(x => x.ArticleID == articleID);
         }
-    }
+
+        public bool Exist(string Title)
+        { 
+          return _mBContext.Articles.Any(x => x.Title == Title);  
+        }
+}
 }

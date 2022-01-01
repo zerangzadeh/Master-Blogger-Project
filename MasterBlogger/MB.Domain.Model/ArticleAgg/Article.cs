@@ -1,4 +1,6 @@
 ﻿using MB.Domain.Model.ArticleCategoryAgg;
+using MB.Domain.Models.ArticleAgg.Exceptions;
+using MB.Domain.Models.ArticleAgg.Services;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -28,7 +30,8 @@ namespace MB.Domain.Models.ArticleAgg
 
         public Article(string title, string shortDESC, string body, string picTitle, string picALT, string picSrc,long categoryID)
         {
-
+            //Validation(title,categoryID);
+           // validatorServices.CheckTheRecordAlreadyExist(title);
             Title = title;
             ShortDESC = shortDESC;
             Body = body;
@@ -39,5 +42,7 @@ namespace MB.Domain.Models.ArticleAgg
             CreationDate = DateTime.Now;
             CategoryID = categoryID;
         }
+
+       
     }
 }

@@ -38,7 +38,12 @@ namespace MB.Application.Services.ArticleApplication
             return _articleRepository.GetAll();
         }
 
-       
+        public List<ArticleViewModel> GetLast(int Number)
+        {
+            return _articleRepository.GetLast(Number);
+        }
+
+
         public void Update(EditArticleCommand articleCommand)
         {
             _articleRepository.Update(articleCommand);

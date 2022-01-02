@@ -5,6 +5,7 @@ using MB.Infrastructure;
 using MB.Infrastructure.Config;
 using MB.Infrastructure.Repository;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.DependencyInjection;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -12,6 +13,8 @@ var builder = WebApplication.CreateBuilder(args);
 BootStrapper.Config(builder.Services, builder.Configuration.GetConnectionString("MasterBloggerDB"));
 
 builder.Services.AddRazorPages();
+builder.Services.AddMvc().AddRazorPagesOptions(x=>x.Conventions.AddPageRoute("/EndUser/Index", ""));
+//builder.Services.AddMvc().AddRazorPagesOptions(x => x.Conventions.AddPageRoute("/Administrator/ArticleCategoryManagement/ArticleCategoryIndex", ""));
 builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 
 var app = builder.Build();

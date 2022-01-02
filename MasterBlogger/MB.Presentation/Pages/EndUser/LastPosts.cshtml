@@ -1,0 +1,42 @@
+﻿@page
+@model MB.Presentation.Pages.EndUser.LastPostsModel
+@{
+}
+
+@{
+    ViewData["Title"] = "لیست مقالات";
+
+}
+<div class="text-center mr-auto d-flex flex-column justify-content-between align-content-center">
+    <div class="d-flex justify-content-between pt-3 pb-3">
+        <h4>لیست آخرین مقالات  </h4>
+      </div>
+    <div class="row">
+        @foreach (var item in Model.articles)
+        {
+            <div class="card m-2 rounded" style="width: 18rem;">
+                <img class="card-img-top" src="~/Images/@item.PicSrc" alt="@item.PicALT" title="@item.PicTitle">
+                <div class="card-body">
+                    <h4 class="card-title">@item.CategoryTitle</h4>
+                    <h5>
+                        @if (item.IsDeleted)
+                        {
+                            <i class="fa fa-close text-danger"></i>
+                        }
+                        else
+                        {
+                            <i class="fa fa-check text-success"></i>
+                        }
+                    </h5>
+
+                    <h5 class="card-title">@item.Title</h5>
+                    <p class="card-text">@item.ShortDESC</p>
+                     <p class="card-text">@item.CreationDate</p>
+                    <a asp-page="./ArticleDetails" asp-route-ID=@item.ArticleID class="btn btn-success">متن مقاله...</a>
+                  </div>
+            </div>
+        }
+
+    </div>
+</div>
+

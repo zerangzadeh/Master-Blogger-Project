@@ -71,8 +71,16 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRvclxQYWdlc1xfVmlld1N0YXJ0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/IT Studies/Asp.Net Sample/MasterBloggerProject/MasterBlogger/MB.Presentation/Pages/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
+[E:/IT Studies/Asp.Net Sample/MasterBloggerProject/MasterBlogger/MB.Presentation/Pages/EndUser/ArticleDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRW5kVXNlclxBcnRpY2xlRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/IT Studies/Asp.Net Sample/MasterBloggerProject/MasterBlogger/MB.Presentation/Pages/EndUser/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRW5kVXNlclxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/IT Studies/Asp.Net Sample/MasterBloggerProject/MasterBlogger/MB.Presentation/Pages/EndUser/LastPosts.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRW5kVXNlclxMYXN0UG9zdHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [E:/IT Studies/Asp.Net Sample/MasterBloggerProject/MasterBlogger/MB.Presentation/Pages/Shared/_Layout.cshtml]

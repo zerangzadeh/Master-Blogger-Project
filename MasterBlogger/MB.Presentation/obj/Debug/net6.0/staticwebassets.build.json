@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "O11OMQjd1PO6UR2cprXHxRPdL4B+CVwcFeXzQSno4uA=",
+  "Hash": "K8fzi9a1hcbA/L9/DNhydL05Ilvt8MMLT7X2LSNwaOM=",
   "Source": "MB.Presentation",
   "BasePath": "_content/MB.Presentation",
   "Mode": "Default",
@@ -391,6 +391,40 @@
       "OriginalItemSpec": "wwwroot\\Images\\camp.jpg"
     },
     {
+      "Identity": "E:\\IT Studies\\Asp.Net Sample\\MasterBloggerProject\\MasterBlogger\\MB.Presentation\\wwwroot\\Images\\elena2.jpg",
+      "SourceId": "MB.Presentation",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\IT Studies\\Asp.Net Sample\\MasterBloggerProject\\MasterBlogger\\MB.Presentation\\wwwroot\\",
+      "BasePath": "_content/MB.Presentation",
+      "RelativePath": "Images/elena2.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\elena2.jpg"
+    },
+    {
+      "Identity": "E:\\IT Studies\\Asp.Net Sample\\MasterBloggerProject\\MasterBlogger\\MB.Presentation\\wwwroot\\Images\\elena3.JPG",
+      "SourceId": "MB.Presentation",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\IT Studies\\Asp.Net Sample\\MasterBloggerProject\\MasterBlogger\\MB.Presentation\\wwwroot\\",
+      "BasePath": "_content/MB.Presentation",
+      "RelativePath": "Images/elena3.JPG",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\elena3.JPG"
+    },
+    {
       "Identity": "E:\\IT Studies\\Asp.Net Sample\\MasterBloggerProject\\MasterBlogger\\MB.Presentation\\wwwroot\\Images\\girl.jpg",
       "SourceId": "MB.Presentation",
       "SourceType": "Discovered",
@@ -406,6 +440,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Images\\girl.jpg"
+    },
+    {
+      "Identity": "E:\\IT Studies\\Asp.Net Sample\\MasterBloggerProject\\MasterBlogger\\MB.Presentation\\wwwroot\\Images\\hhr681-hadith.jpg",
+      "SourceId": "MB.Presentation",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\IT Studies\\Asp.Net Sample\\MasterBloggerProject\\MasterBlogger\\MB.Presentation\\wwwroot\\",
+      "BasePath": "_content/MB.Presentation",
+      "RelativePath": "Images/hhr681-hadith.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\hhr681-hadith.jpg"
     },
     {
       "Identity": "E:\\IT Studies\\Asp.Net Sample\\MasterBloggerProject\\MasterBlogger\\MB.Presentation\\wwwroot\\Images\\lake.jpg",

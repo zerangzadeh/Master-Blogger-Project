@@ -127,5 +127,23 @@ namespace MB.Infrastructure.Repository
         { 
           return _mBContext.Articles.Any(x => x.Title == Title);  
         }
-}
+
+        public List<ArticleViewModel> GetLast(int number)
+        {
+            return _mBContext.Articles.Include(x => x.ArticleCategory)
+                .OrderByDescending(x => x.ArticleID).Take(number).Select(x => new ArticleViewModel
+                {
+                    ArticleID = x.ArticleID,
+                    Title = x.Title,
+                    ShortDESC = x.ShortDESC,
+                    Body = x.Body,
+                    PicTitle = x.PicTitle,
+                    PicALT = x.PicALT,
+                    PicSrc = x.PicSrc,
+                    IsDeleted = x.IsDeleted,
+                    CreationDate = x.CreationDate.ToString(),
+                    CategoryTitle = x.ArticleCategory.Title
+                }).ToList();
+        }
+    }
 }

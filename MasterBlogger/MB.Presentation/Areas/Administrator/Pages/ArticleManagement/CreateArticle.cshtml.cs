@@ -12,8 +12,8 @@ namespace MB.Presentation.Areas.Administrator.Pages.ArticleManagement
         [TempData]
         public string ErrorMessage { get; set; }
         public SelectList articleCategory;
-        //[BindProperty]
-       // public IFormFile PicSrc { get; set; }
+        [BindProperty]
+        public IFormFile PicSrc { get; set; }
         private IWebHostEnvironment _env;
         private readonly IArticleApplication _articleApplication;
         private readonly IArticleCategoryApplication _articleCategoryApplication;
@@ -33,16 +33,16 @@ namespace MB.Presentation.Areas.Administrator.Pages.ArticleManagement
         public IActionResult OnPost(CreateArticleCommand command)
         {
 
-            //var UploadFile = PicSrc.FileName;
-            //var filePath = Path.Combine(_env.WebRootPath, "Images", UploadFile);
+            var UploadFile = PicSrc.FileName;
+            var filePath = Path.Combine(_env.WebRootPath, "Images", UploadFile);
 
-            //using (var stream = System.IO.File.Create(filePath))
-            //{
-            //    PicSrc.CopyTo(stream);
-            //}
+            using (var stream = System.IO.File.Create(filePath))
+            {
+                PicSrc.CopyTo(stream);
+            }
 
-            // End Of Upload File
-            //command.PicSrc = filePath;
+            //End Of Upload File
+            command.PicSrc = UploadFile;
             if (ModelState.IsValid)
             {    //Upload File
                

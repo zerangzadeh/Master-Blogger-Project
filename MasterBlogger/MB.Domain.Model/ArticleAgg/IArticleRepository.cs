@@ -16,6 +16,7 @@ namespace MB.Domain.Models.ArticleAgg
         public bool Exist(string Title);
         public EditArticleCommand GetDetails(long articleID);
         public List<ArticleViewModel> GetAll();
+        public List<ArticleViewModel> GetLast(int number);
         public ArticleViewModel GetBy(long articleID);
         public void SaveChanges();
 

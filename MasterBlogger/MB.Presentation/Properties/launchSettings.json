@@ -11,7 +11,8 @@
     "MB.Presentation": {
       "commandName": "Project",
       "launchBrowser": true,
-      //"launchUrl": "https://localhost:7183/administrator/ArticleCategoryManagment/ArticleCategoryIndex",
+      //"launchUrl": "https://localhost:7183/Administrator/ArticleCategoryManagment/ArticleCategoryIndex",
+      //"launchUrl": "https://localhost:7183/EndUser/Index",
 
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"

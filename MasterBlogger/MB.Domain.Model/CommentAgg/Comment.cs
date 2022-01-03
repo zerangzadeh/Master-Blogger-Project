@@ -31,6 +31,7 @@ namespace MB.Domain.Models.CommentAgg
             Status = Statuses.New;
             CreationDate = DateTime.Now;
             ArticleID = articleID;
+           
         
         }
     }

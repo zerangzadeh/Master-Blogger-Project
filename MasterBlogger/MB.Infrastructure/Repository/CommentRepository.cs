@@ -10,6 +10,12 @@ namespace MB.Infrastructure.Repository
     public class CommentRepository : ICommentRepository
     {
         private readonly MBContext mBContext;
+
+        public CommentRepository(MBContext mBContext)
+        {
+            this.mBContext = mBContext;
+        }
+
         public void Create(Comment comment)
         {
             mBContext.Comments.Add(comment);

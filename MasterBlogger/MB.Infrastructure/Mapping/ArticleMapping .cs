@@ -26,7 +26,9 @@ namespace MB.Infrastructure.Mapping
             builder.Property(x => x.IsDeleted).IsRequired();
             builder.Property(x => x.CreationDate).IsRequired();
             builder.HasOne(x => x.ArticleCategory).WithMany(x => x.Articles).HasForeignKey(x=>x.CategoryID);
-            builder.HasMany(x => x.Comments).WithOne(x => x.Article);
+            builder.HasMany(x => x.Comments).WithOne(x => x.Article).HasForeignKey(x=> x.ArticleID);
+           
+
         }
     }
 }

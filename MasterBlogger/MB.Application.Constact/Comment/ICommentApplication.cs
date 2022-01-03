@@ -8,7 +8,7 @@ namespace MB.Application.Contracts.Comment
 {
     public interface ICommentApplication
     {
-        //public void Create( comment);
+        public void Create(AddComment comment);
         //public void Update(Comment comment);
         //public void Delete(long commentID);
         //public List<Comment> GetAll();

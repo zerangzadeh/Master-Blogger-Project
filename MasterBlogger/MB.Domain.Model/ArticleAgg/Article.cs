@@ -23,7 +23,7 @@ namespace MB.Domain.Models.ArticleAgg
         public DateTime CreationDate { get;  set; }
         public long CategoryID { get;  set; }
         public ArticleCategory ArticleCategory { get;  set; }
-        public List<Comment> Comments { get; set; }
+        public List<Comment> Comments { get; private set; }
 
         //This Constractor is just for Making Model by EFCORE
         protected Article()

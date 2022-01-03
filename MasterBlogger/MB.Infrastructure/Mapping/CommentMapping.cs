@@ -15,14 +15,14 @@ namespace MB.Infrastructure.Mapping
         {
             builder.ToTable("Comments");
             builder.HasKey(x=>x.CommentID);
-           
             builder.Property(x=>x.CommentText).IsRequired();
             builder.Property(x => x.UserName).IsRequired();
             builder.Property(x => x.Email);
             builder.Property(x => x.Status).IsRequired();
             builder.Property(x => x.CreationDate).IsRequired();
-            builder.HasOne(x => x.Article).WithMany(x=>x.Comments).HasForeignKey(x=>x.ArticleID);
-            
+            builder.HasOne(x => x.Article).WithMany(x => x.Comments).HasForeignKey(x => x.ArticleID);
+
+
         }
     }
 }

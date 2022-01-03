@@ -33,13 +33,15 @@ namespace MB.Infrastructure
             modelBuilder.ApplyConfigurationsFromAssembly(assamblyArticleCategory);
             base.OnModelCreating(modelBuilder);
 
-            var assamblyArticleMapping = typeof(ArticleMapping).Assembly;
-            modelBuilder.ApplyConfigurationsFromAssembly(assamblyArticleMapping);
-            base.OnModelCreating(modelBuilder);
+            //var assamblyArticleMapping = typeof(ArticleMapping).Assembly;
+            //modelBuilder.ApplyConfigurationsFromAssembly(assamblyArticleMapping);
+            //base.OnModelCreating(modelBuilder);
 
-            var assamblyCommentMapping = typeof(CommentMapping).Assembly;
-            modelBuilder.ApplyConfigurationsFromAssembly(assamblyArticleMapping);
-            base.OnModelCreating(modelBuilder);
+            //var assamblyCommentMapping = typeof(CommentMapping).Assembly;
+            //modelBuilder.ApplyConfigurationsFromAssembly(assamblyArticleMapping);
+            //base.OnModelCreating(modelBuilder);
+            //an old way for register
+            //modelBuilder.ApplyConfiguration(new ArticleCategory());
 
 
 

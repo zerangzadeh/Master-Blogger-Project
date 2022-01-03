@@ -43,6 +43,7 @@ namespace MB.Domain.Models.ArticleAgg
             IsDeleted = false;
             CreationDate = DateTime.Now;
             CategoryID = categoryID;
+            Comments = new List<Comment>();
         }
 
        

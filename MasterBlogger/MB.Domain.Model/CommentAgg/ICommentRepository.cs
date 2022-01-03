@@ -14,6 +14,7 @@ namespace MB.Domain.Models.CommentAgg
         public List<Comment>  GetAll();
         public int GetCount();
         public Comment GetBy(long CommentID);
+        public void SaveChanges();
 
     }
 }

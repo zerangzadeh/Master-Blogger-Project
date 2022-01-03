@@ -1,5 +1,6 @@
 ﻿using MB.Domain.Model.ArticleCategoryAgg;
 using MB.Domain.Models.ArticleAgg;
+using MB.Domain.Models.CommentAgg;
 using MB.Infrastructure.Mapping;
 using Microsoft.EntityFrameworkCore;
 using System;
@@ -16,6 +17,7 @@ namespace MB.Infrastructure
     {
         public DbSet<ArticleCategory> ArticleCategories { get; set; }
         public DbSet<Article> Articles { get; set; }
+        public  DbSet<Comment> Comments { get; set; }
 
         public MBContext(DbContextOptions<MBContext> options) : base(options)
         {
@@ -32,6 +34,10 @@ namespace MB.Infrastructure
             base.OnModelCreating(modelBuilder);
 
             var assamblyArticleMapping = typeof(ArticleMapping).Assembly;
+            modelBuilder.ApplyConfigurationsFromAssembly(assamblyArticleMapping);
+            base.OnModelCreating(modelBuilder);
+
+            var assamblyCommentMapping = typeof(CommentMapping).Assembly;
             modelBuilder.ApplyConfigurationsFromAssembly(assamblyArticleMapping);
             base.OnModelCreating(modelBuilder);
 

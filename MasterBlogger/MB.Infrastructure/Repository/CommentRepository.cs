@@ -1,4 +1,5 @@
 ﻿using MB.Domain.Models.CommentAgg;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -27,7 +28,7 @@ namespace MB.Infrastructure.Repository
           var comment=mBContext.Comments.FirstOrDefault(x=>x.CommentID==commentID);
             if (comment!=null)
             {
-                comment.Status = Statuses.Canceled;
+                comment.Status = Status.Canceled;
             }
             SaveChanges();
 
@@ -35,7 +36,7 @@ namespace MB.Infrastructure.Repository
 
         public List<Comment> GetAll()
         {
-           return mBContext.Comments.ToList();
+           return mBContext.Comments.Include(x=>x.Article).OrderByDescending(x => x.CommentID).ToList();
         }
 
         public Comment GetBy(long commentID)
@@ -43,9 +44,9 @@ namespace MB.Infrastructure.Repository
             return mBContext.Comments.FirstOrDefault(predicate: x =>x.CommentID==commentID);
         }
 
-        public int GetCount()
+        public int GetCount(long articleID)
         {
-            return mBContext.Comments.Count();
+            return mBContext.Comments.Where(x=>x.ArticleID==articleID).Count();
         }
 
         public void SaveChanges()

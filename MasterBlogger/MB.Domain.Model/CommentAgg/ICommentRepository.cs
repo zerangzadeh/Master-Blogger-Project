@@ -12,7 +12,7 @@ namespace MB.Domain.Models.CommentAgg
         public void Update(Comment comment);
         public void Delete(long commentID);
         public List<Comment>  GetAll();
-        public int GetCount();
+        public int GetCount(long articleID);
         public Comment GetBy(long CommentID);
         public void SaveChanges();
 

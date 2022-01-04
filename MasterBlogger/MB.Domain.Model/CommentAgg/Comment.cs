@@ -28,7 +28,7 @@ namespace MB.Domain.Models.CommentAgg
             CommentText = commentText;
             UserName = userName;
             Email = email;
-            Status = Statuses.New;
+            Status = CommentAgg.Status.New;
             CreationDate = DateTime.Now;
             ArticleID = articleID;
            

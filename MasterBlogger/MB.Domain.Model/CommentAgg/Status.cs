@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace MB.Domain.Models.CommentAgg
 {
-    public static class Statuses
+    public static class Status
     {
         public const int New = 0;
         public const int Confirmed = 1;

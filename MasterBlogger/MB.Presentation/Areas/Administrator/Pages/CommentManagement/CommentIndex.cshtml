@@ -1,0 +1,75 @@
+﻿@page
+@using MB.Domain.Models.CommentAgg
+@model MB.Presentation.Areas.Administrator.Pages.CommentManagement.CommentIndexModel
+@{
+    
+}
+
+<div class="text-center mr-auto d-flex flex-column justify-content-between align-content-center">
+    <div class="d-flex justify-content-between pt-3 pb-3">
+        <h4>لیست کامنت ها </h4>
+   
+</div>
+   
+<table class="table table-bordered table-striped text-center mt-1 mb-1 mr-auto">
+
+    <thead>
+        <tr>
+            <td>Comment ID</td>
+            <td>ArticleTitle</td>
+            <td>CommentText</td>
+            <td>UserName</td>
+            <td>Email</td>
+            <td>Status</td>
+            <td>Creation Date</td>
+            <td>Operation</td>
+            
+             
+        </tr>
+    </thead>
+    <tbody>
+        @{
+            foreach (var itm in Model.comments)
+            {
+                <tr>
+                    <th>@itm.CommentID</th>
+                    <th>@itm.ArticleTitle</th>
+                    <th>@itm.CommentText</th>
+                    <th>@itm.UserName</th>
+                    <th>@itm.Email</th>
+                    <th>
+                    @if (itm.Status==Status.New)
+                    {
+                        <i class="fa fa-eye fa-2x text-info"></i>
+                    }
+                    @if (itm.Status==Status.Canceled)
+                    {
+                                <i class="fa fa-close fa-2x text-danger"></i>
+                    }
+                     @if (itm.Status==Status.Confirmed)
+                   {
+                       <i class="fa fa-check fa-2x text-success"></i>
+                  }
+                        </th>
+
+                    <th>@itm.CreationDate</th>
+                    <th>
+                    @if (@itm.Status==Status.New)
+                    {
+                       <a class="btn btn-success" asp-page-handler="Confirm" asp-route-id=@itm.CommentID>تایید</a>
+                    }
+                    else
+                    {
+                        <a class="btn btn-danger" asp-page-handler="Cancel" asp-route-id=@itm.CommentID>حذف</a>
+                    }
+
+                    </th>
+               
+                </tr>
+            }
+        }
+    </tbody>
+</table>
+
+</div>
+

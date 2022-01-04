@@ -22,5 +22,39 @@ namespace MB.Application.Services.CommentApplication
             _commentRepository.Create(comment);
 
         }
+
+        public List<CommentViewModel> GetAll()
+        {
+                     
+           return  _commentRepository.GetAll().Select(x=>new CommentViewModel
+             {
+                 CommentID = x.CommentID,
+                 CommentText=x.CommentText,
+                 UserName=x.UserName,
+                 Email=x.Email,
+                 Status=x.Status,
+                 CreationDate=x.CreationDate.ToString(),
+                 ArticleTitle=x.Article.Title
+
+             }).ToList();
+        }
+        //public List<CommentViewModel> GetAllAdmin(long articleID)
+        //{
+
+        //    return _commentRepository.GetAll(articleID).Select(x => new CommentViewModel
+        //    {
+        //        CommentID = x.CommentID,
+        //        CommentText = x.CommentText,
+        //        UserName = x.UserName,
+        //        Email=x.Email,
+        //        CreationDate = x.CreationDate.ToString(),
+        //        ArticleTitle = x.Article.Title,
+        //    }).ToList();
+        //}
+
+        public int GetCount(long articleID)
+        {
+           return _commentRepository.GetCount(articleID);
+        }
     }
 }

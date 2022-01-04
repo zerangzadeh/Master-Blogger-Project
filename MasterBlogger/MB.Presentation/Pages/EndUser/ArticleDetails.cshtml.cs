@@ -9,6 +9,7 @@ namespace MB.Presentation.Pages.EndUser
     public class ArticleDetailsModel : PageModel
     {
         public ArticleViewModel Article { get; set; }
+        public List<CommentViewModel> Comments { get; set; }
 
         private readonly IArticleApplication _articleApplication;
         private readonly ICommentApplication _commentApplication;
@@ -21,7 +22,9 @@ namespace MB.Presentation.Pages.EndUser
         public void OnGet(int ID)
         {
             Article = _articleApplication.GetBy(ID);
-
+            //Comments = _commentApplication.GetAll();
+            //ViewData["CommentCount"] = _commentApplication.GetCount(ID);
+            
         }
 
         public RedirectToPageResult OnPost(AddComment comment)

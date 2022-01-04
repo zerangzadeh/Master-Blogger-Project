@@ -23,6 +23,11 @@ namespace MB.Application.Services.CommentApplication
 
         }
 
+        public void Delete(long commentID)
+        {
+           _commentRepository.Delete(commentID);
+        }
+
         public List<CommentViewModel> GetAll()
         {
                      
@@ -56,5 +61,11 @@ namespace MB.Application.Services.CommentApplication
         {
            return _commentRepository.GetCount(articleID);
         }
+
+        public void Restore(long commentID)
+        {
+            _commentRepository.Restore(commentID);
+        }
+
     }
 }

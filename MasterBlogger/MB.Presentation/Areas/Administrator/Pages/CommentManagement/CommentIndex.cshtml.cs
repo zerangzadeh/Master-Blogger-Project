@@ -18,6 +18,15 @@ namespace MB.Presentation.Areas.Administrator.Pages.CommentManagement
         {
            comments=_commentApplication.GetAll();
         }
-
+        public RedirectToPageResult OnGetRestore(int id)
+        {
+            _commentApplication.Restore(id);
+            return RedirectToPage("./CommentIndex");
+        }
+        public RedirectToPageResult OnGetCancel(int id)
+        {
+            _commentApplication.Delete(id);
+            return RedirectToPage("./CommentIndex");
+        }
     }
 }

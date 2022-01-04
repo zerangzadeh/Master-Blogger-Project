@@ -11,8 +11,8 @@ namespace MB.Application.Contracts.Comment
         public void Create(AddComment comment);
         List<CommentViewModel> GetAll();
        // List<CommentViewModel> GetAllAdmin(long iD);
-        //public void Update(Comment comment);
-        //public void Delete(long commentID);
+        public void Restore(long commentID);
+        public void Delete(long commentID);
         //public List<Comment> GetAll();
         public int GetCount(long articleID);
         //public Comment GetBy(long CommentID);

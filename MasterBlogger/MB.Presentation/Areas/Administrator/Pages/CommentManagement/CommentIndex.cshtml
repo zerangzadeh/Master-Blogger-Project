@@ -56,11 +56,8 @@
                     <th>
                     @if (@itm.Status==Status.New)
                     {
-                       <a class="btn btn-success" asp-page-handler="Confirm" asp-route-id=@itm.CommentID>تایید</a>
-                    }
-                    else
-                    {
-                        <a class="btn btn-danger" asp-page-handler="Cancel" asp-route-id=@itm.CommentID>حذف</a>
+                       <a class="btn btn-sm btn-success" asp-page-handler="Restore" asp-route-id=@itm.CommentID>تایید</a>
+                        <a class="btn btn-sm btn-danger" asp-page-handler="Cancel" asp-route-id=@itm.CommentID>حذف</a>
                     }
 
                     </th>

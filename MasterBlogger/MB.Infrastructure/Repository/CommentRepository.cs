@@ -54,9 +54,14 @@ namespace MB.Infrastructure.Repository
           mBContext.SaveChanges();
         }
 
-        public void Update(Comment comment)
+        public void Restore(long commentID)
         {
-            throw new NotImplementedException();
+            var comment = mBContext.Comments.FirstOrDefault(x => x.CommentID == commentID);
+            if (comment != null)
+            {
+                comment.Status = Status.Confirmed;
+            }
+            SaveChanges();
         }
 
         //public void Update(Comment comment)

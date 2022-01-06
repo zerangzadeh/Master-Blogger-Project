@@ -1,4 +1,5 @@
-﻿using MB.Application.Contracts.Article;
+﻿using MB.Application.Contracts;
+using MB.Application.Contracts.Article;
 using System;
 using System.Collections.Generic;
 using System.Linq;

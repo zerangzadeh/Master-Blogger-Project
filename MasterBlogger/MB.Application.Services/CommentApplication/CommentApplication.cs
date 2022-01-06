@@ -43,6 +43,24 @@ namespace MB.Application.Services.CommentApplication
 
              }).ToList();
         }
+
+        public List<CommentViewModel> GetBy(long articleID)
+        {
+
+            return _commentRepository.GetBy(articleID)
+                .Select(x => new CommentViewModel
+            {
+                CommentID = x.CommentID,
+                CommentText = x.CommentText,
+                UserName = x.UserName,
+                Email = x.Email,
+                Status = x.Status,
+                CreationDate = x.CreationDate.ToString(),
+                ArticleTitle = x.Article.Title,
+            }).ToList();
+        }
+
+
         //public List<CommentViewModel> GetAllAdmin(long articleID)
         //{
 

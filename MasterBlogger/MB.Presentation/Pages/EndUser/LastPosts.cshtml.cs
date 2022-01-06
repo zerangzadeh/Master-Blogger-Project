@@ -1,3 +1,4 @@
+using MB.Application.Contracts;
 using MB.Application.Contracts.Article;
 using MB.Application.Contracts.ArticleCategory;
 using Microsoft.AspNetCore.Mvc;

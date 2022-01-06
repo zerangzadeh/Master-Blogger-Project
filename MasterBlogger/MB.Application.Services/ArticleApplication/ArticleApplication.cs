@@ -1,4 +1,5 @@
-﻿using MB.Application.Contracts.Article;
+﻿using MB.Application.Contracts;
+using MB.Application.Contracts.Article;
 using MB.Domain.Models.ArticleAgg;
 using System;
 using System.Collections.Generic;
@@ -38,10 +39,10 @@ namespace MB.Application.Services.ArticleApplication
             return _articleRepository.GetAll();
         }
 
-        public List<ArticleViewModel> GetLast(int Number)
-        {
-            return _articleRepository.GetLast(Number);
-        }
+        //public List<ArticleViewModel> GetLast(int Number)
+        //{
+        //    //return _articleRepository.GetLast(Number);
+        //}
 
 
         public void Update(EditArticleCommand articleCommand)
@@ -58,6 +59,11 @@ namespace MB.Application.Services.ArticleApplication
         public EditArticleCommand GetDetails(long articleID)
         {
             return _articleRepository.GetDetails(articleID);
+        }
+
+        public List<ArticleViewModel> GetLast(int Number)
+        {
+            throw new NotImplementedException();
         }
     }
     }

@@ -9,12 +9,12 @@ namespace MB.Application.Contracts.Comment
     public interface ICommentApplication
     {
         public void Create(AddComment comment);
-        List<CommentViewModel> GetAll();
+        public List<CommentViewModel> GetAll();
        // List<CommentViewModel> GetAllAdmin(long iD);
         public void Restore(long commentID);
         public void Delete(long commentID);
         //public List<Comment> GetAll();
         public int GetCount(long articleID);
-        //public Comment GetBy(long CommentID);
+        public List<CommentViewModel> GetBy(long articleID);
     }
 }

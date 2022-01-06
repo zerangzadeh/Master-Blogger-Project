@@ -39,14 +39,15 @@ namespace MB.Infrastructure.Repository
            return mBContext.Comments.Include(x=>x.Article).OrderByDescending(x => x.CommentID).ToList();
         }
 
-        public Comment GetBy(long commentID)
+        public List<Comment> GetBy(long articleID)
         {
-            return mBContext.Comments.FirstOrDefault(predicate: x =>x.CommentID==commentID);
+            return mBContext.Comments.OrderByDescending(x => x.CommentID)
+                .Where(x=>x.ArticleID==articleID).ToList();
         }
 
         public int GetCount(long articleID)
         {
-            return mBContext.Comments.Where(x=>x.ArticleID==articleID).Count();
+            return mBContext.Comments.Where(x=>x.ArticleID==articleID && x.Status==Status.Confirmed).Count();
         }
 
         public void SaveChanges()

@@ -6,7 +6,8 @@
     <div class="container">
         <div class="post-single">
             <div class="post-thumbnail">
-                <img src="~/Images/@Model.Article.PicSrc" alt="@Model.Article.Title" title="@Model.Article.Title" class="img-fluid">
+                <a href="#">@Model.Article.Title</a>
+                <img src="~/Images/@Model.Article.PicSrc" alt="@Model.Article.PicALT" title="@Model.Article.PicTitle" class="img-fluid">
             </div>
             <div class="post-details">
                 <div class="post-meta d-flex justify-content-between">
@@ -23,9 +24,8 @@
                 <div class="post-footer d-flex align-items-center flex-column flex-sm-row">
                     <div class="d-flex align-items-center flex-wrap">
                         <div class="date">
-                            <i class="icon-clock"></i> @Model.Article.CreationDate
-                        </div>
-                        <div class="comments meta-last"><i class="icon-comment"></i>@ViewData["CommentCount"]</div>
+                            <i class="icon-clock"></i> @Model.Article.CreationDate</div>
+                        <div class="comments meta-last"><i class="icon-comment"></i>@Model.Article.CommentCount</div>
                     </div>
                 </div>
                 <div class="post-body">
@@ -35,12 +35,12 @@
                     @Model.Article.Body
                 </div>
 
-                <section>
-                    <div class="post-comments">
+
+                <div class="post-comments">
                     <header>
-                        <h3 class="h6">Post Comments<span class="no-of-comments">(@ViewData["CommentCount"])</span></h3>
+                        <h3 class="h6">Post Comments<span class="no-of-comments">(@Model.Article.CommentCount)</span></h3>
                     </header>
-                    @foreach (var comment in Model.Comments)
+                    @foreach (var comment in Model.Article.Comments)
                     {
                         <div class="comment">
                             <div class="comment-header d-flex justify-content-between">
@@ -60,11 +60,6 @@
                     }
 
                 </div>
-                    <div>
-                       
-                    </div>
-                </section>
-
 
                 <div class="add-comment">
                     <header>
@@ -81,16 +76,13 @@
                             <div class="form-group col-md-12">
                                 <textarea name="CommentText" id="CommentText" placeholder="Type your comment" class="form-control"></textarea>
                             </div>
-                            <input type="hidden" name="ArticleID" value="@Model.Article.ArticleID" />
+                            <input type="hidden" name="ArticleId" value="@Model.Article.ArticleID"/>
                             <div class="form-group col-md-12">
                                 <button type="submit" class="btn btn-secondary">Submit Comment</button>
                             </div>
                         </div>
                     </form>
                 </div>
-
-
-
             </div>
         </div>
     </div>

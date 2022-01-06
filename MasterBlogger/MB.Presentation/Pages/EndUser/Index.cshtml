@@ -28,7 +28,9 @@
 
                     <h5 class="card-title">@item.Title</h5>
                     <p class="card-text">@item.ShortDESC</p>
+                    <p class="card-text">@item.CommentCount</p>
                      <p class="card-text">@item.CreationDate</p>
+
                     <a asp-page="./ArticleDetails" asp-route-ID=@item.ArticleID class="btn btn-success">متن مقاله...</a>
                   </div>
             </div>

@@ -1,3 +1,4 @@
+using MB.Application.Contracts;
 using MB.Application.Contracts.Article;
 using MB.Application.Contracts.Comment;
 using Microsoft.AspNetCore.Mvc;
@@ -23,8 +24,7 @@ namespace MB.Presentation.Pages.EndUser
         {
             Article = _articleApplication.GetBy(ID);
             //Comments = _commentApplication.GetAll();
-            //ViewData["CommentCount"] = _commentApplication.GetCount(ID);
-            
+           
         }
 
         public RedirectToPageResult OnPost(AddComment comment)

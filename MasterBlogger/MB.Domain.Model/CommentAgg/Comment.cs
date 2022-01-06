@@ -16,7 +16,6 @@ namespace MB.Domain.Models.CommentAgg
         public int Status { get; set; }//0=New 1=Confirmed 2=Canceled
         public DateTime  CreationDate { get; set; }
         public long ArticleID { get; set; }
-
         public Article Article { get; set; }
 
         protected Comment()

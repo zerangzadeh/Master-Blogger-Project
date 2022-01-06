@@ -10,7 +10,9 @@ namespace MB.Presentation.Pages.EndUser
     public class ArticleDetailsModel : PageModel
     {
         public ArticleViewModel Article { get; set; }
-        public List<CommentViewModel> Comments { get; set; }
+        //public List<CommentViewModel> Comments { get; set; }
+
+        public AddComment comment { get; set; }
 
         private readonly IArticleApplication _articleApplication;
         private readonly ICommentApplication _commentApplication;
@@ -29,6 +31,7 @@ namespace MB.Presentation.Pages.EndUser
 
         public RedirectToPageResult OnPost(AddComment comment)
         {
+            //comment.ArticleID = Article.ArticleID;
             _commentApplication.Create(comment);
             return RedirectToPage("./ArticleDetails", new { id = comment.ArticleID });
         }

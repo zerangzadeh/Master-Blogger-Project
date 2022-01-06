@@ -1,11 +1,13 @@
 ﻿@page
 @model MB.Presentation.Pages.EndUser.ArticleDetailsModel
+
 @{
 }
 <main class="post blog-post col-lg-12">
     <div class="container">
         <div class="post-single">
             <div class="post-thumbnail">
+                <a href="#">@Model.Article.ArticleID</a>
                 <a href="#">@Model.Article.Title</a>
                 <img src="~/Images/@Model.Article.PicSrc" alt="@Model.Article.PicALT" title="@Model.Article.PicTitle" class="img-fluid">
             </div>
@@ -68,15 +70,16 @@
                     <form class="commenting-form" method="post">
                         <div class="row">
                             <div class="form-group col-md-6">
-                                <input type="text" name="UserName" id="UserName" placeholder="Name" class="form-control">
+                                <input type="text" asp-for="@Model.comment.UserName"  placeholder="Name" class="form-control">
+                           
                             </div>
                             <div class="form-group col-md-6">
-                                <input type="email" name="Email" id="Email" placeholder="Email Address (will not be published)" class="form-control">
+                                <input type="email" asp-for="@Model.comment.Email" placeholder="Email Address (will not be published)" class="form-control">
                             </div>
                             <div class="form-group col-md-12">
-                                <textarea name="CommentText" id="CommentText" placeholder="Type your comment" class="form-control"></textarea>
+                                <textarea asp-for="@Model.comment.CommentText" placeholder="Type your comment" class="form-control"></textarea>
                             </div>
-                            <input type="hidden" name="ArticleId" value="@Model.Article.ArticleID"/>
+                            <input type="hidden" asp-for="@Model.comment.ArticleID"   value="@Model.Article.ArticleID"/>
                             <div class="form-group col-md-12">
                                 <button type="submit" class="btn btn-secondary">Submit Comment</button>
                             </div>

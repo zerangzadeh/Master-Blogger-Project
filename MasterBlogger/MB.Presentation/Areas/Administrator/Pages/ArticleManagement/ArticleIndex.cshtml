@@ -4,7 +4,7 @@
     ViewData["Title"] = "لیست مقالات";
 
 }
-<div class="text-center mr-auto d-flex flex-column justify-content-between align-content-center">
+@*<div class="text-center mr-auto d-flex flex-column justify-content-between align-content-center">
     <div class="d-flex justify-content-between pt-3 pb-3">
         <h4>لیست مقالات </h4>
         <p class="text-center"> <a asp-page="./CreateArticle" class="btn btn-success text-center"> مقاله جدید</a></p>
@@ -47,4 +47,69 @@
         }
 
     </div>
-</div>
+</div>*@
+
+
+
+
+
+
+
+@*==========================================*@
+
+
+
+<div class="card">
+        <div class="card-header">
+            <h3 class="float-left">Article List</h3>
+            <div class="float-right">
+                <a class="btn btn-success" asp-page="./CreateArticle" asp-area="Administrator">مقاله جدید</a>
+            </div>
+        </div>
+        <div class="card-body">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>شناشه مفاله</th>
+                        <th>عنوان </th>
+                        <th>دسته</th>
+                        <th>وضعیت</th>
+                        <th>تاریح ایجاد</th>
+                        <th>عملیات</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var article in Model.articles)
+                    {
+                        <tr>
+                            <td>@article.ArticleID</td>
+                            <td>@article.Title</td>
+                            <td>@article.CategoryTitle</td>
+                            <td>
+                                @if (article.IsDeleted)
+                                {
+                                    <i class="fa fa-close fa-2x text-danger"></i>
+                                }
+                                else
+                                {
+                                    <i class="fa fa-check fa-2x text-success"></i>
+                                }
+                            </td>
+                            <td>@article.CreationDate</td>
+                            <td>
+                                <a class="btn btn-warning float-left mr-3" asp-page="./EditArticle" asp-route-id="@article.ArticleID">ویرایش</a>
+                                @if (article.IsDeleted)
+                    {
+                       <a class="btn btn-success" asp-page-handler="Restore" asp-route-ID=@article.ArticleID>بازیابی</a>
+                    }
+                    else
+                    {
+                        <a class="btn btn-danger" asp-page-handler="Delete" asp-route-ID=@article.ArticleID>حذف</a>
+                    }
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>

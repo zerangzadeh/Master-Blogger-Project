@@ -8,6 +8,7 @@
     ".NETCoreApp,Version=v6.0": {
       "MB.Domain.Models/1.0.0": {
         "dependencies": {
+          "01_FrameWork": "1.0.0",
           "MB.Application.Contracts": "1.0.0"
         },
         "runtime": {
@@ -69,6 +70,11 @@
         }
       },
       "System.Reflection.Emit/4.7.0": {},
+      "01_FrameWork/1.0.0": {
+        "runtime": {
+          "01_FrameWork.dll": {}
+        }
+      },
       "MB.Application.Contracts/1.0.0": {
         "dependencies": {
           "AutoMapper.Extensions.Microsoft.DependencyInjection": "8.1.1"
@@ -133,6 +139,11 @@
       "sha512": "sha512-VR4kk8XLKebQ4MZuKuIni/7oh+QGFmZW3qORd1GvBq/8026OpW501SzT/oypwiQl4TvT8ErnReh/NzY9u+C6wQ==",
       "path": "system.reflection.emit/4.7.0",
       "hashPath": "system.reflection.emit.4.7.0.nupkg.sha512"
+    },
+    "01_FrameWork/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     },
     "MB.Application.Contracts/1.0.0": {
       "type": "project",

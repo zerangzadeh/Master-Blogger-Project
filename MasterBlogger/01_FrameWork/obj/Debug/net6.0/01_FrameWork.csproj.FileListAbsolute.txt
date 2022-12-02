@@ -1,0 +1,12 @@
+E:\IT Studies\Asp.Net Sample\MasterBloggerProject\MasterBlogger\01_FrameWork\bin\Debug\net6.0\01_FrameWork.deps.json
+E:\IT Studies\Asp.Net Sample\MasterBloggerProject\MasterBlogger\01_FrameWork\bin\Debug\net6.0\01_FrameWork.dll
+E:\IT Studies\Asp.Net Sample\MasterBloggerProject\MasterBlogger\01_FrameWork\bin\Debug\net6.0\ref\01_FrameWork.dll
+E:\IT Studies\Asp.Net Sample\MasterBloggerProject\MasterBlogger\01_FrameWork\bin\Debug\net6.0\01_FrameWork.pdb
+E:\IT Studies\Asp.Net Sample\MasterBloggerProject\MasterBlogger\01_FrameWork\obj\Debug\net6.0\01_FrameWork.csproj.AssemblyReference.cache
+E:\IT Studies\Asp.Net Sample\MasterBloggerProject\MasterBlogger\01_FrameWork\obj\Debug\net6.0\01_FrameWork.GeneratedMSBuildEditorConfig.editorconfig
+E:\IT Studies\Asp.Net Sample\MasterBloggerProject\MasterBlogger\01_FrameWork\obj\Debug\net6.0\01_FrameWork.AssemblyInfoInputs.cache
+E:\IT Studies\Asp.Net Sample\MasterBloggerProject\MasterBlogger\01_FrameWork\obj\Debug\net6.0\01_FrameWork.AssemblyInfo.cs
+E:\IT Studies\Asp.Net Sample\MasterBloggerProject\MasterBlogger\01_FrameWork\obj\Debug\net6.0\01_FrameWork.csproj.CoreCompileInputs.cache
+E:\IT Studies\Asp.Net Sample\MasterBloggerProject\MasterBlogger\01_FrameWork\obj\Debug\net6.0\01_FrameWork.dll
+E:\IT Studies\Asp.Net Sample\MasterBloggerProject\MasterBlogger\01_FrameWork\obj\Debug\net6.0\ref\01_FrameWork.dll
+E:\IT Studies\Asp.Net Sample\MasterBloggerProject\MasterBlogger\01_FrameWork\obj\Debug\net6.0\01_FrameWork.pdb

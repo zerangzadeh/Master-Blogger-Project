@@ -19,3 +19,5 @@ E:\IT Studies\Asp.Net Sample\MasterBloggerProject\MasterBlogger\MB.Infrastructur
 E:\IT Studies\Asp.Net Sample\MasterBloggerProject\MasterBlogger\MB.Infrastructure.Config\obj\Debug\net6.0\MB.Infrastructure.Config.dll
 E:\IT Studies\Asp.Net Sample\MasterBloggerProject\MasterBlogger\MB.Infrastructure.Config\obj\Debug\net6.0\ref\MB.Infrastructure.Config.dll
 E:\IT Studies\Asp.Net Sample\MasterBloggerProject\MasterBlogger\MB.Infrastructure.Config\obj\Debug\net6.0\MB.Infrastructure.Config.pdb
+E:\IT Studies\Asp.Net Sample\MasterBloggerProject\MasterBlogger\MB.Infrastructure.Config\bin\Debug\net6.0\01_FrameWork.dll
+E:\IT Studies\Asp.Net Sample\MasterBloggerProject\MasterBlogger\MB.Infrastructure.Config\bin\Debug\net6.0\01_FrameWork.pdb

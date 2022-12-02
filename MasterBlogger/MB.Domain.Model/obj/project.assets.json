@@ -78,6 +78,16 @@
           "lib/netcoreapp2.0/_._": {}
         }
       },
+      "01_FrameWork/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/01_FrameWork.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/01_FrameWork.dll": {}
+        }
+      },
       "MB.Application.Contracts/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
@@ -289,6 +299,11 @@
         "version.txt"
       ]
     },
+    "01_FrameWork/1.0.0": {
+      "type": "project",
+      "path": "../01_FrameWork/01_FrameWork.csproj",
+      "msbuildProject": "../01_FrameWork/01_FrameWork.csproj"
+    },
     "MB.Application.Contracts/1.0.0": {
       "type": "project",
       "path": "../MB.Application.Constact/MB.Application.Contracts.csproj",
@@ -297,6 +312,7 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "01_FrameWork >= 1.0.0",
       "MB.Application.Contracts >= 1.0.0"
     ]
   },
@@ -327,6 +343,9 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
+            "E:\\IT Studies\\Asp.Net Sample\\MasterBloggerProject\\MasterBlogger\\01_FrameWork\\01_FrameWork.csproj": {
+              "projectPath": "E:\\IT Studies\\Asp.Net Sample\\MasterBloggerProject\\MasterBlogger\\01_FrameWork\\01_FrameWork.csproj"
+            },
             "E:\\IT Studies\\Asp.Net Sample\\MasterBloggerProject\\MasterBlogger\\MB.Application.Constact\\MB.Application.Contracts.csproj": {
               "projectPath": "E:\\IT Studies\\Asp.Net Sample\\MasterBloggerProject\\MasterBlogger\\MB.Application.Constact\\MB.Application.Contracts.csproj"
             }
@@ -357,7 +376,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.111\\RuntimeIdentifierGraph.json"
       }
     }
   }

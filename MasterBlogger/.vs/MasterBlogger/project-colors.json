@@ -45,7 +45,12 @@
       "ProjectGuid": "fddb9bba-d43b-4f33-b079-c49e0ae7d11e",
       "DisplayName": "MB.Infrastructure.Config",
       "ColorIndex": 7
+    },
+    "9d011ae1-1195-44c6-bf53-06889e83e60b": {
+      "ProjectGuid": "9d011ae1-1195-44c6-bf53-06889e83e60b",
+      "DisplayName": "01_FrameWork",
+      "ColorIndex": 8
     }
   },
-  "NextColorIndex": 8
+  "NextColorIndex": 9
 }

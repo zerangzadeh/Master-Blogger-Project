@@ -13,3 +13,5 @@ E:\IT Studies\Asp.Net Sample\MasterBloggerProject\MasterBlogger\MB.Domain.Model\
 E:\IT Studies\Asp.Net Sample\MasterBloggerProject\MasterBlogger\MB.Domain.Model\bin\Debug\net6.0\MB.Application.Contracts.dll
 E:\IT Studies\Asp.Net Sample\MasterBloggerProject\MasterBlogger\MB.Domain.Model\bin\Debug\net6.0\MB.Application.Contracts.pdb
 E:\IT Studies\Asp.Net Sample\MasterBloggerProject\MasterBlogger\MB.Domain.Model\obj\Debug\net6.0\MB.Domain.Models.csproj.CopyComplete
+E:\IT Studies\Asp.Net Sample\MasterBloggerProject\MasterBlogger\MB.Domain.Model\bin\Debug\net6.0\01_FrameWork.dll
+E:\IT Studies\Asp.Net Sample\MasterBloggerProject\MasterBlogger\MB.Domain.Model\bin\Debug\net6.0\01_FrameWork.pdb

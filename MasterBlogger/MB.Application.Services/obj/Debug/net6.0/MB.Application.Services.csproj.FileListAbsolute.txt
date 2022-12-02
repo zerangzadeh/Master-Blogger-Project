@@ -15,3 +15,5 @@ E:\IT Studies\Asp.Net Sample\MasterBloggerProject\MasterBlogger\MB.Application.S
 E:\IT Studies\Asp.Net Sample\MasterBloggerProject\MasterBlogger\MB.Application.Services\obj\Debug\net6.0\MB.Application.Services.dll
 E:\IT Studies\Asp.Net Sample\MasterBloggerProject\MasterBlogger\MB.Application.Services\obj\Debug\net6.0\ref\MB.Application.Services.dll
 E:\IT Studies\Asp.Net Sample\MasterBloggerProject\MasterBlogger\MB.Application.Services\obj\Debug\net6.0\MB.Application.Services.pdb
+E:\IT Studies\Asp.Net Sample\MasterBloggerProject\MasterBlogger\MB.Application.Services\bin\Debug\net6.0\01_FrameWork.dll
+E:\IT Studies\Asp.Net Sample\MasterBloggerProject\MasterBlogger\MB.Application.Services\bin\Debug\net6.0\01_FrameWork.pdb

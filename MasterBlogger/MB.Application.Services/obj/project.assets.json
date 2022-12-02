@@ -78,6 +78,16 @@
           "lib/netcoreapp2.0/_._": {}
         }
       },
+      "01_FrameWork/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/01_FrameWork.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/01_FrameWork.dll": {}
+        }
+      },
       "MB.Application.Contracts/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
@@ -95,6 +105,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
+          "01_FrameWork": "1.0.0",
           "MB.Application.Contracts": "1.0.0"
         },
         "compile": {
@@ -302,6 +313,11 @@
         "version.txt"
       ]
     },
+    "01_FrameWork/1.0.0": {
+      "type": "project",
+      "path": "../01_FrameWork/01_FrameWork.csproj",
+      "msbuildProject": "../01_FrameWork/01_FrameWork.csproj"
+    },
     "MB.Application.Contracts/1.0.0": {
       "type": "project",
       "path": "../MB.Application.Constact/MB.Application.Contracts.csproj",
@@ -379,7 +395,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.111\\RuntimeIdentifierGraph.json"
       }
     }
   }

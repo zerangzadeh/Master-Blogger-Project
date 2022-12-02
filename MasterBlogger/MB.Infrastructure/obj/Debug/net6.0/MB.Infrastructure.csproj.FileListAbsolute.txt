@@ -19,3 +19,5 @@ E:\IT Studies\Asp.Net Sample\MasterBloggerProject\MasterBlogger\MB.Infrastructur
 E:\IT Studies\Asp.Net Sample\MasterBloggerProject\MasterBlogger\MB.Infrastructure\obj\Debug\net6.0\MB.Infrastructure.genruntimeconfig.cache
 E:\IT Studies\Asp.Net Sample\MasterBloggerProject\MasterBlogger\MB.Infrastructure\bin\Debug\net6.0\MB.Application.Services.dll
 E:\IT Studies\Asp.Net Sample\MasterBloggerProject\MasterBlogger\MB.Infrastructure\bin\Debug\net6.0\MB.Application.Services.pdb
+E:\IT Studies\Asp.Net Sample\MasterBloggerProject\MasterBlogger\MB.Infrastructure\bin\Debug\net6.0\01_FrameWork.dll
+E:\IT Studies\Asp.Net Sample\MasterBloggerProject\MasterBlogger\MB.Infrastructure\bin\Debug\net6.0\01_FrameWork.pdb

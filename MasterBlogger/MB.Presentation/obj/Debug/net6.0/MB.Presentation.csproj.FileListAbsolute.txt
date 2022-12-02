@@ -271,3 +271,5 @@ E:\IT Studies\Asp.Net Sample\MasterBloggerProject\MasterBlogger\MB.Presentation\
 E:\IT Studies\Asp.Net Sample\MasterBloggerProject\MasterBlogger\MB.Presentation\bin\Debug\net6.0\libman.json
 E:\IT Studies\Asp.Net Sample\MasterBloggerProject\MasterBlogger\MB.Presentation\bin\Debug\net6.0\AutoMapper.dll
 E:\IT Studies\Asp.Net Sample\MasterBloggerProject\MasterBlogger\MB.Presentation\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+E:\IT Studies\Asp.Net Sample\MasterBloggerProject\MasterBlogger\MB.Presentation\bin\Debug\net6.0\01_FrameWork.dll
+E:\IT Studies\Asp.Net Sample\MasterBloggerProject\MasterBlogger\MB.Presentation\bin\Debug\net6.0\01_FrameWork.pdb
